@@ -61,13 +61,13 @@ e_cathay = {
 k_silla = { 
 	color = { 35 34 228 }
 	color2 = { 255 255 255 }
-  	capital = c_shaliangzhou
+  	capital = c_gyeongju
 	destroy_if_invalid_heir = yes
 
 	ai_primary_priority = {
 		if = {
 			limit = {
-				culture = culture:senhan
+				culture = culture:silla
 			}
 			add = @always_primary_score
 		}
@@ -5095,19 +5095,19 @@ e_jurchen = {
 			color = { 222 124 95 }
 			color2 = { 255 255 255 }
 			
-			capital = c_pyongyang
+			capital = c_pyeongyang
 
-			c_pyongyang = {  #平壤
+			c_pyeongyang = {  #平壤
 				color = { 166 17 0 }
 				color2 = { 255 255 255 }
 				
-				b_Pyongyang = {  #平壤
+				b_pyeongyang = {  #平壤
 					province = 10912
 					
 					color = { 166 17 0 }
 					color2 = { 255 255 255 }
 				}
-				b_yonggang = { #龙冈
+				b_yeonggang = { #龙冈
 					province = 10913
 					
 					color = { 166 17 0 }
@@ -5149,11 +5149,11 @@ e_jurchen = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_nyongbyon = {  #宁边
+			c_nyeongbyeon = {  #宁边
 				color = { 209 143 123 }
 				color2 = { 255 255 255 }
 				
-				b_Nyongbyon = {
+				b_nyeongbyeon = {
 					province = 10917
 					
 					color = { 209 143 123 }
@@ -5179,34 +5179,33 @@ e_jurchen = {
 		color = { 80 205 255 }
 		color2 = { 255 255 255 }
 		
-		capital = c_hanju
+		capital = c_gyeonggi
 
 		cultural_names = {
-			
-			han = cn_andong
-			senhan = Silla
-			baekje = Baekje
-			tamnanese = Silla
-			goguryeo = Goguryeo
+			yamato = Kokuri
 		}
 
 		d_goguryeo = {
 			color = { 68 95 205 }
 			color2 = { 255 255 255 }
 			
-			capital = c_hanju
+			capital = c_gyeonggi
 			
-			c_hanju = {
+			cultural_names = {
+				yamato = Kokuri
+			}
+			
+			c_gyeonggi = {
 				color = { 75 95 240 }
 				color2 = { 255 255 255 }
 			
-				b_weili = {
+				b_seoul = {
 					province = 10885
 
 					color = {  75 95 240 }
 					color2 = { 255 255 255 }
 				}
-				b_nanhanseong = {
+				b_yeoju = {
 					province = 10886
 
 					color = { 75 95 240 }
@@ -5235,7 +5234,7 @@ e_jurchen = {
 				color = { 85 215 130 }
 				color2 = { 255 255 255 }
 			
-				b_kaeseong = {
+				b_gaeseong = {
 					province = 10883
 
 					color = { 85 205 150 }
@@ -5272,15 +5271,17 @@ e_jurchen = {
 			color = { 80 190 45 }
 			color2 = { 255 255 255 }
 			
-			capital = c_xiongshanzhou
+			capital = c_gongju
+			
+			cultural_names = {
+				yamato = Hyakusai
+			}
 
-			c_xiongshanzhou = {
+			c_gongju = {
 				color = { 70 190 55 }
 				color2 = { 255 255 255 }
-				cultural_names = {
-					han = Xiongshanzhou
-				}
-				b_gongju_buyeo_sibi = {
+
+				b_gongju = {
 					province = 10892
 
 					color = { 70 190 55 }
@@ -5292,20 +5293,18 @@ e_jurchen = {
 					color = { 70 190 55 }
 					color2 = { 255 255 255 }
 				}
-				b_sosan = {
+				b_seosan = {
 					province = 10893
 
 					color = { 70 190 55 }
 					color2 = { 255 255 255 }
 				}
 			}
-			c_wanshanzhou = {
+			c_jeonju = {
 				color = { 65 205 40 }
 				color2 = { 255 255 255 }
-				cultural_names = {
-					han = Wanshanzhou
-				}
-				b_chonju = {
+
+				b_jeonju = {
 					province = 10894
 
 					color = { 65 205 40 }
@@ -5324,19 +5323,17 @@ e_jurchen = {
 					color2 = { 255 255 255 }
 				}
 			}			
-			c_faluozhou = {
+			c_gwangju = {
 				color = { 75 185 40 }
 				color2 = { 255 255 255 }
-				cultural_names = {
-					han = Faluozhou
-				}
+
 				b_naju = {
 					province = 10897
 
 					color = { 75 185 40 }
 					color2 = { 255 255 255 }
 				}
-				b_yosn = {
+				b_yeosu = {
 					province = 10898
 
 					color = { 75 185 40 }
@@ -5345,13 +5342,15 @@ e_jurchen = {
 			}
 		}
 
-		d_tamna = {
+		d_jeju = {
 			color = { 85 190 50 }
 			color2 = { 255 255 255 }
 			
-			capital = c_danluo
-
-			c_danluo = {
+			cultural_names = {
+				yamato = Tammura
+			}
+			
+			c_jeju = {
 				color = { 85 190 50 }
 				color2 = { 255 255 255 }
 			
@@ -5365,19 +5364,21 @@ e_jurchen = {
 		}
 
 
-		d_sila = {
+		d_saro = {
 			color = { 86 133 61 }
 			color2 = { 255 255 255 }
 			
-			capital = c_shaliangzhou
+			cultural_names = {
+				yamato = Shiragi
+			}
 			
-			c_shaliangzhou = {
+			capital = c_gyeongju
+			
+			c_gyeongju = {
 				color = { 86 143 61 }
 				color2 = { 255 255 255 }
-				cultural_names = {
-					han = Shaliangzhou
-				}
-				b_gyeogju = {
+				
+				b_gyeongju = {
 					province = 10903
 					
 					color = { 86 143 61  }
@@ -5396,11 +5397,11 @@ e_jurchen = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_dalseong = {
+			c_daegu = {
 				color = { 81 143 61 }
 				color2 = { 255 255 255 }
 				
-				b_dalseong = {
+				b_daegu = {
 					province = 10905
 					
 					color = { 81 143 61 }
@@ -5413,19 +5414,17 @@ e_jurchen = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_shangfazhou = {
+			c_sangju = {
 				color = { 81 133 61 }
 				color2 = { 255 255 255 }
-				cultural_names = {
-					han = Shangfazhou
-				}
+				
 				b_sanju = {
 					province = 10908
 					
 					color = { 81 133 61 }
 					color2 = { 255 255 255 }
 				}
-				b_anton = {
+				b_andong = {
 					province = 10909
 					
 					color = { 81 133 61 }
@@ -5437,9 +5436,9 @@ e_jurchen = {
 			color = { 50 75 50 }
 			color2 = { 255 255 255 }
 			
-			capital = c_gayaa
+			capital = c_busan
 			
-			c_gayaa = {
+			c_busan = {
 				color = { 50 75 50 }
 				color2 = { 255 255 255 }
 			
@@ -5456,7 +5455,7 @@ e_jurchen = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_juliezhou = {
+			c_jinju = {
 				color = { 62 95 44 }
 				color2 = { 255 255 255 }
 			
@@ -5466,13 +5465,13 @@ e_jurchen = {
 					color = { 62 95 44 }
 					color2 = { 255 255 255 }
 				}
-				b_sachon = {
+				b_sacheon = {
 					province = 10900
 
 					color = { 62 95 44 }
 					color2 = { 255 255 255 }
 				}
-				b_haman = {
+				b_hanam = {
 					province = 10910
 
 					color = { 62 95 44 }
@@ -5487,19 +5486,17 @@ e_jurchen = {
 			}
 		}
 
-		d_dongya = {
+		d_yemaek = {
 			color = { 150 100 150 }
 			color2 = { 255 255 255 }
 
-			capital = c_shouruozhou
+			capital = c_gangneung
 
-			c_shouruozhou = {
+			c_chuncheon = {
 				color = { 195 95 145 }
 				color2 = { 255 255 255 }
-				cultural_names = {
-					han = Shouruozhou
-				}
-				b_chunchon = {
+
+				b_chuncheon = {
 					province = 10876
 
 					color = { 95 195 245 }
@@ -5531,13 +5528,11 @@ e_jurchen = {
 				}
 			}
 			
-			c_hexizhou = {
+			c_gangneung = {
 				color = { 105 205 255 }
 				color2 = { 255 255 255 }
-				cultural_names = {
-					han = Hexizhou
-				}
-				b_kangnung = {
+
+				b_gangneung = {
 					province = 10872
 
 					color = { 105 205 255 }
@@ -5549,13 +5544,13 @@ e_jurchen = {
 					color = { 105 205 255 }
 					color2 = { 255 255 255 }
 				}
-				b_sogcho = {
+				b_sokcho = {
 					province = 10871
 
 					color = { 105 205 255 }
 					color2 = { 255 255 255 }
 				}
-				b_tonghae = {
+				b_donghae = {
 					province = 10873
 
 					color = { 105 205 255 }
