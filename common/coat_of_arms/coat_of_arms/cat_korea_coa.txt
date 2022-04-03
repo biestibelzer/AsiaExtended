@@ -98,7 +98,7 @@ d_goguryeo = { #
 		instance = { position = { 0.5 0.45 } scale = { 0.92 0.92 }  }		
 	}
 }
-c_hanju = {
+c_gyeonggi = {
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
 	colored_emblem = {
@@ -135,7 +135,7 @@ d_baekje = { # 테스트
 		instance = { position = { 0.5 0.45 } scale = { 0.92 0.92 }  }		
 	}		
 }
-c_xiongshanzhou = {
+c_gongju = {
 	pattern = "pattern_solid.dds"
 	color1 = rgb { 55 116 117 } # 
 	colored_emblem = {
@@ -144,7 +144,7 @@ c_xiongshanzhou = {
 		instance = { position = { 0.5 0.45 } scale = { 0.92 0.92 }  }		
 	}		
 }
-c_wanshanzhou = {
+c_jeonju = {
 	pattern = "pattern_solid.dds"
 	color1 = "blue_light"
 	colored_emblem = {
@@ -155,7 +155,7 @@ c_wanshanzhou = {
 		instance = { position = { 0.53 0.45 } scale = { 0.92 0.92 }  }		
 	}	
 }
-c_faluozhou = {
+c_gwangju = {
 	pattern = "pattern_solid.dds"
 	color1 = "white"
 	colored_emblem = {
@@ -166,7 +166,7 @@ c_faluozhou = {
 	}
 }
 
-c_danluo = {
+c_jeju = {
 	pattern = "pattern_solid.dds"
 	color1 = rgb { 65 81 61 } # 
 	colored_emblem = {
@@ -178,7 +178,7 @@ c_danluo = {
 	}		
 }
 
-d_sila = {	pattern = "pattern_solid.dds"
+d_saro = {	pattern = "pattern_solid.dds"
 	color1 = "green_light"
 	colored_emblem = {
 		texture = "cat_horse_passant.dds"
@@ -193,7 +193,7 @@ d_sila = {	pattern = "pattern_solid.dds"
 		instance = { position = { 0.55 0.65 } rotation = -40 scale = { -0.8 0.9 }  }			
 	}	
 }
-c_shaliangzhou = { ## 테스트
+c_gyeongju = { ## 테스트
 	pattern = "pattern_solid.dds"
 	color1 = rgb{121 102 77}
 	colored_emblem = {
@@ -209,7 +209,7 @@ c_shaliangzhou = { ## 테스트
 		instance = { position = { 0.55 0.65 } rotation = -40 scale = { -0.8 0.9 }  }			
 	}	
 }
-c_dalseong = { # 테스트
+c_daegu = { # 테스트
 	pattern = "pattern_solid.dds"
 	color1 = "blue" # 
 	colored_emblem = {
@@ -218,7 +218,7 @@ c_dalseong = { # 테스트
 		instance = { position = { 0.5 0.45 } rotation = 90 scale = { 0.92 0.92 }  }		
 	}		
 }
-c_shangfazhou = { # 테스트
+c_sangju = { # 테스트
 	pattern = "pattern_solid.dds"
 	color1 = "white" # 
 	colored_emblem = {
@@ -246,7 +246,7 @@ d_gaya = { # 테스트
 		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }		
 	}
 }
-c_gayaa = { # 테스트
+c_gaya = { # 테스트
 	pattern = "pattern_solid.dds"
 	color1 = rgb{121 102 77}
 	colored_emblem = {
@@ -262,7 +262,7 @@ c_gayaa = { # 테스트
 		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }		
 	}
 }
-c_juliezhou = { # 테스트
+c_jinju = { # 테스트
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
 	colored_emblem = {
@@ -274,7 +274,7 @@ c_juliezhou = { # 테스트
 	}	
 }
 
-d_dongya = { # 테스트
+d_yemaek = { # 테스트
 	pattern = "pattern_solid.dds"
 	color1 = "yellow" # 
 	colored_emblem = {
@@ -306,7 +306,7 @@ d_dongya = { # 테스트
 		instance = { position = { 0.8 0.45 } scale = { 0.35 0.35 }  }		
 	}	
 }
-c_shouruozhou = { # 테스트
+c_chuncheon = { # 테스트
 	pattern = "pattern_solid.dds"
 	color1 = "white"
 	colored_emblem = {
@@ -317,7 +317,7 @@ c_shouruozhou = { # 테스트
 		instance = { position = { 0.5 0.48 } scale = { 1.15 1.15 }  }		
 	}		
 }
-c_hexizhou = { # 테스트
+c_gangneung = { # 테스트
 	pattern = "pattern_solid.dds"
 	color1 = "green" # 
 	colored_emblem = {
@@ -362,37 +362,4 @@ c_helan = { # 테스트
 		instance = { position = { 0.55 0.55 } scale = { -0.8 -0.8 }  }
 	}		
 }
-
-
-
-################
-## 대만 Taiwan ##
-################
-k_tungning = { # 테스트
-	pattern = "pattern_solid.dds"
-	color1 = "blue" # 
-	textured_emblem = {
-		texture = "cat_formosa_tiger_texture15.dds"
-		instance = { position = { 0.5 0.47 } scale = { 0.95 0.95 }  }
-	}		
-}
-
-c_liuqiu = { # 테스트
-	pattern = "pattern_solid.dds"
-	color1 = "blue_light" # 
-	textured_emblem = {
-		texture = "cat_formosa_tiger_texture15.dds"	
-		instance = { position = { 0.5 0.47 } scale = { 0.95 0.95 }  }
-	}		
-}
-
-c_penghu = { # 테스트
-	pattern = "pattern_solid.dds"
-	color1 = "white" # 
-	colored_emblem = {
-		texture = "cat_formosa_stamp.dds"
-		color1 = "red"
-		color2 = "white"
-		instance = { position = { 0.5 0.47 } scale = { 0.95 0.95 }  }
-	}		
-}
+
