@@ -1,0 +1,98 @@
+﻿l_english:
+
+###Korea###
+k_silla:0 "Silla"
+k_silla_adj:0 "Silla"
+k_goryeo:0 "Koryŏ"
+k_goryeo_adj: "Koryŏ"
+
+d_goguryeo:0 "Koguryŏ"
+d_baekje:0 "Paekche"
+d_saro:0 "Sŏra"
+d_gaya:0 "Kaya"
+d_yemaek:0 "Hasŭlla"
+
+c_gyeonggi:0 "Hansanju"
+c_hwanghae:0 "Hwanghae"
+c_gongju:0 "Ungcheonju"
+c_jeonju:0 "Wansanju"
+c_gwangju:0 "Mujinju"
+c_jeju:0 "Tammora"
+c_gyeongju:0 "Sŏra"
+c_yangsan:0 "Sapryangju"
+c_daegu:0 "Talgubŏl"
+c_sangju:0 "Sabŏlju"
+c_busan:0 "Kaya"
+c_jinju:0 "Kŏtaju"
+c_chuncheon:0 "Sakju"
+c_gangneung:0 "Myŏngju"
+
+c_hwando:0 "Hwando"
+c_yalu:0 "Amnok"
+c_pyeongyang:0 "Pyeongyang"
+c_anju:0 "Anju"
+c_nyeongbyeon:0 "Nyongbyeon"
+
+b_seoul:0 "Wirye"
+b_yeoju:0 "Hanju"
+b_ganghwa:0 "Haegu"
+b_suwon:0 "Maehol"
+b_chunju:0 "Maenara"
+
+b_gaeseong:0 "Songak"
+b_hwangju:0 "Chwisŏng"
+b_sariwon:0 "Sari"
+b_haeju:0 "Naemihol"
+b_cheorwon:0 "Moŭldongbi"
+
+b_gongju:0 "Komanaru"
+b_chongju:0 "Sŏwŏn"
+b_seosan:0 "Kigun"
+
+b_jeonju:0 "Ongoŭl"
+b_iksan:0 "Kŭmmoemi"
+b_namwon:0 "Sŭtwimo"
+b_naju:0 "Pallagun"
+b_yeosu:0 "Sappyŏnggun"
+
+b_jeju:0 "Tammora"
+
+b_gyeongju:0 "Sŏrabŏl"
+b_yangsan:0 "Kŭmgwanggyeong"
+b_SeokguramGrotto:0 "Seokguram"
+
+b_chuncheon:0 "Somŏrigol"
+
+b_daegu:0 "Dalgubŏl"
+b_HaeinsaTemple:0 "Haeinsa"
+
+b_sanju:0 "Sabŏl"
+b_andong:0 "Kotaya"
+
+b_kimhae:0 "Kuyacasi"
+b_changwon:0 "Kuljagun"
+
+b_jinju:0 "Kŏtaju"
+b_sacheon:0 "Samul"
+b_hanam:0 "Ashira"
+b_goryeong:0 "Koryŏng"
+
+b_wonju:0 "Pyŏngwongun"
+b_yongju:0 "Naeigun"
+b_jecheon:0 "Sayŏri"
+b_wonsan:0 "Ŏulmae"
+
+b_gangneung:0 "Hasŭlla"
+b_congshiting:0 "Congshiting"
+b_sokcho:0 "Sokcho"
+b_donghae:0 "Tonghae"
+
+b_pyeongyang:0 "Pyŏngyangsŏng"
+b_yeonggang:0 "Yŏnggang"
+b_pyeongseong:0 "Pyŏngsong"
+b_anju:0 "Anju"
+b_tenju:0 "Tenju"
+b_uiju:0 "Uiju"
+b_sakachu:0 "Sakachu"
+b_nyeongbyeon:0 "Nyŏngbyŏn"
+b_kanggye:0 "Kanggye"
