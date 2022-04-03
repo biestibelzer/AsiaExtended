@@ -1,0 +1,111 @@
+k_goryeo = { 
+    867.1.1 = { change_development_level = 17 }
+    1066.1.1 = { change_development_level = 21 }
+
+	864.1.1 = {
+		holder = 110000001
+	}
+}
+
+d_goguryeo = { 
+    866.1.1 = {
+		holder = 110000001
+	} 
+}
+c_gyeonggi = { 
+    866.1.1 = {
+		holder = 110000001
+	} 
+}
+c_hwanghae = { 
+    866.1.1 = {
+		holder = 110000001
+	} 
+}
+
+d_yemaek = { 
+	865.1.1={
+		liege = "k_goryeo"
+	}
+	866.1.1 = {
+		holder = 110000003
+	} 
+}
+c_sokcho = { 
+	866.1.1 = {
+		holder = 110000003
+	} 
+}
+c_chuncheon = { 
+	866.1.1 = {
+		holder = 110000003
+	} 
+}
+
+d_saro = {  
+	865.1.1={
+		liege = "k_goryeo"
+	}    
+	866.1.1 = {
+		holder = 110000005
+	}
+}
+c_daegu = { 
+	866.1.1 = {
+		holder = 110000005
+	} 
+}
+c_yangsan = { 
+	866.1.1 = {
+		holder = 110000005
+	} 
+}
+c_gyeongju = { 
+	866.1.1 = {
+		holder = 110000005
+	} 
+}
+
+d_gaya = { 
+	865.1.1={
+		liege = "k_goryeo"
+	}    
+	866.1.1 = {
+		holder = 110000004
+	} 
+}
+
+d_baekje = { 
+	865.1.1 = {
+		liege = "k_goryeo"
+	}
+	866.1.1 = {
+		holder = 110000002
+	} 
+}
+c_gongju = { 
+	866.1.1 = {
+		holder = 110000002
+	} 
+}
+c_jeonju = { 
+	866.1.1 = {
+		holder = 110000002
+	} 
+}
+c_gwangju = { 
+	866.1.1 = {
+		holder = 110000002
+	} 
+}
+
+c_gaya = { 
+	866.1.1 = {
+		holder = 110000004
+	} 
+}
+c_jinju = {
+	866.1.1 = {
+		holder = 110000004
+	}  
+}
