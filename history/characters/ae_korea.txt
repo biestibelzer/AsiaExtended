@@ -2,7 +2,7 @@
 	name = Eungryeom #Ruler of Korea Kingdom, Gim Dynasty
 	dynasty = 60000001
 	religion = mahayana
-	culture = senhan
+	culture = saro
 	844.1.1 = {
 		birth = yes
 	}
@@ -15,7 +15,7 @@
 	name = Taehyung #Ruler of Baekje dutchy, Kim Dynasty
 	dynasty = 60000002
 	religion = mahayana
-	culture = senhan
+	culture = saro
 	819.1.1 = {
 		birth = yes
 	}
@@ -28,7 +28,7 @@
 	name = Juhee #Ruler of  dutchy, Pak Dynasty
 	dynasty = 60000003
 	religion = mahayana
-	culture = senhan
+	culture = saro
 	819.1.1 = {
 		birth = yes
 	}
@@ -41,7 +41,7 @@
 	name = Yong #Ruler of  dutchy Shiwon Dynasty
 	dynasty = 60000004
 	religion = mahayana
-	culture = senhan
+	culture = saro
 	836.1.1 = {
 		birth = yes
 	}
@@ -54,7 +54,7 @@
 	name = Kwon #Ruler of  dutchy, Seoyoung dynasty
 	dynasty = 60000005
 	religion = mahayana
-	culture = senhan
+	culture = saro
 	849.1.1 = {
 		birth = yes
 	}

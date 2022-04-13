@@ -2,9 +2,10 @@
   heritage_korean_name:0 "Koreanic"
   heritage_samhan_name:0 "Koreanic"
   language_korean_name:0 "Koreanic"
-  language_goguryeon_name:0 "Koguryoic"
-  language_sillanese_name:0 "Hangugeo"
-  language_tamnanese_name:0 "Jeju"
+  language_goguryeo_name:0 "Koguryŏ"
+  language_baekje_name:0 "Paekche
+  language_silla_name:0 "Saro"
+  language_tamna_name:0 "Tamna"
   name_list_korean:0 "Koreanic"
   
   heritage_japan_name:0 "Yayoi"
@@ -21,12 +22,12 @@
   name_list_kaizuka:0 "Kaizuka"
   ainu_clothing_gfx:0 "Ezo"
   
-  heritage_tungusic_name:0 "Tunguse"
-  language_jurchen_name:0 "Jurchenian"
+  heritage_tungusic_name:0 "Tungusic"
+  language_jurchen_name:0 "Jurchen"
   language_evenki_name:0 "Evenki"
   
   heritage_yilou_name:0 "Yilou"
-  language_nivkh_name:0 "Nivkh"
+  language_nivkh_name:0 "Amuric"
   
   language_min_chinese_name:0 "Minhua"
   language_shu_chinese_name:0 "Bashuhua"
