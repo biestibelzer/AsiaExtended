@@ -32,7 +32,7 @@ balhae = {
 	parents = { goguryeo mohese }
 	
 	ethos = ethos_communal
-	heritage = heritage_korean
+	heritage = heritage_tungusic
 	language = language_goguryeo
 	martial_custom = martial_custom_male_only
 	traditions = {

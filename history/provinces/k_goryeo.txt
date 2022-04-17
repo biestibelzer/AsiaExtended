@@ -3,7 +3,7 @@
 #c_hexizhou #何瑟罗州/河西/溟州/悉直
 #b_kangnung
 10872 = {
-    culture = senhan
+    culture = saro
 	religion = muism
 	holding = castle_holding
 }
@@ -39,7 +39,7 @@
 #c_shouruozhou #首若州/朔州/比列忽州
 #b_chuncheon
 10876 = {
-    culture = senhan
+    culture = saro
 	religion = muism
 	holding = castle_holding
 }
@@ -72,7 +72,7 @@
 #c_hanju #汉山州/汉州/京畿道gyeonggido
 #b_weili
 10885 = {
-    culture = senhan
+    culture = goguryeo
 	religion = mahayana
 	holding = castle_holding
 }
@@ -137,7 +137,7 @@
 #c_xiongshanzhou #熊川州/所夫里/忠清道
 #b_gongju_buyeo_sibi
 10892 = {
-    culture = saro
+    culture = baekje
 	religion = zenzong
 	holding = castle_holding
 }
@@ -191,14 +191,14 @@
 #c_danluo
 #b_danluo
 10890 = {
-    culture = tamnan
+    culture = tamna
 	religion = mahayana 
 	holding = castle_holding
 }
 
 #d_sila #新罗/庆尚道
 #c_shaliangzhou
-#b_gyeogju
+#b_gyeongju
 10903 = {
     culture = saro
 	religion = mahayana
@@ -230,7 +230,7 @@
 	holding = church_holding
 }
 
-#c_shangfazhou #沙伐州/尚州
+#c_gyeongju c_shangfazhou #沙伐州/尚州
 #b_sanju
 10908 = {
     culture = saro
@@ -245,7 +245,7 @@
 
 #d_gaya #迦倻
 #c_gaya #迦倻
-#b_kimhae
+#b_gimhae
 10901 = {
     culture = saro
 	religion = zenzong 
@@ -257,14 +257,14 @@
 	holding = city_holding
 }
 
-#c_juliezhou #居烈州/菁州/康州
+#c_jinju c_juliezhou #居烈州/菁州/康州
 #b_jinju
 10899 = {
     culture = saro
 	religion = zenzong
 	holding = city_holding
 }
-#b_sachon
+#b_sacheon
 10900 = {
 
 	holding = none

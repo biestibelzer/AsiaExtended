@@ -67,7 +67,7 @@ k_silla = {
 	ai_primary_priority = {
 		if = {
 			limit = {
-				culture = culture:silla
+				culture = culture:saro
 			}
 			add = @always_primary_score
 		}
