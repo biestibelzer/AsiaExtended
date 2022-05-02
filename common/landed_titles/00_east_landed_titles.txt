@@ -5113,7 +5113,7 @@ e_jurchen = {
 					color = { 166 17 0 }
 					color2 = { 255 255 255 }
 				}
-				b_pyongsong = {   #平城/安国寺
+				b_pyeongseong = {   #平城/安国寺
 					province = 10918
 					
 					color = { 166 17 0 }
@@ -5159,7 +5159,7 @@ e_jurchen = {
 					color = { 209 143 123 }
 					color2 = { 255 255 255 }
 				}
-				b_kanggye = {  #熙川
+				b_ganggye = {  #熙川
 					province = 10919
 					
 					color = { 209 143 123 }
@@ -5514,7 +5514,7 @@ e_jurchen = {
 					color = { 95 195 245 }
 					color2 = { 255 255 255 }
 				}
-				b_chechon = {
+				b_jecheon = {
 					province = 10879
 
 					color = { 95 195 245 }

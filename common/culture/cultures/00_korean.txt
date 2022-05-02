@@ -4,7 +4,7 @@ goguryeo = {
 	
 	ethos = ethos_courtly
 	heritage = heritage_korean
-	language = language_goguryeo
+	language = language_korean
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship
@@ -33,7 +33,7 @@ balhae = {
 	
 	ethos = ethos_communal
 	heritage = heritage_tungusic
-	language = language_goguryeo
+	language = language_korean
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_mystical_ancestors
@@ -121,7 +121,7 @@ tamna = {
 	
 	ethos = ethos_courtly
 	heritage = heritage_korean
-	language = language_tamna
+	language = language_korean
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship
@@ -147,7 +147,7 @@ saro = {
 
 	ethos = ethos_courtly
 	heritage = heritage_korean
-	language = language_silla
+	language = language_korean
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship

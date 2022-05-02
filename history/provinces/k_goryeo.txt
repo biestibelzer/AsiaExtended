@@ -39,7 +39,7 @@
 #c_shouruozhou #首若州/朔州/比列忽州
 #b_chuncheon
 10876 = {
-    culture = saro
+    culture = goguryeo
 	religion = muism
 	holding = castle_holding
 }
