@@ -31,7 +31,7 @@ balhae = {
 	created = 700.1.1
 	parents = { goguryeo mohese }
 	
-	ethos = ethos_communal
+	ethos = ethos_courtly
 	heritage = heritage_tungusic
 	language = language_korean
 	martial_custom = martial_custom_male_only
@@ -57,7 +57,6 @@ balhae = {
 		10 = asian
 	}
 }
-
 # Korean during Goryeo - from previous Koreanic cultures (for ingame purposes from Goguryeo and Silla)
 goryeon = {
 	color = { 50 200 50 }
@@ -75,6 +74,33 @@ goryeon = {
 		tradition_chinese_characters
 		tradition_astute_diplomats
 		tradition_philosopher_culture
+	}
+	
+	name_list = name_list_korean
+	
+	coa_gfx = { steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = asian
+	}
+}
+# silla
+saro = {
+	color = { 86 215 155 }
+
+	ethos = ethos_courtly
+	heritage = heritage_korean
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_family_entrepreneurship
+		tradition_mystical_ancestors
+		tradition_chinese_characters
+		tradition_ruling_caste
+		tradition_isolationist
 	}
 	
 	name_list = name_list_korean
@@ -119,7 +145,7 @@ baekje = {
 tamna = {
 	color = { 0 206 41 }
 	
-	ethos = ethos_courtly
+	ethos = ethos_communal
 	heritage = heritage_korean
 	language = language_korean
 	martial_custom = martial_custom_male_only
@@ -141,20 +167,18 @@ tamna = {
 		10 = asian
 	}
 }
-# silla
-saro = {
-	color = { 86 215 155 }
-
-	ethos = ethos_courtly
+# yemaek
+yemaek = {
+	color = { 85 187 191 }
+	
+	ethos = ethos_communal
 	heritage = heritage_korean
-	language = language_korean
+	heritage = language_korean
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_family_entrepreneurship
-		tradition_mystical_ancestors
-		tradition_chinese_characters
-		tradition_ruling_caste
-		tradition_isolationist
+		tradition_sacred_mountains
+		tradition_sacred_groves
+		tradition_pastoralists
 	}
 	
 	name_list = name_list_korean
