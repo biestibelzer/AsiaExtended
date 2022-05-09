@@ -1,7 +1,7 @@
 ﻿#k_goryeo
 #d_yemaek #东濊/江原道
 #c_hexizhou #何瑟罗州/河西/溟州/悉直
-#b_kangnung
+#b_gangneung
 10872 = {
     culture = saro
 	religion = muism
@@ -45,32 +45,25 @@
 }
 #b_wonju
 10877 = {
-
-
 	holding = city_holding
 }
 #b_yongju
 10878 = {
-
-
 	holding = none
 }
 #b_chechon
 10879 = {
 
-
 	holding = none
 }
 #b_wonsan
 10875 = {
-
-
 	holding = none
 }
 
-#d_goguryeo  #高句丽
-#c_hanju #汉山州/汉州/京畿道gyeonggido
-#b_weili
+#d_goguryeo 高句丽 - Central Korea
+#c_arisu 汉山州/汉州/京畿道 - Gyeonggido
+#b_arisu 郁里河 - Seoul
 10885 = {
     culture = goguryeo
 	religion = mahayana
@@ -78,26 +71,18 @@
 }
 #b_nanhanseong
 10886 = {
-
-
 	holding = castle_holding
 }
-#b_ganghwa
+#b_michuhol 彌鄒忽 - Incheon
 10887 = {
-
-
 	holding = church_holding
 }
-#b_suwon
+#b_mulgol - Suwon
 10888 = {
-
-
 	holding = none
 }
-#b_chunju
+#b_chunju - 
 10889 = {
-
-
 	holding = none
 }
 
@@ -110,20 +95,14 @@
 }
 #b_hwangju
 10880 = {
-
-
 	holding = none
 }
 #b_sariwon
 10881 = {
-
-
 	holding = city_holding
 }
 #b_haeju
 10882 = {
-
-
 	holding = none
 }
 #b_cheorwon

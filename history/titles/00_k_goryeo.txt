@@ -1,4 +1,4 @@
-k_goryeo = { 
+k_silla = { 
     867.1.1 = { change_development_level = 17 }
     1066.1.1 = { change_development_level = 21 }
 
@@ -7,25 +7,25 @@ k_goryeo = {
 	}
 }
 
-d_goguryeo = { 
+d_goguryeo = {
     866.1.1 = {
 		holder = 110000001
 	} 
 }
-c_gyeonggi = { 
+c_gyeonggi = {
     866.1.1 = {
 		holder = 110000001
 	} 
 }
-c_hwanghae = { 
+c_hwanghae = {
     866.1.1 = {
 		holder = 110000001
 	} 
 }
 
 d_yemaek = { 
-	865.1.1={
-		liege = "k_goryeo"
+	865.1.1 = {
+		liege = "k_silla"
 	}
 	866.1.1 = {
 		holder = 110000003
@@ -44,7 +44,7 @@ c_chuncheon = {
 
 d_saro = {  
 	865.1.1={
-		liege = "k_goryeo"
+		liege = "k_silla"
 	}    
 	866.1.1 = {
 		holder = 110000005
@@ -68,7 +68,7 @@ c_gyeongju = {
 
 d_gaya = { 
 	865.1.1={
-		liege = "k_goryeo"
+		liege = "k_silla"
 	}    
 	866.1.1 = {
 		holder = 110000004
@@ -77,7 +77,7 @@ d_gaya = {
 
 d_baekje = { 
 	865.1.1 = {
-		liege = "k_goryeo"
+		liege = "k_silla"
 	}
 	866.1.1 = {
 		holder = 110000002
