@@ -10877,6 +10877,7 @@
 10867;53;4;126;Wahai;x;
 10868;54;4;180;Yuncheng;x; ###
 10869;55;4;248;Shanghai_Wusong;x;
+<<<<<<< Updated upstream
 10870;56;4;13;congshiting;x;  #Korea
 10871;57;4;76;sokcho;x;
 10872;58;4;126;gangneung;x;
@@ -10929,10 +10930,64 @@
 10919;105;4;248;ganggye;x;  
 10920;106;246;13;sakachu;x;
 10921;107;6;76;penghu;x; ###taiwan
+=======
+10870;56;4;13;Congshiting;x;  #Korean provinces
+10871;57;4;76;Sokcho;x;
+10872;58;4;126;Gangneung;x;
+10873;59;4;180;Donghae;x;
+10874;60;4;248;Ulchin;x;
+10875;61;4;13;Wonsan;x;###
+10876;62;4;76;Chuncheon;x;
+10877;63;4;126;Wonju;x;
+10878;64;4;180;Yongju;x;
+10879;65;4;248;Jecheon;x;
+10880;66;4;13;Hwangju;x;###
+10881;67;4;76;Sariwon;x;
+10882;68;4;126;Haeju;x;
+10883;69;4;180;Gaeseong;x;
+10884;70;4;248;Cheorwon;x;
+10885;71;4;13;Seoul;x;##
+10886;72;4;76;Yeoju;x;
+10887;73;4;126;Ganghwa;x;
+10888;74;4;180;Suwon;x;
+10889;75;4;248;Chunju;x;
+10890;76;4;76;Jeju;x; ##
+10891;77;4;76;Chongju;x;
+10892;78;4;126;Gongju;x;
+10893;79;4;180;Seosan;x;
+10894;80;244;248;Jeonju;x;##
+10895;81;4;13;Iksan;x;
+10896;82;244;76;Namwon;x;
+10897;83;4;126;Gwangju;x;
+10898;84;244;180;Haenam;x;
+10899;85;4;248;Jinju;x; ##
+10900;86;244;13;Sacheon;x;
+10901;87;4;76;Gimhae;x;##
+10902;88;244;126;Changwon;x;
+10903;89;4;180;Gyeongju;x;##
+10904;90;244;248;Yangsan;x;
+10905;91;4;13;Daegu;x;
+10906;92;244;76;HaeinsaTemple;x;
+10907;93;4;126;SeokguramGrotto;x;
+10908;94;244;180;Sanju;x;###
+10909;95;4;248;Andong;x;
+10910;96;244;13;Haman;x;#
+10911;97;4;76;Goryeong;x; #
+10912;98;4;126;Pyeongyang;x; ##
+10913;99;4;180;Yeonggang;x;
+10914;100;244;248;Anju;x;
+10915;101;4;13;Tenju;x;
+10916;102;244;76;Uiju;x;
+10917;103;4;126;Nyeongbyeon;x;
+10918;104;244;180;Pyeongseong;x;
+10919;105;4;248;Ganggye;x;  
+10920;106;246;13;Sakachu;x; # Korea end
+10921;107;6;76;penghu;x; ### Taiwan
+>>>>>>> Stashed changes
 10922;108;246;126;beiliuqiu;x;
 10923;109;6;180;zhongliuqiu;x;
 10924;110;246;248;nanliuqiu;x;
-10925;111;6;13;ryukyu;x; 
+10925;111;6;13;ryukyu;x; #Ryukyu Islands
 10926;112;246;236;Obi;x;
 10927;113;6;180;amami;x; 
 10928;113;113;113;;x;
