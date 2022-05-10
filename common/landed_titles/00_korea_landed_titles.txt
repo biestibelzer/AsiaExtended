@@ -99,7 +99,7 @@ k_silla = {
 			color = { 85 190 50 }
 			color2 = { 255 255 255 }
 		
-			b_danluo = {
+			b_jeju = {
 				province = 10890
 
 				color = { 85 190 50 }
