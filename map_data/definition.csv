@@ -10877,60 +10877,6 @@
 10867;53;4;126;Wahai;x;
 10868;54;4;180;Yuncheng;x; ###
 10869;55;4;248;Shanghai_Wusong;x;
-<<<<<<< Updated upstream
-10870;56;4;13;congshiting;x;  #Korea
-10871;57;4;76;sokcho;x;
-10872;58;4;126;gangneung;x;
-10873;59;4;180;tonghae;x;
-10874;60;4;248;ulchin;x;
-10875;61;4;13;wonsan;x;###
-10876;62;4;76;chunchon;x;
-10877;63;4;126;wonju;x;
-10878;64;4;180;yongju;x;
-10879;65;4;248;jecheon;x;
-10880;66;4;13;hwangju;x;###
-10881;67;4;76;sariwon;x;
-10882;68;4;126;haeju;x;
-10883;69;4;180;gaeseong;x;
-10884;70;4;248;cheorwon;x;
-10885;71;4;13;Arisu;x;##
-10886;72;4;76;yeoju;x;
-10887;73;4;126;ganghwa;x;
-10888;74;4;180;suwon;x;
-10889;75;4;248;chunju;x;
-10890;76;4;76;jeju;x; ##
-10891;77;4;76;chongju;x;
-10892;78;4;126;gongju;x;
-10893;79;4;180;seosan;x;
-10894;80;244;248;jeonju;x;##
-10895;81;4;13;iksan;x;
-10896;82;244;76;namwon;x;
-10897;83;4;126;gwangju;x;
-10898;84;244;180;haenam;x;
-10899;85;4;248;jinju;x; ##
-10900;86;244;13;sacheon;x;
-10901;87;4;76;kimhae;x;##
-10902;88;244;126;changwon;x;
-10903;89;4;180;gyeongju;x;##
-10904;90;244;248;yangsan;x;
-10905;91;4;13;daegu;x;
-10906;92;244;76;HaeinsaTemple;x;
-10907;93;4;126;SeokguramGrotto;x;
-10908;94;244;180;sanju;x;###
-10909;95;4;248;andong;x;
-10910;96;244;13;haman;x;#
-10911;97;4;76;goryeong;x; #
-10912;98;4;126;pyeongyang;x; ##lelang
-10913;99;4;180;yeonggang;x;
-10914;100;244;248;anju;x;
-10915;101;4;13;tenju;x;
-10916;102;244;76;uiju;x;
-10917;103;4;126;nyeongbyeon;x;
-10918;104;244;180;pyeongseong;x;
-10919;105;4;248;ganggye;x;  
-10920;106;246;13;sakachu;x;
-10921;107;6;76;penghu;x; ###taiwan
-=======
 10870;56;4;13;Congshiting;x;  #Korean provinces
 10871;57;4;76;Sokcho;x;
 10872;58;4;126;Gangneung;x;
