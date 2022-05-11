@@ -1,404 +1,405 @@
-k_silla = { 
-	color = { 35 34 228 }
-	color2 = { 255 255 255 }
-  	capital = c_gyeongju
-	destroy_if_invalid_heir = yes
-
-	ai_primary_priority = {
-		if = {
-			limit = {
-				culture = culture:saro
-			}
-			add = @always_primary_score
-		}
-	}
-	d_baekje = {
-		color = { 80 190 45 }
+e_goryeo = {
+	k_silla = { 
+		color = { 35 34 228 }
 		color2 = { 255 255 255 }
-		
-		capital = c_gongju
-		
-		cultural_names = {
-			yamato = Hyakusai
-		}
+		capital = c_gyeongju
+		destroy_if_invalid_heir = yes
 
-		c_gongju = {
-			color = { 70 190 55 }
-			color2 = { 255 255 255 }
-
-			b_gongju = {
-				province = 10892
-
-				color = { 70 190 55 }
-				color2 = { 255 255 255 }
-			}
-			b_chongju = {
-				province = 10891
-
-				color = { 70 190 55 }
-				color2 = { 255 255 255 }
-			}
-			b_seosan = {
-				province = 10893
-
-				color = { 70 190 55 }
-				color2 = { 255 255 255 }
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:saro
+				}
+				add = @always_primary_score
 			}
 		}
-		c_jeonju = {
-			color = { 65 205 40 }
+		d_baekje = {
+			color = { 80 190 45 }
 			color2 = { 255 255 255 }
+			
+			capital = c_gongju
+			
+			cultural_names = {
+				yamato = Hyakusai
+			}
 
-			b_jeonju = {
-				province = 10894
+			c_gongju = {
+				color = { 70 190 55 }
+				color2 = { 255 255 255 }
 
+				b_gongju = {
+					province = 10892
+
+					color = { 70 190 55 }
+					color2 = { 255 255 255 }
+				}
+				b_chongju = {
+					province = 10891
+
+					color = { 70 190 55 }
+					color2 = { 255 255 255 }
+				}
+				b_seosan = {
+					province = 10893
+
+					color = { 70 190 55 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_jeonju = {
 				color = { 65 205 40 }
 				color2 = { 255 255 255 }
-			}
-			b_iksan = {
-				province = 10895
 
-				color = { 65 205 40 }
-				color2 = { 255 255 255 }
-			}
-			b_namwon = {
-				province = 10896
+				b_jeonju = {
+					province = 10894
 
-				color = { 65 205 40 }
-				color2 = { 255 255 255 }
-			}
-		}			
-		c_gwangju = {
-			color = { 75 185 40 }
-			color2 = { 255 255 255 }
+					color = { 65 205 40 }
+					color2 = { 255 255 255 }
+				}
+				b_iksan = {
+					province = 10895
 
-			b_naju = {
-				province = 10897
+					color = { 65 205 40 }
+					color2 = { 255 255 255 }
+				}
+				b_namwon = {
+					province = 10896
 
+					color = { 65 205 40 }
+					color2 = { 255 255 255 }
+				}
+			}			
+			c_gwangju = {
 				color = { 75 185 40 }
 				color2 = { 255 255 255 }
-			}
-			b_yeosu = {
-				province = 10898
 
-				color = { 75 185 40 }
-				color2 = { 255 255 255 }
+				b_naju = {
+					province = 10897
+
+					color = { 75 185 40 }
+					color2 = { 255 255 255 }
+				}
+				b_yeosu = {
+					province = 10898
+
+					color = { 75 185 40 }
+					color2 = { 255 255 255 }
+				}
 			}
 		}
-	}
 
-	d_jeju = {
-		color = { 85 190 50 }
-		color2 = { 255 255 255 }
-		
-		cultural_names = {
-			yamato = Tammura
-		}
-		
-		c_jeju = {
+		d_jeju = {
 			color = { 85 190 50 }
 			color2 = { 255 255 255 }
-		
-			b_jeju = {
-				province = 10890
-
+			
+			cultural_names = {
+				yamato = Tammura
+			}
+			
+			c_jeju = {
 				color = { 85 190 50 }
 				color2 = { 255 255 255 }
+			
+				b_jeju = {
+					province = 10890
+
+					color = { 85 190 50 }
+					color2 = { 255 255 255 }
+				}
 			}
 		}
-	}
 
 
-	d_saro = {
-		color = { 86 133 61 }
-		color2 = { 255 255 255 }
-		
-		cultural_names = {
-			yamato = Shiragi
-		}
-		
-		capital = c_gyeongju
-		
-		c_gyeongju = {
-			color = { 86 143 61 }
+		d_saro = {
+			color = { 86 133 61 }
 			color2 = { 255 255 255 }
 			
-			b_gyeongju = {
-				province = 10903
-				
-				color = { 86 143 61  }
-				color2 = { 255 255 255 }
+			cultural_names = {
+				yamato = Shiragi
 			}
-			b_yangsan = {
-				province = 10904
-				
-				color = { 86 143 61  }
-				color2 = { 255 255 255 }
-			}
-			b_SeokguramGrotto = {
-				province = 10907
-				
-				color = { 86 143 61  }
-				color2 = { 255 255 255 }
-			}
-		}
-		c_daegu = {
-			color = { 81 143 61 }
-			color2 = { 255 255 255 }
 			
-			b_daegu = {
-				province = 10905
+			capital = c_gyeongju
+			
+			c_gyeongju = {
+				color = { 86 143 61 }
+				color2 = { 255 255 255 }
 				
+				b_gyeongju = {
+					province = 10903
+					
+					color = { 86 143 61  }
+					color2 = { 255 255 255 }
+				}
+				b_yangsan = {
+					province = 10904
+					
+					color = { 86 143 61  }
+					color2 = { 255 255 255 }
+				}
+				b_SeokguramGrotto = {
+					province = 10907
+					
+					color = { 86 143 61  }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_daegu = {
 				color = { 81 143 61 }
 				color2 = { 255 255 255 }
-			}
-			b_HaeinsaTemple = {
-				province = 10906
 				
-				color = { 81 143 61 }
-				color2 = { 255 255 255 }
+				b_daegu = {
+					province = 10905
+					
+					color = { 81 143 61 }
+					color2 = { 255 255 255 }
+				}
+				b_HaeinsaTemple = {
+					province = 10906
+					
+					color = { 81 143 61 }
+					color2 = { 255 255 255 }
+				}
 			}
-		}
-		c_sangju = {
-			color = { 81 133 61 }
-			color2 = { 255 255 255 }
-			
-			b_sanju = {
-				province = 10908
-				
+			c_sangju = {
 				color = { 81 133 61 }
 				color2 = { 255 255 255 }
-			}
-			b_andong = {
-				province = 10909
 				
-				color = { 81 133 61 }
-				color2 = { 255 255 255 }
+				b_sanju = {
+					province = 10908
+					
+					color = { 81 133 61 }
+					color2 = { 255 255 255 }
+				}
+				b_andong = {
+					province = 10909
+					
+					color = { 81 133 61 }
+					color2 = { 255 255 255 }
+				}
 			}
 		}
-	}
-	d_gaya = {
-		color = { 50 75 50 }
-		color2 = { 255 255 255 }
-		
-		capital = c_busan
-		
-		c_busan = {
+		d_gaya = {
 			color = { 50 75 50 }
 			color2 = { 255 255 255 }
-		
-			b_kimhae = {
-				province = 10901
-
+			
+			capital = c_busan
+			
+			c_busan = {
 				color = { 50 75 50 }
 				color2 = { 255 255 255 }
-			}
-			b_changwon = {
-				province = 10902
+			
+				b_kimhae = {
+					province = 10901
 
-				color = { 50 75 50 }
+					color = { 50 75 50 }
+					color2 = { 255 255 255 }
+				}
+				b_changwon = {
+					province = 10902
+
+					color = { 50 75 50 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_jinju = {
+				color = { 62 95 44 }
 				color2 = { 255 255 255 }
+			
+				b_jinju = {
+					province = 10899
+
+					color = { 62 95 44 }
+					color2 = { 255 255 255 }
+				}
+				b_sacheon = {
+					province = 10900
+
+					color = { 62 95 44 }
+					color2 = { 255 255 255 }
+				}
+				b_hanam = {
+					province = 10910
+
+					color = { 62 95 44 }
+					color2 = { 255 255 255 }
+				}
+				b_goryeong = {
+					province = 10911
+
+					color = { 62 95 44 }
+					color2 = { 255 255 255 }
+				}
 			}
 		}
-		c_jinju = {
-			color = { 62 95 44 }
+
+		d_yemaek = {
+			color = { 150 100 150 }
 			color2 = { 255 255 255 }
-		
-			b_jinju = {
-				province = 10899
 
-				color = { 62 95 44 }
-				color2 = { 255 255 255 }
-			}
-			b_sacheon = {
-				province = 10900
+			capital = c_gangneung
 
-				color = { 62 95 44 }
+			c_chuncheon = {
+				color = { 195 95 145 }
 				color2 = { 255 255 255 }
-			}
-			b_hanam = {
-				province = 10910
 
-				color = { 62 95 44 }
-				color2 = { 255 255 255 }
-			}
-			b_goryeong = {
-				province = 10911
+				b_chuncheon = {
+					province = 10876
 
-				color = { 62 95 44 }
-				color2 = { 255 255 255 }
+					color = { 95 195 245 }
+					color2 = { 255 255 255 }
+				}
+				b_wonju = {
+					province = 10877
+
+					color = { 95 195 245 }
+					color2 = { 255 255 255 }
+				}
+				b_yongju = {
+					province = 10878
+
+					color = { 95 195 245 }
+					color2 = { 255 255 255 }
+				}
+				b_jecheon = {
+					province = 10879
+
+					color = { 95 195 245 }
+					color2 = { 255 255 255 }
+				}
+				b_wonsan = {
+					province = 10875
+
+					color = { 95 195 245 }
+					color2 = { 255 255 255 }
+				}
 			}
-		}
+			
+			c_gangneung = {
+				color = { 105 205 255 }
+				color2 = { 255 255 255 }
+
+				b_gangneung = {
+					province = 10872
+
+					color = { 105 205 255 }
+					color2 = { 255 255 255 }
+				}
+				b_congshiting = {
+					province = 10870
+
+					color = { 105 205 255 }
+					color2 = { 255 255 255 }
+				}
+				b_sokcho = {
+					province = 10871
+
+					color = { 105 205 255 }
+					color2 = { 255 255 255 }
+				}
+				b_donghae = {
+					province = 10873
+
+					color = { 105 205 255 }
+					color2 = { 255 255 255 }
+				}
+				b_ulchin = {
+					province = 10874
+
+					color = { 105 205 255 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}		
 	}
-
-	d_yemaek = {
-		color = { 150 100 150 }
-		color2 = { 255 255 255 }
-
-		capital = c_gangneung
-
-		c_chuncheon = {
-			color = { 195 95 145 }
-			color2 = { 255 255 255 }
-
-			b_chuncheon = {
-				province = 10876
-
-				color = { 95 195 245 }
-				color2 = { 255 255 255 }
-			}
-			b_wonju = {
-				province = 10877
-
-				color = { 95 195 245 }
-				color2 = { 255 255 255 }
-			}
-			b_yongju = {
-				province = 10878
-
-				color = { 95 195 245 }
-				color2 = { 255 255 255 }
-			}
-			b_jecheon = {
-				province = 10879
-
-				color = { 95 195 245 }
-				color2 = { 255 255 255 }
-			}
-			b_wonsan = {
-				province = 10875
-
-				color = { 95 195 245 }
-				color2 = { 255 255 255 }
-			}
-		}
-		
-		c_gangneung = {
-			color = { 105 205 255 }
-			color2 = { 255 255 255 }
-
-			b_gangneung = {
-				province = 10872
-
-				color = { 105 205 255 }
-				color2 = { 255 255 255 }
-			}
-			b_congshiting = {
-				province = 10870
-
-				color = { 105 205 255 }
-				color2 = { 255 255 255 }
-			}
-			b_sokcho = {
-				province = 10871
-
-				color = { 105 205 255 }
-				color2 = { 255 255 255 }
-			}
-			b_donghae = {
-				province = 10873
-
-				color = { 105 205 255 }
-				color2 = { 255 255 255 }
-			}
-			b_ulchin = {
-				province = 10874
-
-				color = { 105 205 255 }
-				color2 = { 255 255 255 }
-			}
-		}
-	}		
-}
-#goryeo
-k_goryeo = {
-	color = { 80 205 255 }
-	color2 = { 255 255 255 }
-	
-	capital = c_gyeonggi
-
-	cultural_names = {
-		yamato = Kokuri
-	}
-
-	d_goguryeo = {
-		color = { 68 95 205 }
+	k_goryeo = {
+		color = { 80 205 255 }
 		color2 = { 255 255 255 }
 		
 		capital = c_gyeonggi
-		
+
 		cultural_names = {
-			yamato = Kokuri
+			yamato = cn_kokuri
 		}
-		
-		c_gyeonggi = {
-			color = { 75 95 240 }
+
+		d_goguryeo = {
+			color = { 68 95 205 }
 			color2 = { 255 255 255 }
-		
-			b_seoul = {
-				province = 10885
-
-				color = {  75 95 240 }
-				color2 = { 255 255 255 }
+			
+			capital = c_gyeonggi
+			
+			cultural_names = {
+				yamato = cn_kokuri
 			}
-			b_yeoju = {
-				province = 10886
-
+			
+			c_gyeonggi = {
 				color = { 75 95 240 }
 				color2 = { 255 255 255 }
-			}
-			b_ganghwa = {
-				province = 10887
+			
+				b_seoul = {
+					province = 10885
 
-				color = { 75 95 240 }
-				color2 = { 255 255 255 }
-			}
-			b_suwon = {
-				province = 10888
+					color = {  75 95 240 }
+					color2 = { 255 255 255 }
+				}
+				b_yeoju = {
+					province = 10886
 
-				color = { 75 95 240 }
-				color2 = { 255 255 255 }
-			}
-			b_chunju = {
-				province = 10889
+					color = { 75 95 240 }
+					color2 = { 255 255 255 }
+				}
+				b_ganghwa = {
+					province = 10887
 
-				color = { 75 95 240 }
-				color2 = { 255 255 255 }
-			}
-		}
-		c_hwanghae = {
-			color = { 85 215 130 }
-			color2 = { 255 255 255 }
-		
-			b_gaeseong = {
-				province = 10883
+					color = { 75 95 240 }
+					color2 = { 255 255 255 }
+				}
+				b_suwon = {
+					province = 10888
 
-				color = { 85 205 150 }
-				color2 = { 255 255 255 }
-			}
-			b_hwangju = {
-				province = 10880
+					color = { 75 95 240 }
+					color2 = { 255 255 255 }
+				}
+				b_chunju = {
+					province = 10889
 
-				color = { 85 205 150 }
-				color2 = { 255 255 255 }
+					color = { 75 95 240 }
+					color2 = { 255 255 255 }
+				}
 			}
-			b_sariwon = {
-				province = 10881
-
-				color = { 85 205 150 }
+			c_hwanghae = {
+				color = { 85 215 130 }
 				color2 = { 255 255 255 }
-			}
-			b_haeju = {
-				province = 10882
+			
+				b_gaeseong = {
+					province = 10883
 
-				color = { 85 205 150 }
-				color2 = { 255 255 255 }
-			}
-			b_cheorwon = {
-				province = 10884
+					color = { 85 205 150 }
+					color2 = { 255 255 255 }
+				}
+				b_hwangju = {
+					province = 10880
 
-				color = { 85 205 150 }
-				color2 = { 255 255 255 }
+					color = { 85 205 150 }
+					color2 = { 255 255 255 }
+				}
+				b_sariwon = {
+					province = 10881
+
+					color = { 85 205 150 }
+					color2 = { 255 255 255 }
+				}
+				b_haeju = {
+					province = 10882
+
+					color = { 85 205 150 }
+					color2 = { 255 255 255 }
+				}
+				b_cheorwon = {
+					province = 10884
+
+					color = { 85 205 150 }
+					color2 = { 255 255 255 }
+				}
 			}
 		}
 	}
