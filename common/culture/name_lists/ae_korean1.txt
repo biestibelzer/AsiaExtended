@@ -1,0 +1,30 @@
+﻿name_list_korean = {
+
+	cadet_dynasty_names = {
+		"Chu" "Susŏng" "Kung" "Paekko" "Taega" "Yogu" "Koryŏn" "Yŏyŏng" "Yŏpi" "Yŏryung" "Yŏmyŏng" "Yŏchang" "Puyŏ" "Kim" "Pak" "Sŏk" "Ko" "Hae" "Sŏl" "Choi" "Hŏ" "Yi"
+	}
+
+	dynasty_names = {
+		"dynn_chu" "dynn_suseong" "dynn_gung" "dynn_baekgo" "dynn_daega" "dynn_yogu" "dynn_goryeon" "dynn_yeoyeong" "dynn_yeopi" "dynn_yeoryung" "dynn_yeomyeong" "dynn_yeochang" "dynn_buyeo" "dynn_gim" "dynn_bak" "dynn_seok" "dynn_go" "dynn_hae" "dynn_seol" "dynn_choi" "dynn_heo" "dynn_yi"
+	}
+
+	male_names = {
+		Ado Alji Malgo Misahŭm Sadaham Chumo Suro Hyokkŏse Pulgonae Kasumi Kasum Ulchi Ŭlchi Kŭnchogo Onjo Kŏdubuji Yŏngryŏngji Pŏpŭng Yukbu Michu Tarhae Talhae Isabuji Sŏbusji Bichabuji Chokŭmbuji Tunji Muryŏkji Tosŏlji Yaiji Padoru Togi Orehe Todugi Mulgiji Noribu Isabu Kŏchilbu Ichadon Momal Sŏsabu Bichabu Chokŭmbu Muryŏk Tosŏl # Historically attested names from encykorea 'name' article
+		Akaji Chagadong Chyagundae Hayndung Kang Kosomi Kŏm Kŏmae Kŏmbul Kŏmdung Kŏridae Madin Mainui Makdong Mangi Mangoji Mori Nukdae Olmadae Olmi Omadae Omadi Omangdi Omidi Puksoe Ranggwan Soesti Sotonkodi Susae Syangjae Tanae Tolhi Toti Tŏdae Tŏmŭl Urumi Ŏriding Ŭnmoe # Commoner names from 15th century Joseon
+		Shilgudi Kŏmdung
+		Aranbul Buksin Chibsa Chokdok Chumong Chusuji Hwalbo Idulagi Ijinashi Isabu Kasumi Kochilbu Kochilmi Koŭlra Kŏchilbu Kŏchiporye Maso Mol Momarisji Mul Nakgaeje Nakgaemong Naksagye Ondal Palganuri Palganwi Paso Pulgoenae Sama Samul Sangji Shimi Sobŏldori Sosŏno Suro Tori Ŭlkasumi # Historically attested names from Wikipedia
+		Yŏnbul Silbul Chilbu Pŏm Pumil Pumsŏk Sori Solha Sora Sŏra Sŏl Sal Sul Suri Iri Suŭlbu Suljong Solgŏ Yuli Yuri Yura Nari Narae Nuri Nara Norae Nyuri Nyeri Nulji Pora Pari Porŭm Poram Pomi Pombichu Pombaram Pomnorae Pomsori Param Taru Chidaero Chidoro Chicheolro Kokdori Kŭmdori Mukdol Sŏdol Talbicho Tali Ondol Yŏndol Humdol Tolgo Mŏkdoru Tari Adalla Tana Tami Talga Jinga Paekka Pakka Sogae Chŏmgae Pogae Yonggae Kaedong Nolbu Aldan Noribu Aridan # other names
+		Alji Pŏlgŭnuri Palgŭnuri Pulgŭnuri Pulgŏnuri Ilchi Hŏru Tŭk Namhae # Silla ruling families
+		# Historical Gaya names
+		
+	}
+	female_names = {
+		Alyŏng Sosŏno Saso Paso Sŏsul Aro Ahyo Unje Ani # Women from Silla according to namu and wikipedia
+		Chishui Chonginyangwi Hyangi Kyŏngnyŏl Kŭsdyŏng Kŭsshŭm Malŭiyangwi Mannye Nyehyang Owŏl Syeun Syukhyang Syŏkyŏm Tane Tyŏngnye Unsŏyng Ŏmnye Ŭngsŭing
+		Pŏm Pumil Sori Solha Sora Sŏra Sŏl Sal Sul Suri Iri Yuli Yuri Yura Nari Narae Nuri Nara Norae Nyuri Nyeri Pora Pari Porŭm Poram Pomi Pombits Pombaram Pomnorae Pomsori Param Talbits Tali Tari Adalla Tana Tami Noriko Naeungai Soangai Naeungae Soangae
+		Boram Sŭlgŭi 
+	}
+
+	dynasty_name_first = yes
+	
+}

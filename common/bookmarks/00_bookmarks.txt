@@ -653,7 +653,7 @@ bm_867_asia = {
 		religion = shinto
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = 1600004
-		position = { 1150 450 }
+		position = { 960 640 }
 		
 		animation = love
 		# Yoshifusa, regent of emperor Seiwa
@@ -669,6 +669,22 @@ bm_867_asia = {
 			history_id = 1600001
 			animation = personality_irrational
 		}
+	}
+	# Eungryeom of Silla
+	character = {
+		name = "bookmark_silla_isageum"
+		dynasty = 60000003
+		dynasty_splendor_level = 1
+		type = male
+		birth = 843.1.1
+		title = k_silla
+		government = feudal_government
+		culture = saro
+		religion = mahayana
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 110000001
+		position = { 500 600 }
+		animation = worry
 	}
 }
 

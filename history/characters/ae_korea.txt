@@ -1,18 +1,18 @@
 ﻿110000001 = {
-	name = Eungryeom #Ruler of Silla, Gim Clan
-	dynasty = 60000001
+	name = Ŭngryŏm # Ruler of Silla
+	dynasty = 60000002
 	religion = mahayana
 	culture = saro
-	844.1.1 = {
+	843.1.1 = { # 
 		birth = yes
 	}
-	1066.1.1 = {
+	875.7.9 = { # 
 		death = yes
 	}
 	dna = Gim_Eungryeom_dna_entry
 }
 110000002 = {
-	name = Taehyung #Ruler of Baekje duchy, Kim Clan
+	name = Taehyung #Ruler of Baekje province, Kim Clan
 	dynasty = 60000002
 	religion = mahayana
 	culture = baekje
@@ -25,8 +25,8 @@
 	dna = Kim_Taehyung_dna_entry
 }
 110000003 = {
-	name = Juhee #Ruler of duchy, Pak clan
-	dynasty = 60000003
+	name = Juhee #Ruler of province, Pak clan
+	dynasty = 60000001
 	religion = mahayana
 	culture = saro
 	819.1.1 = {
@@ -38,7 +38,7 @@
 	dna = Pak_Juhee_dna_entry
 }
 110000004 = {
-	name = Yong #Ruler of duchy, Shiwon clan
+	name = Yong #Ruler of province, Shiwon clan
 	dynasty = 60000004
 	religion = mahayana
 	culture = saro
@@ -51,7 +51,7 @@
 	dna = Shiwon_Yong_dna_entry
 }
 110000005 = {
-	name = Kwon #Ruler of duchy, Seoyoung clan
+	name = Kwon #Ruler of province, Seoyoung clan
 	dynasty = 60000005
 	religion = mahayana
 	culture = saro
