@@ -3,7 +3,8 @@
 bookmark_silla_isageum={
 	type=male
 	id=0
-	genes={ 		hair_color={ 66 238 95 243 }
+	genes={ 		
+		hair_color={ 66 238 95 243 }
  		skin_color={ 251 28 248 87 }
  		eye_color={ 41 236 53 255 }
  		gene_chin_forward={ "chin_forward_neg" 93 "chin_forward_neg" 116 }
@@ -96,7 +97,7 @@ bookmark_silla_isageum={
  		complexion={ "complexion_2" 144 "complexion_2" 161 }
  		gene_height={ "normal_height" 146 "normal_height" 127 }
  		gene_bs_body_type={ "body_fat_head_fat_medium" 127 "body_fat_head_fat_full" 127 }
- 		gene_bs_body_shape={ "body_shape_average" 87 "body_shape_average" 36 }
+ 		gene_bs_body_shape={ "body_shape_average" 138 "body_shape_average" 36 }
  		gene_bs_bust={ "bust_clothes" 0 "bust_shape_4_half" 6 }
  		gene_age={ "old_2" 51 "old_2" 51 }
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 255 "avg_spacing_high_thickness" 249 }
@@ -110,13 +111,13 @@ bookmark_silla_isageum={
  		beards={ "thin_beards_straight" 255 "no_beard" 0 }
  		hairstyles={ "indian_hairstyles_straight" 255 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
-	}
+ }
 	override={
 		portrait_modifier_overrides={
 			custom_beards=male_beard_steppe_02
 			custom_hair=male_hair_indian_03
 		}
 	}
+
 	entity={ 0 0 }
 }
-
