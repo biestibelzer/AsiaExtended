@@ -1,14 +1,53 @@
+#k_goryeo
+#d_yemaek #东濊/江原道
+#c_hexizhou #何瑟罗州/河西/溟州/悉直
+#c_gangneung #何瑟罗州/河西/溟州/悉直
+#b_gangneung
+10872 = {
+    culture = goguryeo
+	religion = muism
+	holding = castle_holding
+}
+#b_congshiting
+10870 = {
+	holding = none
+}
+
+#b_sokcho
+10871 = {
+	holding = none
+}
+
+#b_donghae
+10873 = {
+	holding = city_holding
+}
+
+#b_uljin
+10874 = {
+	culture = saro
+	holding = none
+}
+
+#c_gangwon #首若州/朔州/比列忽州
+#b_chuncheon
+10876 = {
+    culture = goguryeo
+	religion = muism
+	holding = castle_holding
+}
 #b_wonju
 10877 = {
 	holding = city_holding
 }
 #b_yongju
 10878 = {
+	culture = saro
 	holding = none
 }
 #b_jechon
 10879 = {
-	holding = castle_holding
+	holding = none
 }
 #b_wonsan
 10875 = {
@@ -18,6 +57,9 @@
 #d_goguryeo 高句丽 - Central Korea
 #c_arisu 汉山州/汉州/京畿道 - Gyeonggido
 #b_arisu 郁里河 - Seoul
+#d_goguryeo  #高句丽
+#c_gyeonggi #汉山州/汉州/京畿道
+#b_seoul
 10885 = {
     culture = baekje
 	religion = mahayana
@@ -33,7 +75,7 @@
 }
 #b_mulgol - Suwon
 10888 = {
-	holding = city_holding
+	holding = none
 }
 #b_chunju - 
 10889 = {
@@ -41,7 +83,7 @@
 }
 
 #c_hwanghae #黄海道
-#b_kaeseong
+#b_gaeseong
 10883 = {
     culture = goguryeo
 	religion = zenzong
@@ -61,11 +103,11 @@
 }
 #b_cheorwon
 10884 = {
-	holding = castle_holding
+	holding = none
 }
 
 #d_baekje #百济
-#c_gognju #熊川州(Komanaru)/所夫里/忠清道
+#c_chuncheon #熊川州/所夫里/忠清道
 #b_gongju
 10892 = {
     culture = baekje
@@ -81,7 +123,7 @@
 	holding = none
 }
 
-#c_jeonju #完山州
+#c_jeonju  #完山州
 #b_jeonju
 10894 = {
     culture = baekje
@@ -104,16 +146,16 @@
 	religion = mahayana
 	holding = castle_holding
 }
-#b_yoseo
+#b_yeosu
 10898 = {
 	holding = none
 }
 
-#c_jeju
-#b_jeju
+#c_tamna
+#b_tamna
 10890 = {
     culture = tamna
-	religion = mahayana
+	religion = mahayana 
 	holding = castle_holding
 }
 
@@ -138,7 +180,7 @@
 #b_daegu
 10905 = {
     culture = saro
-	religion = zenzong
+	religion = zenzong 
 	holding = castle_holding
 }
 #b_HaeinsaTemple
@@ -146,8 +188,8 @@
 	holding = church_holding
 }
 
-#c_sangju c_shangfazhou #沙伐州/尚州
-#b_sangju
+#c_sangju #沙伐州/尚州
+#b_sanju
 10908 = {
     culture = saro
 	religion = zenzong
@@ -171,12 +213,12 @@
 	holding = city_holding
 }
 
-#c_jinju c_juliezhou #居烈州/菁州/康州
+#c_jinju #居烈州/菁州/康州
 #b_jinju
 10899 = {
     culture = saro
 	religion = zenzong
-	holding = castle_holding
+	holding = city_holding
 }
 #b_sacheon
 10900 = {
@@ -184,7 +226,7 @@
 }
 #b_haman
 10910 = {
-	holding = city_holding
+	holding = none
 }
 #b_goryeong
 10911 = {
