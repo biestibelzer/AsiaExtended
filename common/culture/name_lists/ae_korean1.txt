@@ -65,6 +65,8 @@
 		Sŏnhwa Ai Palsu Hyeji Hyeri
 		### Goguryo women
 		Kwanna Yuhwa Ch'ihŭi P'yŏnggang
+		### More Silla women from Wikipedia
+		Chignyeonkuk Chijinaelye Chijinaerye Saseong Aerye Jisorye Ilsaeng Aihye Naerye Miso Ongmo Surrye Poban Chisul Seonhye Paro Nammo Panya Nanya Ayang Taeyang Okjin Misil 
 	}
 
 	dynasty_name_first = yes
