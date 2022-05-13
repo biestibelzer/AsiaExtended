@@ -1,6 +1,6 @@
 ﻿110000001 = {
 	name = Ŭngryŏm # Ruler of Silla
-	dynasty = 60000002
+	dynasty = 60000003
 	religion = mahayana
 	culture = saro
 	843.1.1 = { # 

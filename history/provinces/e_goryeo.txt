@@ -4,7 +4,7 @@
 #c_gangneung #何瑟罗州/河西/溟州/悉直
 #b_gangneung
 10872 = {
-    culture = goguryeo
+    culture = saro
 	religion = muism
 	holding = castle_holding
 }
@@ -25,7 +25,6 @@
 
 #b_uljin
 10874 = {
-	culture = saro
 	holding = none
 }
 
@@ -42,7 +41,6 @@
 }
 #b_yongju
 10878 = {
-	culture = saro
 	holding = none
 }
 #b_jechon
@@ -75,7 +73,7 @@
 }
 #b_mulgol - Suwon
 10888 = {
-	holding = none
+	holding = city_holding
 }
 #b_chunju - 
 10889 = {
@@ -218,7 +216,7 @@
 10899 = {
     culture = saro
 	religion = zenzong
-	holding = city_holding
+	holding = castle_holding
 }
 #b_sacheon
 10900 = {
