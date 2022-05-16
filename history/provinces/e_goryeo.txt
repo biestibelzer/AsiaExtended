@@ -5,7 +5,7 @@
 #b_gangneung
 10872 = {
     culture = saro
-	religion = muism
+	religion = musok
 	holding = castle_holding
 }
 #b_congshiting
@@ -32,7 +32,7 @@
 #b_chuncheon
 10876 = {
     culture = goguryeo
-	religion = muism
+	religion = musok
 	holding = castle_holding
 }
 #b_wonju
@@ -60,7 +60,7 @@
 #b_seoul
 10885 = {
     culture = baekje
-	religion = mahayana
+	religion = gyodan
 	holding = castle_holding
 }
 #b_yeoju
@@ -84,7 +84,7 @@
 #b_gaeseong
 10883 = {
     culture = goguryeo
-	religion = zenzong
+	religion = gyodan
 	holding = castle_holding
 }
 #b_hwangju
@@ -109,7 +109,7 @@
 #b_gongju
 10892 = {
     culture = baekje
-	religion = zenzong
+	religion = gyodan
 	holding = castle_holding
 }
 #b_chongju
@@ -125,7 +125,7 @@
 #b_jeonju
 10894 = {
     culture = baekje
-	religion = zenzong
+	religion = gyodan
 	holding = castle_holding
 }
 #b_iksan
@@ -141,7 +141,7 @@
 #b_naju
 10897 = {
     culture = baekje
-	religion = mahayana
+	religion = gyodan
 	holding = castle_holding
 }
 #b_yeosu
@@ -162,7 +162,7 @@
 #b_gyeongju
 10903 = {
     culture = saro
-	religion = mahayana
+	religion = gyodan
 	holding = castle_holding
 }
 #b_yangsan
@@ -178,7 +178,7 @@
 #b_daegu
 10905 = {
     culture = saro
-	religion = zenzong 
+	religion = palgeuinuri 
 	holding = castle_holding
 }
 #b_HaeinsaTemple
@@ -190,7 +190,7 @@
 #b_sanju
 10908 = {
     culture = saro
-	religion = zenzong
+	religion = palgeuinuri
 	holding = castle_holding
 }
 #b_andong
@@ -203,7 +203,7 @@
 #b_gimhae
 10901 = {
     culture = saro
-	religion = zenzong 
+	religion = gyodan 
 	holding = castle_holding
 }
 #b_changwon
@@ -215,7 +215,7 @@
 #b_jinju
 10899 = {
     culture = saro
-	religion = zenzong
+	religion = gyodan
 	holding = castle_holding
 }
 #b_sacheon
