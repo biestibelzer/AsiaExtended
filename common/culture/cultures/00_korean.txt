@@ -7,7 +7,7 @@ goguryeo = {
 	language = language_korean
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_family_entrepreneurship
+		tradition_castle_keepers
 		tradition_mystical_ancestors
 		tradition_chinese_characters
 		tradition_stalwart_defenders
@@ -152,8 +152,7 @@ tamna = {
 	traditions = {
 		tradition_family_entrepreneurship
 		tradition_mystical_ancestors
-		tradition_chinese_characters
-		tradition_dexterous_fishermen
+		tradition_fishermen
 	}
 	
 	name_list = name_list_korean
@@ -178,6 +177,7 @@ yemaek = {
 	traditions = {
 		tradition_sacred_mountains
 		tradition_sacred_groves
+		tradition_forest_folk
 		tradition_pastoralists
 	}
 	

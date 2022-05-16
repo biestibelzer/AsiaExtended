@@ -9,17 +9,18 @@ k_silla = {
 
 d_goguryeo = {
     866.1.1 = {
-		holder = 110000001
+		holder = 110000005
+		liege = "k_silla"
 	} 
 }
 c_gyeonggi = {
     866.1.1 = {
-		holder = 110000001
+		holder = 110000005
 	} 
 }
 c_hwanghae = {
     866.1.1 = {
-		holder = 110000001
+		holder = 110000005
 	} 
 }
 
@@ -47,22 +48,22 @@ d_saro = {
 		liege = "k_silla"
 	}    
 	866.1.1 = {
-		holder = 110000005
+		holder = 110000001
 	}
 }
 c_daegu = { 
 	866.1.1 = {
-		holder = 110000005
+		holder = 110000001
 	} 
 }
 c_yangsan = { 
 	866.1.1 = {
-		holder = 110000005
+		holder = 110000001
 	} 
 }
 c_gyeongju = { 
 	866.1.1 = {
-		holder = 110000005
+		holder = 110000001
 	} 
 }
 

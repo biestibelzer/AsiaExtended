@@ -683,7 +683,7 @@ bm_867_asia = {
 		religion = mahayana
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = 110000001
-		position = { 500 600 }
+		position = { 550 600 }
 		animation = worry
 	}
 }
