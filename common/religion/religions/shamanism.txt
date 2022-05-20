@@ -246,14 +246,14 @@ eastern_pagan_religion = {
 			icon = nivkh
 			reformed_icon = nivkh
 
-			holy_site = b_gyeongju
-			holy_site = b_jinju # Jirisan
-			holy_site = b_congshiting # Geumgwangsan
-			holy_site = b_baishan # Baekdusan
-			holy_site = b_gongju # Gyeryongsan
-			holy_site = b_pyeongyang # Asadal
+			holy_site = gyeongju # Area around Gyeongju
+			holy_site = jinju # Jirisan
+			holy_site = congshiting # Geumgwangsan
+			holy_site = baishan # Baekdusan
+			holy_site = gongju # Gyeryongsan
+			holy_site = pyeongyang # Myohyangsan
 
-			doctrine = doctrine_head_temporal
+			doctrine = doctrine_head_none
 			doctrine = doctrine_gender_equal
 			doctrine = doctrine_pluralism_pluralistic
 			doctrine = doctrine_theocracy_lay_clergy
@@ -281,6 +281,8 @@ eastern_pagan_religion = {
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_mystical_birthright
 			doctrine = tenet_communal_identity # Korean ethnic religion
+			
+			doctrine = doctrine_monogamy
 		}
 	}
 }

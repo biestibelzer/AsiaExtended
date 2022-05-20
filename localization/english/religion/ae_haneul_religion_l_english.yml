@@ -19,10 +19,10 @@
  haneul_good_god_haemosu:0 "Haemosu" # God of the Sea
  haneul_good_god_haeburu:0 "Haeburu"
  haneul_good_god_yushin:0 "Yushinrang" # Hwarang Kim Yushin
- haneul_devil_name:0 "Paholainen"
- haneul_devil_name_possessive:0 "Paholainen's"
- haneul_evil_god_nuolennoutaja:0 "Nuolennoutaja"
- haneul_evil_god_painaja:0 "Painaja "
+ haneul_devil_name:0 "$haneul_high_god_name$"
+ haneul_devil_name_possessive:0 "$haneul_high_god_name_possessive$"
+ haneul_evil_god_gumiho:0 "Kumiho" # Placeholder (Kumiho are fox people)
+ haneul_evil_god_dokkaebi:0 "Tokkaebi" # Placeholder (Dokkaebi are goblins/demons)
  haneul_evil_god_yeokshin:0 "Yŏkshin" # Plague god
  haneul_evil_god_jibaekgeubgan:0 "Chipaekipkan" # Jibaekgeubgan
  haneul_evil_god_okdogeum:0 "Nokkalŏm" # Okdogeum, Old Korean Nokdogeom
@@ -37,8 +37,8 @@
  haneul_afterlife:0 "Hanur" # Sky were spirits come from
  haneul_afterlife_2:0 "Sŏchŏn Kochobat" # beliefs were that you'd reach a flower field after death and inbetween reality and the underworld
  haneul_afterlife_3:0 "Shineui Nara" # Kingdom of the Gods
- haneul_witgodname_vainamoinen:0 "Väinämöinen"
- haneul_witgodname_vainamoinen_possessive:0 "Väinämöinen's"
+ haneul_witgodname_vainamoinen:0 "Makuyshin" # Witch god, made up
+ haneul_witgodname_vainamoinen_possessive:0 "Makuyshin's"
 
  haneul_creator_god_name:0 "Hana" # '(The) One'
  haneul_creator_god_name_possessive:0 "Hana's"
@@ -46,16 +46,16 @@
  haneul_health_god_name_possessive:0 "Choyŏngrang's"
  haneul_fertility_god_name:0 "Samshinhalmi" # Fertility god
  haneul_fertility_god_name_possessive:0 "Samshinhalmi's"
- haneul_wealth_god_name:0 "Äkräs"
- haneul_wealth_god_name_possessive:0 "Äkräs'"
+ haneul_wealth_god_name:0 "Oneuni" # To be replaced
+ haneul_wealth_god_name_possessive:0 "Oneuni'"
  haneul_household_god_name:0 "Tŏjushin"
  haneul_household_god_name_possessive:0 "Tŏjushin's"
- haneul_fate_god_name:0 "Raako"
- haneul_fate_god_name_possessive:0 "Raako's"
+ haneul_fate_god_name:0 "Kamŭnjangagi" # Placeholder
+ haneul_fate_god_name_possessive:0 "Kamŭnjangagi's"
  haneul_knowledge_god_name:0 "Väinämöinen"
  haneul_knowledge_god_name_possessive:0 "Väinämöinen's"
- haneul_war_god_name:0 "Perkele"
- haneul_war_god_name_possessive:0 "Perkele's"
+ haneul_war_god_name:0 "Hwadeokjingun" # Better alternative needed
+ haneul_war_god_name_possessive:0 "Hwadeokjingun's"
  haneul_trickster_god_name:0 "Pijijegwi" # God of envy and tricks
  haneul_trickster_god_name_possessive:0 "Pijijegwi's"
  haneul_night_god_name:0 "Yŏno and Seonyŏ" # Alternatively Ilwol or Taebyeol and Sobyeol, Iljijeong and Woljijeong # Yeonorang and Seonyeo represent the sun and the moon and are recorded as male and female, who were exiled(?) to Japan and became the rulers
@@ -63,21 +63,21 @@
  haneul_water_god_name:0 "Mirŭkan" # Water spirit, alternatively Mulhalmi
  haneul_water_god_name_possessive:0 "Mirŭkan's"
  
- buddhism_house_of_worship:0 "Vihara"
- buddhism_house_of_worship_plural:0 "Viharas"
- buddhism_religious_symbol:0 "dharmachakra"
- buddhism_religious_text:0 "Buddhavacana"
- buddhism_religious_head_title:0 "Bhikkhu"
- buddhism_religious_head_title_name:0 "Bhikkhu"
- buddhism_devotee_male:0 "bhikkhu"
- buddhism_devotee_male_plural:0 "bhikkhus"
- buddhism_devotee_female:0 "bhikkhuni"
- buddhism_devotee_female_plural:0 "bhikkhunis"
- buddhism_alt_priest_term:0 "sangha"
- buddhism_divine_realm:0 "Nirvana"
- buddhism_negative_afterlife:0 "Naraka"
+ haneul_house_of_worship:0 "Vihara"
+ haneul_house_of_worship_plural:0 "Viharas"
+ haneul_religious_symbol:0 "dharmachakra"
+ haneul_religious_text:0 "Buddhavacana"
+ haneul_religious_head_title:0 "Bhikkhu"
+ haneul_religious_head_title_name:0 "Bhikkhu"
+ haneul_devotee_male:0 "bhikkhu"
+ haneul_devotee_male_plural:0 "bhikkhus"
+ haneul_devotee_female:0 "bhikkhuni"
+ haneul_devotee_female_plural:0 "bhikkhunis"
+ haneul_alt_priest_term:0 "sangha"
+ haneul_divine_realm:0 "Nirvana"
+ haneul_negative_afterlife:0 "Naraka"
 
- gyodan:1 "Kyodan" # Faith
+ gyodan:1 "Kyodan" # Faith, literally
  gyodan_adj:1 "Kyodan"
  gyodan_adherent:1 "Kyodan"
  gyodan_adherent_plural:1 "Kyodan"

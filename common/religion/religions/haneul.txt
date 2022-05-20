@@ -139,9 +139,10 @@
 		GoodGodNames = {
 			haneul_high_god_name
 			haneul_high_god_alternate
-			haneul_good_god_buddha
-			haneul_good_god_arhat
-			haneul_good_god_perfected_ones
+			haneul_good_god_yuhwa
+			haneul_good_god_haemosu
+			haneul_good_god_haeburu
+			haneul_good_god_yushin
 		}
 		DevilName = haneul_devil_name
 		DevilNamePossessive = haneul_devil_name_possessive
@@ -204,12 +205,12 @@
 			icon = nivkh
 			doctrine = pagan_hostility_doctrine
 			
-			holy_site = b_gyeongju
-			holy_site = b_jinju # Jirisan
-			holy_site = b_congshiting # Geumgwangsan
-			holy_site = b_baishan # Baekdusan
-			holy_site = b_gongju # Gyeryongsan
-			holy_site = b_pyeongyang # Asadal
+			holy_site = gyeongju
+			holy_site = jinju # Jirisan
+			holy_site = congshiting # Geumgwangsan
+			holy_site = baishan # Baekdusan
+			holy_site = gongju # Gyeryongsan
+			holy_site = pyeongyang # Asadal
 
 			doctrine = doctrine_head_temporal
 			doctrine = doctrine_gender_equal
@@ -248,12 +249,12 @@
 			religious_head = { k_goryeo }
 			icon = nivkh
 			
-			holy_site = b_gyeongju # Area around Gyeongju
-			holy_site = b_jinju # Jirisan
-			holy_site = b_congshiting # Geumgwangsan
-			holy_site = b_baishan # Baekdusan
-			holy_site = b_gongju # Gyeryongsan
-			holy_site = b_pyeongyang # Myohyangsan
+			holy_site = gyeongju # Area around Gyeongju
+			holy_site = jinju # Jirisan
+			holy_site = congshiting # Geumgwangsan
+			holy_site = baishan # Baekdusan
+			holy_site = gongju # Gyeryongsan
+			holy_site = pyeongyang # Myohyangsan
 			
 			doctrine = doctrine_temporal_head
 			doctrine = doctrine_gender_equal

@@ -1,9 +1,6 @@
-# Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
-# History database id:110000001
-bookmark_silla_isageum={
+﻿ruler_designer_918271109={
 	type=male
-	id=7932
-	age=0.240000
+	id=0
 	genes={ 		hair_color={ 66 238 95 243 }
  		skin_color={ 251 28 248 87 }
  		eye_color={ 41 236 53 255 }
@@ -90,14 +87,14 @@ bookmark_silla_isageum={
  		face_detail_nose_ridge_def={ "nose_ridge_def_neg" 0 "nose_ridge_def_neg" 17 }
  		face_detail_nose_tip_def={ "nose_tip_def" 34 "nose_tip_def" 13 }
  		face_detail_temple_def={ "temple_def" 0 "temple_def" 0 }
- 		expression_brow_wrinkles={ "brow_wrinkles_02" 194 "brow_wrinkles_02" 41 }
+ 		expression_brow_wrinkles={ "brow_wrinkles_02" 41 "brow_wrinkles_02" 41 }
  		expression_eye_wrinkles={ "eye_wrinkles_01" 102 "eye_wrinkles_01" 102 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_02" 254 "forehead_wrinkles_02" 254 }
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_2" 144 "complexion_2" 161 }
  		gene_height={ "normal_height" 146 "normal_height" 127 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 111 "body_fat_head_fat_full" 127 }
- 		gene_bs_body_shape={ "body_shape_average" 199 "body_shape_average" 36 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 127 "body_fat_head_fat_full" 127 }
+ 		gene_bs_body_shape={ "body_shape_average" 138 "body_shape_average" 36 }
  		gene_bs_bust={ "bust_clothes" 0 "bust_shape_4_half" 6 }
  		gene_age={ "old_2" 51 "old_2" 51 }
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 255 "avg_spacing_high_thickness" 249 }
@@ -108,22 +105,16 @@ bookmark_silla_isageum={
  		eye_accessory={ "normal_eyes" 8 "normal_eyes" 8 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 186 "normal_eyelashes" 186 }
- 		pose={ "" 255 "" 0 }
  		beards={ "thin_beards_straight" 255 "no_beard" 0 }
- 		clothes={ "steppe_high_nobility_clothes" 127 "most_clothes" 0 }
  		hairstyles={ "indian_hairstyles_straight" 255 "all_hairstyles" 0 }
- 		headgear={ "western_royalty" 255 "no_headgear" 0 }
- 		legwear={ "mena_nobility_legwear" 144 "all_legwear" 0 }
+ 		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
  }
 	override={
 		portrait_modifier_overrides={
-			custom_clothes=male_clothes_secular_steppe_nobility_01_high
-			custom_headgear=male_headgear_secular_western_royalty_02
-			custom_hair=male_hair_indian_03
 			custom_beards=male_beard_steppe_02
+			custom_hair=male_hair_indian_03
 		}
 	}
 
-	entity={ 1863162561 1863162561 }
+	entity={ 0 0 }
 }
-
