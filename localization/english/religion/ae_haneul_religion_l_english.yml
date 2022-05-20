@@ -10,41 +10,41 @@
  haneul_religion_adherent_plural:1 "Shindo"
  haneul_religion_desc:1 "Shamanism is Koreas ethnic religion. The core belief surrounds itself in the idea that the World is populated by spirits inhabiting the springs, trees and mountains of nature after descending down from the Sky, where they all originate. These spirits would often take on the form of animals or young girls. The chief aspect of the pantheon, Hanur - The Sky - a compound of 'Han', the Korean prefix for 'great' and 'Ul' from 'Ultari' meaning 'edge' or 'enclosure' is thought of as the endless expanse above the earth, shaped by the natural things permeating it such as the rain, wind or the light, for which it is also known as 'Palgŭi Nuri', meaning 'World of Light'. Many interpretations and understandings of Hanur exist, in other words 'Ha' would mean spirited or right hearted and 'Ul' eternal and unchanging or 'Ol' a soul, after which Hanor would imply a higher existence, unreachable. One particular myth tells the story of a tiger and the bear Ungnyeo, who would take on the form of a woman and be the forebear of the Koreanic peoples."
 
- haneul_high_god_name:0 "Hanurnim" # Sky
+ haneul_high_god_name:0 "Hanornirim" # Sky lord in Old Korean, Haneullim # Hundok readings or Old Koreanic reconstructions shall be used here, Old Korean forms of attested Hanja will be used in the Musok religion (Shamanism)
  haneul_high_god_name_2:0 "Hwanin" # Hanja word
- haneul_high_god_name_possessive:0 "Hanurnim's"
+ haneul_high_god_name_possessive:0 "Hanornirim's"
  haneul_high_god_name_alternate:0 "Pŏruk, Tŏruk and Kŏm " # Three gods later combined into one
  haneul_high_god_name_alternate_possessive:0 "Samshin's"
- haneul_good_god_akras:0 "Äkräs"
- haneul_good_god_ilmarinen:0 "Ilmarinen"
- haneul_good_god_lempo:0 "Lempo"
- haneul_good_god_:0 ""
+ haneul_good_god_yuhwa:0 "Yuhwa" # Ancestor mother of Chumo
+ haneul_good_god_haemosu:0 "Haemosu" # God of the Sea
+ haneul_good_god_haeburu:0 "Haeburu"
+ haneul_good_god_yushin:0 "Yushinrang" # Hwarang Kim Yushin
  haneul_devil_name:0 "Paholainen"
  haneul_devil_name_possessive:0 "Paholainen's"
  haneul_evil_god_nuolennoutaja:0 "Nuolennoutaja"
  haneul_evil_god_painaja:0 "Painaja "
- haneul_evil_god_kielen_kantaja:0 "Kielen Kantaja"
- haneul_evil_god_jibaek:0 "Jibaekgeubgan"
- haneul_evil_god_sydamen_syoja:0 "Sydämen Syöjä"
+ haneul_evil_god_yeokshin:0 "Yŏkshin" # Plague god
+ haneul_evil_god_jibaekgeubgan:0 "Chipaekipkan" # Jibaekgeubgan
+ haneul_evil_god_okdogeum:0 "Nokkalŏm" # Okdogeum, Old Korean Nokdogeom
  haneul_death_deity_name:0 "Princess Paridegi" # Princess Pari of the Underworld
  haneul_death_deity_name_possessive:0 "Princess Paridegi's"
- haneul_religious_symbol:0 "Hanur" # Sky
- haneul_religious_symbol_2:0 "Tolali" # Moon
+ haneul_religious_symbol:0 "Hanor" # Sky
+ haneul_religious_symbol_2:0 "Tolari" # Moon
  haneul_religious_symbol_3:0 "Hae" # Sun
  haneul_religious_text:0 "Niyagi" # Old Korean for Story
  haneul_religious_text_2:0 "$haneul_religious_text$" # Optional translation alt
  haneul_religious_text_3:0 "$haneul_religious_text$" # Optional translation alt
  haneul_afterlife:0 "Hanur" # Sky were spirits come from
- haneul_afterlife_2:0 "Sŏchŏn Kkochobat" # beliefs were that you'd reach a flower field after death and inbetween reality and the underworld
+ haneul_afterlife_2:0 "Sŏchŏn Kochobat" # beliefs were that you'd reach a flower field after death and inbetween reality and the underworld
  haneul_afterlife_3:0 "Shineui Nara" # Kingdom of the Gods
  haneul_witgodname_vainamoinen:0 "Väinämöinen"
  haneul_witgodname_vainamoinen_possessive:0 "Väinämöinen's"
 
  haneul_creator_god_name:0 "Hana" # '(The) One'
  haneul_creator_god_name_possessive:0 "Hana's"
- haneul_health_god_name:0 "Akka"
- haneul_health_god_name_possessive:0 "Akka's"
- haneul_fertility_god_name:0 "Samshinhalmi"
+ haneul_health_god_name:0 "Choyŏngrang" # Hwarang Choyeong deity of medicine and house guard spirit
+ haneul_health_god_name_possessive:0 "Choyŏngrang's"
+ haneul_fertility_god_name:0 "Samshinhalmi" # Fertility god
  haneul_fertility_god_name_possessive:0 "Samshinhalmi's"
  haneul_wealth_god_name:0 "Äkräs"
  haneul_wealth_god_name_possessive:0 "Äkräs'"
@@ -56,12 +56,12 @@
  haneul_knowledge_god_name_possessive:0 "Väinämöinen's"
  haneul_war_god_name:0 "Perkele"
  haneul_war_god_name_possessive:0 "Perkele's"
- haneul_trickster_god_name:0 "Pijijegwi"
+ haneul_trickster_god_name:0 "Pijijegwi" # God of envy and tricks
  haneul_trickster_god_name_possessive:0 "Pijijegwi's"
- haneul_night_god_name:0 "Yŏno and Seono" # Alternatively Ilwol or Taebyeol and Sobyeol
- haneul_night_god_name_possessive:0 "Yeono's"
- haneul_water_god_name:0 "Mirŭ" # Water spirit, alternatively Mulhalmi
- haneul_water_god_name_possessive:0 "Mirŭ's"
+ haneul_night_god_name:0 "Yŏno and Seonyŏ" # Alternatively Ilwol or Taebyeol and Sobyeol, Iljijeong and Woljijeong # Yeonorang and Seonyeo represent the sun and the moon and are recorded as male and female, who were exiled(?) to Japan and became the rulers
+ haneul_night_god_name_possessive:0 "Yŏno's"
+ haneul_water_god_name:0 "Mirŭkan" # Water spirit, alternatively Mulhalmi
+ haneul_water_god_name_possessive:0 "Mirŭkan's"
  
  buddhism_house_of_worship:0 "Vihara"
  buddhism_house_of_worship_plural:0 "Viharas"
@@ -82,9 +82,9 @@
  gyodan_adherent:1 "Kyodan"
  gyodan_adherent_plural:1 "Kyodan"
  
- gyodan_high_god_name:0 "Hanurnim"
+ gyodan_high_god_name:0 "Hanornim"
  gyodan_high_god_name_2:0 "$gyodan_high_god_name$" # Optional translation alt
- gyodan_high_god_name_possessive:0 "Hanurnim's"
+ gyodan_high_god_name_possessive:0 "Hanornim's"
  gyodan_high_god_name_alternate:0 "Pŏruk, Tŏruk and Kŏm "
  gyodan_high_god_name_alternate_possessive:0 "Samshin's"
  gyodan_good_god_akras:0 "Äkräs"
@@ -100,9 +100,9 @@
  gyodan_evil_god_sydamen_syoja:0 "Sydämen Syöjä"
  gyodan_death_deity_name:0 "Princess Paridegi"
  gyodan_death_deity_name_possessive:0 "Princess Paridegi's"
- gyodan_religious_symbol:0 "Hanur (Sky)"
- gyodan_religious_symbol_2:0 "Tolali (Moon)" # Optional translation alt
- gyodan_religious_symbol_3:0 "Hae (Sun)" # Optional translation alt
+ gyodan_religious_symbol:0 "Hanor"
+ gyodan_religious_symbol_2:0 "Tolali" # Optional translation alt
+ gyodan_religious_symbol_3:0 "Hae" # Optional translation alt
  gyodan_religious_text:0 "Tales"
  gyodan_religious_text_2:0 "$gyodan_religious_text$" # Optional translation alt
  gyodan_religious_text_3:0 "$gyodan_religious_text$" # Optional translation alt
