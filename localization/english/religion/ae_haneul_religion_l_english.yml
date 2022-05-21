@@ -31,14 +31,19 @@
  haneul_religious_symbol:0 "Hanor" # Sky
  haneul_religious_symbol_2:0 "Tolari" # Moon
  haneul_religious_symbol_3:0 "Hae" # Sun
+ haneul_religious_symbol_4:0 "Susaldae" # Depiction of the World Tree, Segyenamu, Ujumok, through Totems in Korean Shamanism up to today, also known as Sosdae. Alternatively Mahan Sodo and Dangun Shindan. encykorea shinhwa
+ haneul_religious_symbol_5:0 "Ucusaseum" # Cosmic deer, Dongmyeong myth. encykorea shinhwa
+ haneul_religious_symbol_6:0 "Hae" # Sun
  haneul_religious_text:0 "Niyagi" # Old Korean for Story
- haneul_religious_text_2:0 "$haneul_religious_text$" # Optional translation alt
- haneul_religious_text_3:0 "$haneul_religious_text$" # Optional translation alt
- haneul_afterlife:0 "Hanur" # Sky were spirits come from
- haneul_afterlife_2:0 "Sŏchŏn Kochobat" # beliefs were that you'd reach a flower field after death and inbetween reality and the underworld
+ haneul_religious_text_2:0 "Shindeuruy Seosacak Niyagi" # Optional translation alt
+ haneul_religious_text_3:0 "Shindeuruy Mueosingae Gwanhan Niyagi" # Optional translation alt
+ haneul_religious_text_4:0 "Sanggo Taeshin"
+ haneul_religious_text_5:0 "Kutpan"
+ haneul_afterlife:0 "Malmiameum" # The End,known as Bonpul on Jeju. encykorea shinhwa
+ haneul_afterlife_2:0 "Sŏchŏn Kocobat" # beliefs were that you'd reach a flower field after death and inbetween reality and the underworld
  haneul_afterlife_3:0 "Shineui Nara" # Kingdom of the Gods
- haneul_witgodname_vainamoinen:0 "Makuyshin" # Witch god, made up
- haneul_witgodname_vainamoinen_possessive:0 "Makuyshin's"
+ haneul_witchgodname:0 "Makuyshin" # Witch god, made up
+ haneul_witchgodname_possessive:0 "Makuyshin's"
 
  haneul_creator_god_name:0 "Hana" # '(The) One'
  haneul_creator_god_name_possessive:0 "Hana's"
@@ -52,8 +57,8 @@
  haneul_household_god_name_possessive:0 "Tŏjushin's"
  haneul_fate_god_name:0 "Kamŭnjangagi" # Placeholder
  haneul_fate_god_name_possessive:0 "Kamŭnjangagi's"
- haneul_knowledge_god_name:0 "Väinämöinen"
- haneul_knowledge_god_name_possessive:0 "Väinämöinen's"
+ haneul_knowledge_god_name:0 "$haneul_high_god_name$"
+ haneul_knowledge_god_name_possessive:0 "$haneul_high_god_name_possessive$"
  haneul_war_god_name:0 "Hwadeokjingun" # Better alternative needed
  haneul_war_god_name_possessive:0 "Hwadeokjingun's"
  haneul_trickster_god_name:0 "Pijijegwi" # God of envy and tricks
@@ -63,19 +68,17 @@
  haneul_water_god_name:0 "Mirŭkan" # Water spirit, alternatively Mulhalmi
  haneul_water_god_name_possessive:0 "Mirŭkan's"
  
- haneul_house_of_worship:0 "Vihara"
- haneul_house_of_worship_plural:0 "Viharas"
- haneul_religious_symbol:0 "dharmachakra"
- haneul_religious_text:0 "Buddhavacana"
- haneul_religious_head_title:0 "Bhikkhu"
- haneul_religious_head_title_name:0 "Bhikkhu"
- haneul_devotee_male:0 "bhikkhu"
- haneul_devotee_male_plural:0 "bhikkhus"
- haneul_devotee_female:0 "bhikkhuni"
- haneul_devotee_female_plural:0 "bhikkhunis"
- haneul_alt_priest_term:0 "sangha"
- haneul_divine_realm:0 "Nirvana"
- haneul_negative_afterlife:0 "Naraka"
+ haneul_house_of_worship:0 "Shinsa"
+ haneul_house_of_worship_plural:0 "Shinsa"
+ haneul_religious_head_title:0 "Chachaung"
+ haneul_religious_head_title_name:0 "Chachaung"
+ haneul_devotee_male:0 "Puru" # Hwarang etc. stem from this
+ haneul_devotee_male_plural:0 "Puru"
+ haneul_devotee_female:0 "Puru"
+ haneul_devotee_female_plural:0 "Puru"
+ haneul_alt_priest_term:0 "Mudang"
+ haneul_divine_realm:0 "Shineui Nara" # Kingdom of the Gods, "Divine Realm"
+ haneul_negative_afterlife:0 "Malmiameum"
 
  gyodan:1 "Kyodan" # Faith, literally
  gyodan_adj:1 "Kyodan"
@@ -134,6 +137,18 @@
  gyodan_night_god_name_possessive:0 "Ilwol's"
  gyodan_water_god_name:0 "Mirŭ"
  gyodan_water_god_name_possessive:0 "Mirŭ's"
+ 
+ gyodan_house_of_worship:0 "Tyera" # Buddhist temple in Old Korean, refer to Jap. tera
+ gyodan_house_of_worship_plural:0 "Tyera"
+ gyodan_religious_head_title:0 "Chachaung"
+ gyodan_religious_head_title_name:0 "Chachaung"
+ gyodan_devotee_male:0 "Puru" # Hwarang etc. stem from this
+ gyodan_devotee_male_plural:0 "Puru"
+ gyodan_devotee_female:0 "Puru"
+ gyodan_devotee_female_plural:0 "Puru"
+ gyodan_alt_priest_term:0 "Mudang"
+ gyodan_divine_realm:0 "Shineui Nara" # Kingdom of the Gods, "Divine Realm"
+ gyodan_negative_afterlife:0 "Naraka"
 
  palgeuinuri:1 "Palkŭinuri" # State religion prior to Buddhism, default
  palgeuinuri_adj:1 "Palkŭinuri"
