@@ -42,7 +42,67 @@ suwa = {
 	}
 }
 
+### Shamanism ###
 
+# Korean
+
+jirisan = {
+	county = c_jinju
+	
+	character_modifier = {
+		learning_per_piety_level = 1
+	}
+}
+
+taebaeksan = {
+	county = c_baishan
+	
+	character_modifier = {
+		learning_per_piety_level = 1
+	}
+}
+
+gyerim = {
+	county = c_gyeongju
+	
+	character_modifier = {
+		learning_per_piety_level = 1
+	}
+}
+
+asadal = {
+	county = c_pyeongyang
+	
+	character_modifier = {
+		learning_per_piety_level = 1
+	}
+}
+
+geumgwangsan = {
+	county = c_gangneung
+	
+	character_modifier = {
+		learning_per_piety_level = 1
+	}
+}
+
+hallasan = {
+	county = c_jeju
+	
+	character_modifier = {
+		learning_per_piety_level = 1
+	}
+}
+
+sanggiyan_alin = {
+	county = c_baishan
+
+	character_modifier = {
+		name = holy_site_baishan_effect_name
+		monthly_prestige_gain_mult = 0.3
+		archers_damage_mult = 0.2
+	}
+}
 
 
 # AINU #
@@ -85,22 +145,6 @@ kar_put = {
 	}
 }
 
-nurgan = {
-	county = c_nivkh
-	
-	character_modifier = {
-		learning_per_piety_level = 1
-	}
-}
-
-kangnung = {
-	county = c_hexizhou
-	
-	character_modifier = {
-		learning_per_piety_level = 1
-	}
-}
-
 dulizhen = {
 	county = c_jilizhou
 	
@@ -109,21 +153,11 @@ dulizhen = {
 	}
 }
 
-tamna = {
-	county = c_danluo
+nurgan = {
+	county = c_nivkh
 	
 	character_modifier = {
 		learning_per_piety_level = 1
-	}
-}
-
-baishan = {
-	county = c_baishan
-
-	character_modifier = {
-		name = holy_site_baishan_effect_name
-		monthly_prestige_gain_mult = 0.3
-		archers_damage_mult = 0.2
 	}
 }
 urd = {

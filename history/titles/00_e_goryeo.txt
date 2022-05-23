@@ -110,3 +110,36 @@ c_jinju = {
 		holder = 110000004
 	}  
 }
+k_goryeo = { 
+    867.1.1 = { change_development_level = 16 }
+    1066.1.1 = { change_development_level = 21 }
+
+	864.1.1 = {
+		holder = 110000001
+	}
+}
+#d_yemaek = { #from dongya
+#	865.1.1={
+#		liege = "k_silla"
+#	}
+#	866.1.1 = {
+#		holder = 110000003
+#	} 
+#}
+#c_gangneung = { #hexizhou
+#	866.1.1 = {
+#		holder = 110000003
+#	} 
+#}
+#c_chuncheon = { #shourouzhou
+#	866.1.1 = {
+#		holder = 110000003
+#	} 
+#}
+###Balhae rulers
+
+d_balhae = {
+	864.1.1 = {
+		holder = 120000001
+	}
+}

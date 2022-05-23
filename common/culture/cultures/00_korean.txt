@@ -31,8 +31,8 @@ balhae = {
 	created = 700.1.1
 	parents = { goguryeo mohese }
 	
-	ethos = ethos_courtly
-	heritage = heritage_tungusic
+	ethos = ethos_bureaucratic
+	heritage = heritage_korean
 	language = language_korean
 	martial_custom = martial_custom_male_only
 	traditions = {

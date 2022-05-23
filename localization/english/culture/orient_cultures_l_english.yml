@@ -196,21 +196,21 @@
  austronesian_group_collective_noun:0 "Austronesian"
  austronesian:0 "Austronesian"
  austronesian_collective_noun:0 "Austronesian"
-
-
+ 
+ 
  #Tunguse
- tunguse_group:0 "Tunguse"
- tunguse_group_collective_noun:0 "Tunguse"
- jurchen:0 "Jurchen"
- jurchen_collective_noun:0 "Jurchen"
- heishui:0 "Heishui"
- heishui_collective_noun:0 "Heishui"
+ tunguse_group:0 "Tungus"
+ tunguse_group_collective_noun:0 "Tungus"
+ jurchen:0 "Jusen"
+ jurchen_collective_noun:0 "Jusen"
+ heishui:0 "Saxalian Hala"
+ heishui_collective_noun:0 "Saxalian"
  yilou:0 "Yilou"
  yilou_collective_noun:0 "Yilou"
  udege:0 "Udege"
  udege_collective_noun:0 "Udege"
- mohese:0 "Mohe"
- mohese_collective_noun:0 "Mohens"
+ mohese:0 "Motgit"
+ mohese_collective_noun:0 "Motgit"
 
 
  #Goryeo
@@ -229,10 +229,14 @@
  goguryeo_prefix:0 "Koguryŏ"
  goguryeo_collective_noun:0 "Koguryŏ"
  balhae:0 "Parhae"
+ balhae_prefix:0 "Parhae"
  balhae_collective_noun:0 "Parhae"
  goryeon:0 "Koryŏ"
- goryeon_prefix:0 "Koryŏ"
+ goryeon_prefix:0 "Korean"
  goryeon_collective_noun:0 "Koreans"
+ yemaek:0 "Yemaek"
+ yemaek_prefix:0 "Yemaek"
+ yemaek_collective_noun:0 "Yemaek" 
 
  #Yamato
  yamato_group:0 "Yamato"

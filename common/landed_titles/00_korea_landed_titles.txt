@@ -1,4 +1,4 @@
-e_goryeo = {
+﻿e_goryeo = {
 	k_silla = { 
 		color = { 35 34 228 }
 		color2 = { 255 255 255 }
@@ -399,6 +399,211 @@ e_goryeo = {
 
 					color = { 85 205 150 }
 					color2 = { 255 255 255 }
+				}
+			}
+		}
+		
+		d_gewu = {  #高句丽/哥勿州
+			color = { 161 29 14 }
+			color2 = { 255 255 255 }
+			
+			capital = c_hwando
+
+			cultural_names = {
+				goguryeo = cn_goguryeo
+			}
+
+			c_hwando = {   #桓都/仓岩州
+				color = { 156 61 50 }
+				color2 = { 255 255 255 }
+				
+				b_Wandushancheng = {
+					province = 10694
+					
+					color = { 156 61 50 }
+					color2 = { 255 255 255 }
+				}
+				b_Heshenggucheng = { 
+					province = 10693
+					
+					color = { 156 61 50 }
+					color2 = { 255 255 255 }
+				}
+			}			
+			c_yalu = {  #鸭绿
+				color = { 150 47 35 }
+				color2 = { 255 255 255 }
+				
+				b_Shenlu_Yalufu = {
+					province = 10696
+					
+					color = { 150 47 35 }
+					color2 = { 255 255 255 }
+				}
+				b_Anfeng_Changbaishan = {
+					province = 10697
+					
+					color = { 150 47 35 }
+					color2 = { 255 255 255 }
+				}
+				b_Zhengzhou_Yalu = {
+					province = 10695
+					
+					color = { 150 47 35 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		
+		d_rangnang = {  #安东/乐浪/平安道
+			color = { 222 124 95 }
+			color2 = { 255 255 255 }
+			
+			capital = c_pyeongyang
+
+			c_pyeongyang = {  #平壤
+				color = { 166 17 0 }
+				color2 = { 255 255 255 }
+				
+				b_pyeongyang = {  #平壤
+					province = 10912
+					
+					color = { 166 17 0 }
+					color2 = { 255 255 255 }
+				}
+				b_yeonggang = { #龙冈
+					province = 10913
+					
+					color = { 166 17 0 }
+					color2 = { 255 255 255 }
+				}
+				b_pyeongseong = {   #平城/安国寺
+					province = 10918
+					
+					color = { 166 17 0 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_anju = { #安州
+				color = { 245 153 115 }
+				color2 = { 255 255 255 }
+				
+				b_anju = {  #安州
+					province = 10914
+					
+					color = { 245 153 115 }
+					color2 = { 255 255 255 }
+				}
+				b_tenju = {  #定州
+					province = 10915
+					
+					color = { 245 153 115 }
+					color2 = { 255 255 255 }
+				}
+				b_uiju = {  #义州
+					province = 10916
+					
+					color = { 245 153 115 }
+					color2 = { 255 255 255 }
+				}
+				b_sakachu = {  #朔州
+					province = 10920
+					
+					color = { 245 153 115 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_nyeongbyeon = {  #宁边
+				color = { 209 143 123 }
+				color2 = { 255 255 255 }
+				
+				b_nyeongbyeon = {
+					province = 10917
+					
+					color = { 209 143 123 }
+					color2 = { 255 255 255 }
+				}
+				b_ganggye = {  #熙川
+					province = 10919
+					
+					color = { 209 143 123 }
+					color2 = { 255 255 255 }
+				}
+				b_Qishui = {
+					province = 10698
+					
+					color = { 156 61 50 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		
+		d_okjeo = {  #沃沮
+			color = { 50 90 100 }
+			color2 = { 255 255 255 }
+			
+			capital = c_longyuan
+			
+			
+			c_helan = {   #曷懒/合兰
+				color = { 35 85 105 }
+				color2 = { 255 255 255 }
+				
+				
+				b_Helan_Yiligu = { 
+					province = 10759
+					
+					color = { 35 85 105 }
+					color2 = { 255 255 255 }
+					
+				}
+				b_Muzhou_Pengku = { 
+					province = 10713
+					
+					color = { 38 69 77 }
+					color2 = { 255 255 255 }
+					
+				}
+				b_SanChanshui_Hongkuan = {
+					province = 10760
+					
+					color = { 35 85 105 }
+					color2 = { 255 255 255 }
+					
+				}
+			}
+			c_nanhai_okjeo = {   #南海/南沃沮
+				color = { 45 80 90 }
+				color2 = { 255 255 255 }
+				
+				
+				b_Okjeo_Wojo_Nanhaifu = { 
+					province = 10702
+					
+					color = { 45 80 90 }
+					color2 = { 255 255 255 }
+					
+				}
+				b_Tianjing_Lianchi = { 
+					province = 10699
+					
+					color = { 45 80 90 }
+					color2 = { 255 255 255 }
+					
+				}
+                b_Jiaoshan_Jiaozhou = { 
+					province = 10700
+					
+					color = { 78 121 133 }
+					color2 = { 255 255 255 }
+					
+				}
+				b_Yanyuan_Longxingjiang = {
+					province = 10701
+					
+					color = { 78 121 133 }
+					color2 = { 255 255 255 }
+					
 				}
 			}
 		}

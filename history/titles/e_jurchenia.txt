@@ -1,9 +1,14 @@
-k_jurchen = { #Balhae
+k_balhae = { # balhae
 	867.1.1 = { change_development_level = 5 }
     1066.1.1 = { change_development_level = 10 }
 
 	864.1.1 = {
 		government = tribal_government
+		holder = 120000001
+	}
+}
+d_balhae = {
+	864.1.1 = {
 		holder = 120000001
 	}
 }
@@ -13,11 +18,11 @@ k_motgit = {
 }
 d_yolou = {
 	865.1.1={
-		liege = "k_jurchen"
+		liege = "k_balhae"
 	}   
 	866.1.1 = {
 		holder = 120000006
-	}
+	}y
 }
 c_anbian = {
 	866.1.1 = {
@@ -43,4 +48,96 @@ c_shuaibin = {
 	866.1.1 = {
 		holder = 120000006
 	}  
+}
+d_sumo = { 
+	865.1.1={
+		liege = "k_balhae"
+	}    
+	866.1.1 = {
+		holder = 120000003
+	}
+}
+c_baishan = {
+	866.1.1 = {
+		holder = 120000003
+	} 
+}
+c_sumozhou = {
+	866.1.1 = {
+		holder = 120000003
+	} 
+}
+c_xianzhou = {
+	866.1.1 = {
+		holder = 120000003
+	} 
+}
+d_buyeo = { 
+	865.1.1={
+		liege = "k_balhae"
+	}    
+	866.1.1 = {
+		holder = 120000004
+	}
+}
+c_changling = {
+	866.1.1 = {
+		holder = 120000004
+	}
+}
+c_fuyu = {
+	866.1.1 = {
+		holder = 120000004
+	}
+}
+c_huanglong = {
+	866.1.1 = {
+		holder = 120000004
+	} 
+}
+d_malgal = { 
+	865.1.1={
+		liege = "k_jurchen"
+	}    
+	866.1.1 = {
+		holder = 120000005
+	}
+}
+c_achu = {
+	866.1.1 = {
+		holder = 120000005
+	}
+}
+c_teli = {
+	866.1.1 = {
+		holder = 120000005
+	}
+}
+c_udger = {
+	866.1.1 = {
+		holder = 120000005
+	} 
+}
+d_okjeo = { 
+	865.1.1={
+		liege = "k_balhae"
+	}    
+	866.1.1 = {
+		holder = 120000002
+	}
+}
+c_helan = {
+	866.1.1 = {
+		holder = 120000002
+	}
+}
+c_longyuan = {
+	866.1.1 = {
+		holder = 120000002
+	}
+}
+d_yulou = {    
+	866.1.1 = {
+		holder = 120000001
+	}
 }

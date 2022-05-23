@@ -164,7 +164,7 @@
 #c_nivkh #兀的改/奴儿干
 #b_Nurgan_Gilime
 10758 = {
-    culture = gilyak
+    culture = nivkh
 	religion = yzng
 	holding = tribal_holding	
 	}
@@ -323,19 +323,6 @@
 	holding = none
 }
 
-#c_helan #曷懒/合兰
-#b_Helan_Yiligu
-10759 = {
-    culture = mohese
-	religion = shaman
-	holding = tribal_holding
-	}
-#b_SanChanshui_Hongkuan
-10760 = {
-	
-	holding = none
-}
-
 #d_malgal
 #c_achu
 #b_Anchuhu_Wanyan
@@ -406,8 +393,8 @@
 #c_baishan
 #b_Xiandefu
 10706 = {
-    culture = balhae
-	religion = shaman
+    culture = yemaek
+	religion = musok
 	holding = castle_holding
 	special_building = changbaishenmiao_1
 }
@@ -427,8 +414,8 @@
 #c_xianzhou_sumo
 #b_Xianzhou_Dongmou
 10708 = {
-    culture = balhae
-	religion = shaman
+    culture = yemaek
+	religion = musok
 	holding = castle_holding	
 	}
 #b_TangzhouLingfeng

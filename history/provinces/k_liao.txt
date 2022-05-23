@@ -41,7 +41,7 @@
 #c_yingzhou_liaoxi
 #b_LiuchengYingzhou
 10642 = {
-    culture = han
+    culture = khitan
 	religion = zenzong
 	holding = castle_holding
 }
@@ -60,7 +60,7 @@
 #c_liaodong
 #b_Xiangping
 10664 = {
-    culture = han
+    culture = khitan
 	religion = zenzong
 	holding = castle_holding
 }

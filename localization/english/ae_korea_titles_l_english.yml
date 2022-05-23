@@ -1,16 +1,21 @@
 ﻿l_english:
 
 ###Korea###
+ e_goryeo:0 "Koryŏ"
+ e_goryeo_adj:0 "Koryŏ"
  k_silla:0 "Silla"
  k_silla_adj:0 "Silla"
  k_goryeo:0 "Koryŏ"
  k_goryeo_adj: "Koryŏ"
+ k_balhae:0 "Parhae"
+ k_balhae_adj: "Parhae"
 
  d_goguryeo:0 "Koguryŏ"
  d_baekje:0 "Paekche"
  d_saro:0 "Sŏra"
  d_gaya:0 "Kaya"
  d_yemaek:0 "Hasŭlla"
+ d_tamna:0 "Tamna"
 
  c_gyeonggi:0 "Hansanju"
  c_hwanghae:0 "Hwanghae"
@@ -95,6 +100,6 @@
  b_uiju:0 "Uiju"
  b_sakachu:0 "Sakachu"
  b_nyeongbyeon:0 "Nyŏngbyŏn"
- b_kanggye:0 "Kanggye"
+ b_ganggye:0 "Kanggye"
  
  d_tamna:0 "Tamna" 

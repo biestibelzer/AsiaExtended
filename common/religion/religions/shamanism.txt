@@ -246,38 +246,14 @@ eastern_pagan_religion = {
 			icon = nivkh
 			reformed_icon = nivkh
 
-			holy_site = gyeongju # Area around Gyeongju
-			holy_site = jinju # Jirisan
-			holy_site = congshiting # Geumgwangsan
-			holy_site = baishan # Baekdusan
-			holy_site = gongju # Gyeryongsan
-			holy_site = pyeongyang # Myohyangsan
+			holy_site = gyerim # Area around Gyeongju
+			holy_site = jirisan # Jirisan
+			holy_site = geumgwangsan # Geumgwangsan
+			holy_site = taebaeksan # Baekdusan
+			holy_site = gyeryongsan # Gyeryongsan
+			holy_site = asadal # Myohyangsan
+			holy_site = hallasan
 
-			doctrine = doctrine_head_none
-			doctrine = doctrine_gender_equal
-			doctrine = doctrine_pluralism_pluralistic
-			doctrine = doctrine_theocracy_lay_clergy
-
-			#Marriage
-			doctrine = doctrine_monogamy
-			doctrine = doctrine_divorce_approval
-			doctrine = doctrine_bastardry_legitimization
-			doctrine = doctrine_consanguinity_cousins
-
-			#Crimes
-			doctrine = doctrine_homosexuality_shunned
-			doctrine = doctrine_adultery_men_crime
-			doctrine = doctrine_adultery_women_crime
-			doctrine = doctrine_kinslaying_extended_family_crime
-			doctrine = doctrine_deviancy_shunned
-			doctrine = doctrine_witchcraft_accepted
-
-			#Clerical Functions
-			doctrine = doctrine_clerical_function_recruitment # Hwarang
-			doctrine = doctrine_clerical_gender_either
-			doctrine = doctrine_clerical_marriage_allowed
-			doctrine = doctrine_clerical_succession_temporal_appointment
-			
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_mystical_birthright
 			doctrine = tenet_communal_identity # Korean ethnic religion

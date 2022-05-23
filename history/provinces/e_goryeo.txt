@@ -4,7 +4,7 @@
 #c_gangneung #何瑟罗州/河西/溟州/悉直
 #b_gangneung
 10872 = {
-    culture = saro
+    culture = yemaek
 	religion = musok
 	holding = castle_holding
 }
@@ -31,7 +31,7 @@
 #c_gangwon #首若州/朔州/比列忽州
 #b_chuncheon
 10876 = {
-    culture = goguryeo
+    culture = yemaek
 	religion = musok
 	holding = castle_holding
 }
@@ -234,7 +234,7 @@
 #c_nanhai_okjeo #南海/南沃沮 moved from k_jurchen
 #b_Okjeo_Wojo_Nanhaifu
 10702 = {
-    culture = goguryeo
+    culture = yemaek
 	religion = musok
 	holding = castle_holding
 }
@@ -255,4 +255,17 @@
 
 	
 	holding = tribal_holding
+}
+
+#c_helan #曷懒/合兰 moved from k_jurchen
+#b_Helan_Yiligu
+10759 = {
+    culture = yemaek
+	religion = musok
+	holding = tribal_holding
+	}
+#b_SanChanshui_Hongkuan
+10760 = {
+	
+	holding = none
 }

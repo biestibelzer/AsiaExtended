@@ -205,12 +205,12 @@
 			icon = nivkh
 			doctrine = pagan_hostility_doctrine
 			
-			holy_site = gyeongju
-			holy_site = jinju # Jirisan
-			holy_site = congshiting # Geumgwangsan
-			holy_site = baishan # Baekdusan
-			holy_site = gongju # Gyeryongsan
-			holy_site = pyeongyang # Asadal
+			holy_site = gyerim
+			holy_site = jirisan # Jirisan
+			holy_site = geumgwangsan # Geumgwangsan
+			holy_site = taebaeksan # Baekdusan
+			holy_site = gyeryongsan # Gyeryongsan
+			holy_site = asadal # Asadal
 
 			doctrine = doctrine_head_temporal
 			doctrine = doctrine_gender_equal
@@ -249,12 +249,12 @@
 			religious_head = { k_goryeo }
 			icon = nivkh
 			
-			holy_site = gyeongju # Area around Gyeongju
-			holy_site = jinju # Jirisan
-			holy_site = congshiting # Geumgwangsan
-			holy_site = baishan # Baekdusan
-			holy_site = gongju # Gyeryongsan
-			holy_site = pyeongyang # Myohyangsan
+			holy_site = gyerim
+			holy_site = jirisan # Jirisan
+			holy_site = geumgwangsan # Geumgwangsan
+			holy_site = taebaeksan # Baekdusan
+			holy_site = gyeryongsan # Gyeryongsan
+			holy_site = asadal # Asadal
 			
 			doctrine = doctrine_temporal_head
 			doctrine = doctrine_gender_equal

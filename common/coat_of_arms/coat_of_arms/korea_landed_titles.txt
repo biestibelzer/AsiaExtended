@@ -1,0 +1,34 @@
+﻿e_goryeo = { #
+
+	pattern = "pattern_solid.dds"
+
+	color1 = rgb { 133 14 14 } # carstein red 칼슈타인
+
+	colored_emblem = {
+
+		texture = "cat_kr_goguryeo_three_legged_crow.dds"
+
+		color1 = "black"
+
+		instance = { position = { 0.5 0.45 } scale = { 0.92 0.92 }  }		
+
+	}
+
+}
+k_balhae = { #
+
+	pattern = "pattern_solid.dds"
+
+	color1 = rgb { 133 14 14 } # carstein red 칼슈타인
+
+	colored_emblem = {
+
+		texture = "cat_kr_goguryeo_three_legged_crow.dds"
+
+		color1 = "black"
+
+		instance = { position = { 0.5 0.45 } scale = { 0.92 0.92 }  }		
+
+	}
+
+}

@@ -1,4 +1,4 @@
-﻿gilyak = {
+﻿nivkh = {
 	color = { 131 127 144 }
 
 	ethos = ethos_courtly
