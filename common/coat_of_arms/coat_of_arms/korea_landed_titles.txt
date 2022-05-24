@@ -32,3 +32,68 @@ k_balhae = { #
 	}
 
 }
+
+k_silla = {
+
+	pattern="pattern_solid.dds"
+	
+	color1=rgb { 0 42 125 } 
+	
+	color2 = white
+	
+	color3 = black
+	
+	colored_emblem = {
+	
+		color1 = white
+		
+		texture = "ce_circle_mask.dds"
+		
+		instance = {
+		
+			position = { 0.650000 0.470000 }
+			
+			scale = { 0.340000 0.610000 }
+			
+			depth = 1.010000
+			
+		}
+
+		instance={
+		
+			position = { 0.600000 0.470000 }
+			
+			scale = { 0.560000 0.610000 }
+			
+			depth = 3.010000
+			
+			rotation = 90
+			
+		}
+	}
+
+	colored_emblem = {
+	
+		color1 = rgb { 0 42 125 }
+		
+		texture = "ce_circle_mask.dds"
+		
+		instance = {
+		
+			position = { 0.720000 0.470000 }
+			
+			scale = { 0.450000 0.640000 }
+			
+		}
+
+		instance = {
+		
+			position = { 0.660000 0.470000 }
+			
+			scale = { 0.640000 0.600000 }
+			
+			depth = 2.010000
+			
+		}
+    }
+}
