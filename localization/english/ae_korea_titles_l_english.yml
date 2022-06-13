@@ -9,8 +9,6 @@
  k_goryeo_adj: "Koryŏ"
  k_balhae:0 "Parhae"
  k_balhae_adj: "Parhae"
- k_baekje:0 "Baekje"
- k_jeongan:0 "Cŏng'an"
 
  d_goguryeo:0 "Koguryŏ"
  d_baekje:0 "Paekche"
@@ -18,10 +16,6 @@
  d_gaya:0 "Kaya"
  d_yemaek:0 "Hasŭlla"
  d_tamna:0 "Tamna"
- d_liaodong:0 "Liaodong"
- d_liaoxi:0 "Liaoxi"
- d_gewu:0 "Gewu"
- d_rangnang:0 "Rangnang"
 
  c_gyeonggi:0 "Hansanju"
  c_hwanghae:0 "Hwanghae"
@@ -70,7 +64,7 @@
 
  b_gyeongju:0 "Sŏrabŏl"
  b_yangsan:0 "Kŭmgwanggyeong"
- b_SeokguramGrotto:0 "Seokkuram"
+ b_SeokguramGrotto:0 "Seokguram"
 
  b_chuncheon:0 "Somŏrigol"
 

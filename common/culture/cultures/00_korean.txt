@@ -58,7 +58,7 @@ balhae = {
 	}
 }
 # Korean during Goryeo - from previous Koreanic cultures (for ingame purposes from Goguryeo and Silla)
-goryeo = {
+goryeon = {
 	color = { 50 200 50 }
 	
 	created = 918.1.1

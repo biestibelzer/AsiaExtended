@@ -1,22 +1,8 @@
-e_mongolia = {
+﻿e_mongolia = {
 	color = { 90 90 240 }
 	color2= {255 255 255 }
 
 	capital = c_karakorum
-
-					cultural_names = {
-						uyghur = cn_great_uyghur
-						yughur = cn_great_uyghur
-						khitan = cn_great_khitan
-						qay = cn_yan
-						jurchen = cn_jin
-						siber = cn_siber
-						mongol = e_mongol_empire
-			balhae = cn_jin
-			heishui = cn_qing
-			sogdian = cn_jinn
-			han = cn_hanhai
-		}
 	
 	ai_primary_priority = {
 		if = {
@@ -32,11 +18,6 @@ e_mongolia = {
 		color2= { 255 255 255 }
 		
 		capital = c_karakorum
-		
-					cultural_names = {
-						khitan = cn_n_jubu
-						jurchen = cn_n_jubu
-					}
 		
 		ai_primary_priority = {
 			if = {

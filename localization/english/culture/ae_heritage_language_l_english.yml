@@ -23,17 +23,11 @@
   ainu_clothing_gfx:0 "Ezo"
   
   heritage_tungusic_name:0 "Tungusic"
-  heritage_sushen_name:0 "Sushen"
-  heritage_yilou_name:0 "Yilou"
-  language_tungusic_name:0 "Tungusic"
-
   language_jurchen_name:0 "Jurchen"
-  language_nanai_name:0 "Nanaic"
   language_evenki_name:0 "Evenki"
-  language_even_name:0 "Even"
   
+  heritage_yilou_name:0 "Yilou"
   language_nivkh_name:0 "Amuric"
-  heritage_nivkh_name:0 "Amuric"
   
   language_min_chinese_name:0 "Minhua"
   language_shu_chinese_name:0 "Bashuhua"
