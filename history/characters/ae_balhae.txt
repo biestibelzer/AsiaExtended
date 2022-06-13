@@ -1,19 +1,17 @@
-﻿120000005 = {
-	name = Xingzhou #Shou_Ruler of dutchy
-	dynasty = 61000005
-	religion = shaman
-	culture = balhae 
-	846.1.1 = {
-		birth = yes
-	}
-	1066.1.1 = {
-		death = yes
-	}
-}
+﻿### COMPREHENSIVE LIST OF HISTORICAL BALHAE PEOPLE ###
+# If you add or remove a person, cite your source please
+# IDs are in the 120000000 range
+# 197 is the last ID that is occupied
+# Alphabetical order of the original Hangeul names
+# 2 - 6 are made up (not from me)
+# 7 - 37 are ones with 'Ko' as their clan name, archetypical Goguryeo name
+# 48 - 96 is the Tae ruling family
+# 171 are Balhae people after defeat by the Khitans
+
 120000001 = {
-	name = Hŭngmu #Tae_Ruler of Balhae Kingdom
+	name = Kŏnhwang #Tae_Ruler of Balhae Kingdom (Hŭngmu previously)
 	dynasty = 61000001
-	religion = shaman
+	religion = mahayana
 	culture = balhae 
 	851.1.1 = {
 		birth = yes
@@ -22,12 +20,12 @@
 		death = yes
 	}
 }
-120000006 = {
-	name = Shifu #Yangzhi_Ruler of dutchy
-	dynasty = 61000006
-	religion = shaman
-	culture = balhae 
-	809.1.1 = {
+120000002 = {
+	name = Irinarye # Yemaek
+	dynasty = 61000002
+	religion = musok
+	culture = yemaek 
+	836.1.1 = {
 		birth = yes
 	}
 	1066.1.1 = {
@@ -58,15 +56,2197 @@
 		death = yes
 	}
 }
-120000002 = {
-	name = Ying #Zhi_Ruler of dutchy
-	dynasty = 61000002
+120000005 = {
+	name = Xingzhou #Shou_Ruler of dutchy
+	dynasty = 61000005
 	religion = shaman
-	culture = balhae 
-	836.1.1 = {
+	culture = motgit 
+	846.1.1 = {
 		birth = yes
 	}
 	1066.1.1 = {
 		death = yes
 	}
 }
+120000006 = {
+	name = Shifu #Yangzhi_Ruler of dutchy
+	dynasty = 61000006
+	religion = shaman
+	culture = balhae 
+	809.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+120000007 = {
+	name = Komohan # 高模翰 from 遼史 Ryosa - History of Liao
+	religion = mahayana
+	culture = goguryeo
+	851.1.1 = { # probably born after startdate
+		birth = yes
+	}
+	959.1.1 = {
+		death = yes
+	}
+}
+120000008 = {
+	name = Koyusŏn # from Shoku Nihongi
+	religion = mahayana
+	culture = goguryeo
+	710.1.1 = { 
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+120000009 = {
+	name = Konamshin # from Shoku Nihon Koki
+	religion = mahayana
+	culture = goguryeo
+	710.1.1 = { 
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+120000010 = {
+	name = Koyusŏn # from Shoku Nihongi
+	religion = mahayana
+	culture = goguryeo
+	710.1.1 = { 
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+120000011 = {
+	name = Konamyong # from Shoku Nihon Koki
+	religion = mahayana
+	culture = goguryeo
+	850.1.1 = { 
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+120000012 = {
+	name = Kodabul # from Nihon Shogi
+	religion = mahayana
+	culture = goguryeo
+	850.1.1 = { 
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+120000013 = {
+	name = Koroksa # from Shoku Nihongi
+	religion = mahayana
+	culture = goguryeo
+	710.1.1 = { 
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+120000014 = {
+	name = Koyusŏn # from Shoku Nihon Koki
+	religion = mahayana
+	culture = goguryeo
+	710.1.1 = { 
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+120000015 = {
+	name = Komunsŏn # from Shoku Nihon Koki
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000016 = {
+	name = Komunhuŏn # from Shoku Nihon Koki
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	940.1.1 = {
+		death = yes
+	}
+}
+120000017 = {
+	name = Komunshin # from Shoku Nihon Koki
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000018 = {
+	name = Komunhuŏn # from Shoku Nihon Koki
+	religion = mahayana
+	culture = goguryeo
+	710.1.1 = { 
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+120000019 = {
+	name = Kosŏlchang # from Nihongi
+	religion = mahayana
+	culture = goguryeo
+	851.1 = { 
+		birth = yes
+	}
+	870.1.1 = {
+		death = yes
+	}
+}
+120000020 = {
+	name = Komunhuŏn # from Shoku Nihon Koki
+	religion = mahayana
+	culture = goguryeo
+	710.1.1 = { 
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+120000021 = {
+	name = Kosuhae # 
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000022 = {
+	name = Kosukman # from Shoku Nihon Koki
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000023 = {
+	name = Kosukuŏn # Nihongi
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000024 = {
+	name = Kopoeng # Tang records # bureaucrat
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000025 = {
+	name = Koulrim # Shoku Nihongi
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000026 = {
+	name = Koengcuk # Shoku Nihongi
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000027 = {
+	name = Koengsŏn # from Shoku Nihon Koki
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000028 = {
+	name = Koŭngsun # from Shoku Nihon Koki
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000029 = {
+	name = Koinŭy # Shoku Nihongi
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000030 = {
+	name = Kocŏngtae # 
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000031 = {
+	name = Kocaenam # from 책부원귀 in Song dynasty
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000032 = {
+	name = Kocedŏk # from Nihongi
+	religion = mahayana
+	culture = goguryeo
+	700.1.1 = { 
+		birth = yes
+	}
+	780.1.1 = {
+		death = yes
+	}
+}
+120000033 = {
+	name = Kopyŏngshin # from Shoku Nihon Koki
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000034 = {
+	name = Kohŭngbuk # from Nihongi
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+# Fill in following three if more historical characters to add
+120000035 = {
+	name = Ko # from Shoku Nihon Koki
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000036 = {
+	name = Ko # from Shoku Nihon Koki
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000037 = {
+	name = Ko # from Shoku Nihon Koki
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000038 = {
+	name = Kong Paekkye # from Song records
+	religion = mahayana
+	culture = goguryeo
+	740.1.1 = { 
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+120000039 = {
+	name = Ko # from Shoku Nihon Koki
+	religion = mahayana
+	culture = goguryeo
+	740.1.1 = { 
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+120000040 = {
+	name = Kialgimong # from Nihongi
+	religion = mahayana
+	culture = goguryeo
+	740.1.1 = { 
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+120000041 = {
+	name = Kicinmong # from Nihongi
+	religion = mahayana
+	culture = goguryeo
+	740.1.1 = { 
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+120000042 = {
+	name = Kimshin # from Goryeosa, History of Goryeo
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000043 = {
+	name = Kwangsŏng # from Nihongi
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000044 = {
+	name = Naksagye # ruler of Buyeobu province, tomb
+	religion = mahayana
+	culture = goguryeo
+	721.1.1 = { 
+		birth = yes
+	}
+	748.1.1 = {
+		death = yes
+	}
+}
+120000045 = {
+	name = Taansu # from Shoku Nihon Koki
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000046 = {
+	name = Tamonggu # from Song records
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000047 = {
+	name = Talnŭngshin # from Nihongi
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+### Tae clan rulers ###
+120000048 = {
+	name = Kongchik # from Shoku Nihon Koki
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000049 = {
+	name = Kwanghen # 대광현 from Goryeosa, led Balhae refugees to Goryeo
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	940.1.1 = {
+		death = yes
+	}
+}
+120000050 = {
+	name = Insun # last monarch of Balhae
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000051 = {
+	name = Hwagyun # prince
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000052 = {
+	name = Kyunro # prince
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000053 = {
+	name = Uŏngyun # prince bureaucrat
+	dynasty = 61000001
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000054 = {
+	name = Pukmo # prince
+	dynasty = 61000001
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000055 = {
+	name = Shinri # prince
+	dynasty = 61000001
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000056 = {
+	name = Shindŏk # prince
+	dynasty = 61000001
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000057 = {
+	name = Koyngrim # Shindangseo
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000058 = {
+	name = Nŭnshin # Gudangseo
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000059 = {
+	name = Tayŏng # 
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000060 = {
+	name = Torihaeng # Song
+	dynasty = 61000001
+	religion = mahayana
+	culture = goguryeo
+	700.1.1 = { 
+		birth = yes
+	}
+	728.1.1 = {
+		death = yes
+	}
+}
+120000061 = {
+	name = Munye # Viceroy
+	dynasty = 61000001
+	religion = mahayana
+	culture = goguryeo
+	700.1.1 = { 
+		birth = yes
+	}
+	740.1.1 = {
+		death = yes
+	}
+}
+120000062 = {
+	name = Mengcun # Song
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000063 = {
+	name = Pŏn # Song
+	dynasty = 61000001
+	religion = mahayana
+	culture = goguryeo
+	740.1.1 = { 
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+120000064 = {
+	name = Pobang # Song
+	dynasty = 61000001
+	religion = mahayana
+	culture = goguryeo
+	740.1.1 = { 
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+120000065 = {
+	name = Pokmo # Goryeosa # bureaucrat
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	860.1.1 = { 
+		birth = yes
+	}
+	960.1.1 = {
+		death = yes
+	}
+}
+120000066 = {
+	name = Pungye # Dongsagangmok
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000067 = {
+	name = Sangcŏng # 
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	740.1.1 = { 
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+120000068 = {
+	name = Sŏnsŏng # 
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000069 = {
+	name = Sŏnshin # 
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000070 = {
+	name = Sŏngchuycin # 
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	740.1.1 = { 
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+120000071 = {
+	name = Sohen # Dongrang province governor, hwang clan
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	900.1.1 = { 
+		birth = yes
+	}
+	999.1.1 = {
+		death = yes
+	}
+}
+120000072 = {
+	name = Shindŏk # 
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	800.1.1 = { 
+		birth = yes
+	}
+	899.1.1 = {
+		death = yes
+	}
+}
+120000073 = {
+	name = Shinmundŏk # 
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	800.1.1 = { 
+		birth = yes
+	}
+	899.1.1 = {
+		death = yes
+	}
+}
+120000074 = {
+	name = Shimri # Goryeosa bureaucrat
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	860.1.1 = { 
+		birth = yes
+	}
+	940.1.1 = {
+		death = yes
+	}
+}
+120000075 = {
+	name = Yabal # 
+	dynasty = 61000001
+	religion = mahayana
+	culture = heishui
+	660.1.1 = { 
+		birth = yes
+	}
+	740.1.1 = {
+		death = yes
+	}
+}
+120000076 = {
+	name = Yŏgyŏng # 
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000077 = {
+	name = Yŏngwang # 
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	928.1.1 = {
+		death = yes
+	}
+}
+120000078 = {
+	name = Yŏncun # 
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	698.1.1 = { 
+		birth = yes
+	}
+	799.1.1 = {
+		death = yes
+	}
+}
+120000079 = {
+	name =  # Goryŏsa
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	740.1.1 = { 
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+120000080 = {
+	name = Okcin # 
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	740.1.1 = { 
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+120000081 = {
+	name = Ryubŏn # Goryeosa
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	940.1.1 = {
+		death = yes
+	}
+}
+120000082 = {
+	name = Ilha # son of Yabal
+	dynasty = 61000001
+	religion = mahayana
+	culture = heishui
+	680.1.1 = { 
+		birth = yes
+	}
+	770.1.1 = {
+		death = yes
+	}
+}
+120000083 = {
+	name = Ŭyshin # 
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	740.1.1 = { 
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+120000084 = {
+	name = Ciak # 
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	960.1.1 = {
+		death = yes
+	}
+}
+120000085 = {
+	name = Cŏngsun # 
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000086 = {
+	name = Cŏngcun # 
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000087 = {
+	name = Cŏngal # 
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	740.1.1 = { 
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+120000089 = {
+	name = Cinrim # 
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	860.1.1 = { 
+		birth = yes
+	}
+	940.1.1 = {
+		death = yes
+	}
+}
+120000090 = {
+	name = Changbalga # 
+	dynasty = 61000001
+	religion = mahayana
+	culture = heishui
+	740.1.1 = { 
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+120000091 = {
+	name = Changtae # Changtai?
+	dynasty = 61000001
+	religion = mahayana
+	culture = heishui
+	740.1.1 = { 
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+120000092 = {
+	name = Chŏngryun #
+	dynasty = 61000001
+	religion = mahayana
+	culture = goguryeo
+	740.1.1 = { 
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+120000093 = {
+	name = Chongye # 
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000094 = {
+	name = Hoa # 
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae
+	740.1.1 = { 
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+120000095 = {
+	name = Hyocin # 
+	dynasty = 61000001
+	religion = mahayana
+	culture = goguryeo
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000096 = {
+	name = Hwagyun #  bureaucrat
+	dynasty = 61000001
+	religion = mahayana
+	culture = goguryeo
+	860.1.1 = { 
+		birth = yes
+	}
+	960.1.1 = {
+		death = yes
+	}
+}
+### Tae clan end ###
+120000097 = {
+	name = Mamungwe # 
+	religion = mahayana
+	culture = heishui
+	740.1.1 = { 
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+120000098 = {
+	name = Mabokshin # 
+	religion = mahayana
+	culture = balhae
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000099 = {
+	name = Mahyoshin # 
+	religion = mahayana
+	culture = balhae
+	840.1.1 = { 
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+120000100 = {
+	name = Modugan # Goryeosa bureaucrat
+	religion = mahayana
+	culture = balhae
+	860.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000101 = {
+	name = Moshimong # 
+	religion = mahayana
+	culture = balhae
+	792.1.1 = { 
+		birth = yes
+	}
+	877.1.1 = {
+		death = yes
+	}
+}
+120000102 = {
+	name = Mokcimong # 
+	religion = mahayana
+	culture = goguryeo
+	787.1.1 = { 
+		birth = yes
+	}
+	870.1.1 = {
+		death = yes
+	}
+}
+120000103 = {
+	name = Mibalgye # 
+	religion = mahayana
+	culture = balhae
+	760.1.1 = { 
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+120000104 = {
+	name = Mochangrok # 
+	religion = mahayana
+	culture = balhae
+	760.1.1 = { 
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+120000105 = {
+	name = Myocongsu # 
+	religion = mahayana
+	culture = balhae
+	820.1.1 = { 
+		birth = yes
+	}
+	870.1.1 = {
+		death = yes
+	}
+}
+120000106 = {
+	name = Paksŭng # 
+	religion = mahayana
+	culture = goguryeo
+	890.1.1 = { 
+		birth = yes
+	}
+	960.1.1 = {
+		death = yes
+	}
+}
+120000107 = {
+	name = Pakŏ #  bureaucrat
+	religion = mahayana
+	culture = goguryeo
+	855.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000108 = {
+	name = Paegu # 
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000109 = {
+	name = Paeceong # 
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000110 = {
+	name = Sadomong # 
+	religion = mahayana
+	culture = goguryeo
+	750.1.1 = { 
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+120000111 = {
+	name = Sacusŏn # 
+	religion = mahayana
+	culture = balhae
+	750.1.1 = { 
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+120000112 = {
+	name = Suboksa # 
+	religion = mahayana
+	culture = balhae
+	750.1.1 = { 
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+120000113 = {
+	name = SŏYudŏk # 
+	religion = mahayana
+	culture = balhae
+	750.1.1 = { 
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+120000114 = {
+	name = SŏkIncin # 
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000115 = {
+	name = Shinnŭngci # 
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000116 = {
+	name = Shindŏk # general
+	religion = mahayana
+	culture = balhae
+	866.1.1 = { 
+		birth = yes
+	}
+	1000.1.1 = {
+		death = yes
+	}
+}
+120000117 = {
+	name = Silari # 
+	religion = mahayana
+	culture = balhae
+	750.1.1 = { 
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+120000118 = {
+	name = AhnKuybo # 
+	religion = mahayana
+	culture = heishui
+	760.1.1 = { 
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+120000119 = {
+	name = AhnHwanhŭy # 
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000120 = {
+	name = Aldŏk # 
+	religion = mahayana
+	culture = balhae
+	760.1.1 = { 
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+120000121 = {
+	name = YangKilbok # 
+	religion = mahayana
+	culture = balhae
+	760.1.1 = { 
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+120000122 = {
+	name = YangKwangshin # 
+	religion = mahayana
+	culture = balhae
+	860.1.1 = { 
+		birth = yes
+	}
+	920.1.1 = {
+		death = yes
+	}
+}
+120000123 = {
+	name = YangSŏnggyu # 
+	religion = mahayana
+	culture = balhae
+	760.1.1 = { 
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+120000124 = {
+	name = YangPanggyŏng # 
+	religion = mahayana
+	culture = balhae
+	760.1.1 = { 
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+120000125 = {
+	name = YangSŭnggyŏng # 
+	religion = mahayana
+	culture = balhae
+	760.1.1 = { 
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+120000126 = {
+	name = YangCuwon # 
+	religion = mahayana
+	culture = balhae
+	860.1.1 = { 
+		birth = yes
+	}
+	920.1.1 = {
+		death = yes
+	}
+}
+120000127 = {
+	name = YangTaesa # 
+	religion = mahayana
+	culture = balhae
+	760.1.1 = { 
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+120000128 = {
+	name = YangHoycin # 
+	religion = mahayana
+	culture = balhae
+	760.1.1 = { 
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+120000129 = {
+	name = Yŏbugu # bureaucrat
+	religion = mahayana
+	culture = balhae
+	760.1.1 = { 
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+120000130 = {
+	name = Yecŏngrim # 
+	religion = mahayana
+	culture = balhae
+	760.1.1 = { 
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+120000131 = {
+	name = YŏlCudo # 
+	religion = mahayana
+	culture = balhae
+	866.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000132 = {
+	name = OhKwangchan # Olya country, Osodos son
+	religion = mahayana
+	culture = heishui
+	866.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000133 = {
+	name = OhNadalcho #  
+	religion = mahayana
+	culture = heishui
+	760.1.1 = { 
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+120000134 = {
+	name = OhSodo # 烏炤度
+	religion = mahayana
+	culture = heishui
+	850.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000135 = {
+	name = OhSubul # 
+	religion = mahayana
+	culture = balhae
+	760.1.1 = { 
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+120000136 = {
+	name = OhCehyŏn # 
+	religion = mahayana
+	culture = balhae
+	760.1.1 = { 
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+120000137 = {
+	name = OhChacimong # 
+	religion = mahayana
+	culture = goguryeo
+	760.1.1 = { 
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+120000138 = {
+	name = OhHŭng # bureaucrat
+	religion = mahayana
+	culture = heishui
+	850.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000139 = {
+	name = OhHyoshin # bureaucrat
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000140 = {
+	name = WangKumo # 
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000141 = {
+	name = WangMun'gu # 
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000142 = {
+	name = WangPocang # 
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000143 = {
+	name = WangSŭnggi # 
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000144 = {
+	name = WangShinbok # 
+	religion = mahayana
+	culture = balhae
+	750.1.1 = { 
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+120000145 = {
+	name = WangHyoryŏm # 
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000146 = {
+	name = Ŭn'gyecong # bureaucrat
+	religion = mahayana
+	culture = balhae
+	866.1.1 = { 
+		birth = yes
+	}
+	1000.1.1 = {
+		death = yes
+	}
+}
+120000147 = {
+	name = Yigwanghyŏn # Taoist teacher
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000148 = {
+	name = Yigŏcŏng # 
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000149 = {
+	name = Yigyesang # 
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000150 = {
+	name = Yinŭngbun # 
+	religion = mahayana
+	culture = balhae
+	750.1.1 = { 
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+120000151 = {
+	name = Yisang # 
+	religion = mahayana
+	culture = balhae
+	750.1.1 = { 
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+120000152 = {
+	name = Yiyŏngcin # 
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000153 = {
+	name = Yiwontae # 
+	religion = mahayana
+	culture = balhae
+	750.1.1 = { 
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+120000154 = {
+	name = Yicunung # 
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000155 = {
+	name = Yicinŏn # 
+	religion = mahayana
+	culture = balhae
+	750.1.1 = { 
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+120000156 = {
+	name = Ilmanbok # 
+	religion = mahayana
+	culture = balhae
+	750.1.1 = { 
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+120000157 = {
+	name = Ima # 
+	religion = mahayana
+	culture = balhae
+	700.1.1 = { 
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+120000158 = {
+	name = Cangmunhyu # goguryeo admiral
+	religion = mahayana
+	culture = goguryeo
+	750.1.1 = { 
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+120000159 = {
+	name = Cangsŏnsu # 
+	religion = mahayana
+	culture = goguryeo
+	750.1.1 = { 
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+120000160 = {
+	name =  # 
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000161 = {
+	name = Cŏnggŭn # 
+	religion = mahayana
+	culture = balhae
+	866.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000162 = {
+	name = Cŏnghye # Princess, daughter of king mun 
+	religion = mahayana
+	culture = balhae
+	737.1.1 = { 
+		birth = yes
+	}
+	777.4.14 = {
+		death = yes
+	}
+}
+120000163 = {
+	name = Cusŭngcu # 
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000164 = {
+	name = Chakbi # 
+	religion = mahayana
+	culture = balhae
+	750.1.1 = { 
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+120000165 = {
+	name = Chongmura # 
+	religion = mahayana
+	culture = balhae
+	750.1.1 = { 
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+120000166 = {
+	name = ChoyYegwang # bureaucrat
+	religion = mahayana
+	culture = goguryeo
+	866.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000167 = {
+	name = Pungbangrye # 
+	religion = mahayana
+	culture = balhae
+	750.1.1 = { 
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+120000168 = {
+	name = Habokyŏn # 
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000169 = {
+	name = Hacogyŏng # 
+	religion = mahayana
+	culture = balhae
+	750.1.1 = { 
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+120000170 = {
+	name = Haebiŭng # 
+	religion = mahayana
+	culture = balhae
+	750.1.1 = { 
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+### Yumin, Balhae revival movement and exiles
+120000171 = {
+	name = Kohwan # 
+	religion = mahayana
+	culture = goguryeo
+	850.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+120000172 = {
+	name = Misang # Not real name, "brother of the king"
+	religion = mahayana
+	culture = balhae
+	850.1.1 = { 
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+## Olya country
+120000173 = {
+	name = Ohsodo # Balhae revival movement in Olya
+	religion = mahayana
+	culture = heishui
+	866.1.1 = { 
+		birth = yes
+	}
+	999.1.1 = {
+		death = yes
+	}
+}
+120000174 = {
+	name = Ohsokyung # Olya Balhae
+	religion = mahayana
+	culture = heishui
+	950.1.1 = { 
+		birth = yes
+	}
+	1004.1.1 = {
+		death = yes
+	}
+}
+120000175 = {
+	name = Chogoiso # Chugolsil, Olya Balhae
+	religion = mahayana
+	culture = heishui
+	1100.1.1 = { 
+		birth = yes
+	}
+	1150.1.1 = {
+		death = yes
+	}
+}
+120000176 = {
+	name = Muju # Olya Balhae
+	religion = mahayana
+	culture = heishui
+	900.1.1 = { 
+		birth = yes
+	}
+	998.1.1 = {
+		death = yes
+	}
+}
+120000177 = {
+	name = Yŏnpa # Olya Balhae
+	religion = mahayana
+	culture = heishui
+	900.1.1 = { 
+		birth = yes
+	}
+	995.1.1 = {
+		death = yes
+	}
+}
+## Goryeo born people
+120000178 = {
+	name = KoKildŏk # 
+	religion = mahayana
+	culture = goryeo
+	1000.1.1 = { 
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+120000179 = {
+	name = KoSŏnsu # 
+	religion = mahayana
+	culture = goryeo
+	1100.1.1 = { 
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+120000180 = {
+	name = Koyŏngchang # Balhae revival movement, last one
+	religion = mahayana
+	culture = goryeo
+	1050.1.1 = { 
+		birth = yes
+	}
+	1116.5.1 = {
+		death = yes
+	}
+}
+120000181 = {
+	name = KoCŏng # 
+	religion = mahayana
+	culture = goryeo
+	1100.1.1 = { 
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+120000182 = {
+	name = KwakYaksa # 
+	religion = mahayana
+	culture = goryeo
+	1100.1.1 = { 
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+120000183 = {
+	name = TaeKano # 
+	religion = mahayana
+	culture = goguryeo
+	1100.1.1 = { 
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+120000184 = {
+	name = TaeKanci # painter
+	religion = mahayana
+	culture = balhae
+	1000.1.1 = { 
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+120000185 = {
+	name = TaeKangye # Provincial officer of Jihwangryongbu Liao, formerly Buyeobu
+	religion = mahayana
+	culture = balhae
+	1000.1.1 = { 
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+120000186 = {
+	name = TaeKyŏngha # diplomat
+	religion = mahayana
+	culture = goryeo
+	1000.1.1 = { 
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+120000187 = {
+	name = TaeTorigyŏng # also called Daedoi 大道李鄕, naturalized into Khitan
+	religion = mahayana
+	culture = balhae
+	1000.1.1 = { 
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+120000188 = {
+	name = TaeTosu # related to Tae Gwanghyeon, granted Wang clan lineage, fought in Goryeo Khitan war
+	religion = mahayana
+	culture = balhae
+	1000.1.1 = { 
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+120000189 = {
+	name = TaeTohaengrang # 
+	religion = mahayana
+	culture = goryeo
+	1000.1.1 = { 
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+120000190 = {
+	name = TaeYŏncŏng # 
+	religion = mahayana
+	culture = goryeo
+	1000.1.1 = { 
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+120000191 = {
+	name = TaeCibsŏng # descendant of Balhae royalty
+	religion = mahayana
+	culture = goryeo
+	1200.1.1 = { 
+		birth = yes
+	}
+	1300.1.1 = {
+		death = yes
+	}
+}
+120000192 = {
+	name = YangPak # 
+	religion = mahayana
+	culture = goryeo
+	1100.1.1 = { 
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+120000193 = {
+	name = YangSangse # 
+	religion = mahayana
+	culture = goryeo
+	1000.1.1 = { 
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+120000194 = {
+	name = Yŏnpa # chief of Hwangnyongbuwijang, Balhae revival movement
+	religion = mahayana
+	culture = goryeo
+	950.1.1 = { 
+		birth = yes
+	}
+	995.1.1 = {
+		death = yes
+	}
+}
+120000195 = {
+	name = Yŏlmanhwa # ruler of Jeongan balhae, succeeded by Oh Hyeonmyeong
+	religion = mahayana
+	culture = goryeo
+	900.1.1 = { 
+		birth = yes
+	}
+	976.1.1 = {
+		death = yes
+	}
+}
+120000196 = {
+	name = YiKwangrok # 
+	religion = mahayana
+	culture = goryeo
+	1000.1.1 = { 
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+120000197 = {
+	name = Taewon # Jeongan prince
+	religion = mahayana
+	culture = goryeo
+	950.1.1 = { 
+		birth = yes
+	}
+	1000.1.1 = {
+		death = yes
+	}
+}
+120000198 = {
+	name = KoChŏngmyŏng # Goryeo general
+	religion = mahayana
+	culture = goryeo
+	950.1.1 = { 
+		birth = yes
+	}
+	1019.1.1 = {
+		death = yes
+	}
+}
+120000198 = {
+	name = Uigyun # governor of 鐵州刺史 
+	religion = mahayana
+	culture = yemaek
+	850.1.1 = { 
+		birth = yes
+	}
+	930.1.1 = {
+		death = yes
+	}
+}
+
+
+
+

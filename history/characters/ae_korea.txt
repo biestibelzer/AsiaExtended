@@ -76,13 +76,25 @@
 	}
 	dna = Gim_Eungryeom_dna_entry
 }
-### Balhae ###
-1100000100 = {
-	name = Chiri
-	dynasty = "dynn_choi"
+### Tamna ###
+110000007 = {
+	name = Koso
+	dynasty = "dynn_go"
+	religion = mahayana
+	culture = tamna
+	843.1.1 = {
+		birth = yes
+	}
+	884.1.1 = {
+		death = yes
+	}
+}
+110000008 = {
+	name = Koanseung
+	dynasty = "dynn_go"
 	religion = mahayana
 	culture = goguryeo
-	853.1.1 = {
+	843.1.1 = {
 		birth = yes
 	}
 	884.1.1 = {
