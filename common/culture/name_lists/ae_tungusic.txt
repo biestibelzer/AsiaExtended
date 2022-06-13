@@ -18,7 +18,6 @@
 		Nekuke Omolgi Hunat Dewelchin Bochok Oldonykan # Evenki
 	}
 	female_names = {
-		Abahai
 		Abahai Libgerik Libge Yultek Sekak Sekakchan Sekakindya Sekandor Mengunken Manguneri Nyungurdok Nadarmak Sodani # Evenki
 	}
 	
@@ -26,7 +25,7 @@
 	
 }
 
-name_list_tungusic = {
+name_list_evenki = {
 	cadet_dynasty_names = {
 		"dynn_Hulun" "dynn_Yehe" "dynn_Yehe_Nara" "dynn_Hata" "dynn_Hada" "dynn_Ula" "dynn_Hoifa"
 	}
