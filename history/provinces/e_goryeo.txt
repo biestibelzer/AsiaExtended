@@ -1,7 +1,6 @@
-#k_goryeo
-#d_yemaek #东濊/江原道
-#c_hexizhou #何瑟罗州/河西/溟州/悉直
-#c_gangneung #何瑟罗州/河西/溟州/悉直
+####k_silla
+###d_yemaek #东濊/江原道
+##c_gangneung #何瑟罗州/河西/溟州/悉直 c_hexizhou
 #b_gangneung
 10872 = {
     culture = yemaek
@@ -28,7 +27,7 @@
 	holding = none
 }
 
-#c_gangwon #首若州/朔州/比列忽州
+##c_gangwon #首若州/朔州/比列忽州
 #b_chuncheon
 10876 = {
     culture = yemaek
@@ -52,11 +51,138 @@
 	holding = none
 }
 
+###d_baekje #百济
+##c_chuncheon #熊川州/所夫里/忠清道
+#b_gongju
+10892 = {
+    culture = baekje
+	religion = gyodan
+	holding = castle_holding
+}
+#b_chongju
+10891 = {
+	holding = castle_holding
+}
+#b_seosan
+10893 = {
+	holding = none
+}
+
+##c_jeonju  #完山州
+#b_jeonju
+10894 = {
+    culture = baekje
+	religion = gyodan
+	holding = castle_holding
+}
+#b_iksan
+10895 = {
+	holding = none
+}
+#b_namwon
+10896 = {
+	holding = none
+}
+		
+##c_gwangju #武珍州/发罗
+#b_naju
+10897 = {
+    culture = baekje
+	religion = gyodan
+	holding = castle_holding
+}
+#b_yeosu
+10898 = {
+	holding = none
+}
+###d_tamna
+##c_tamna
+#b_tamna
+10890 = {
+    culture = tamna
+	religion = mahayana 
+	holding = castle_holding
+}
+
+###d_saro #新罗/庆尚道
+##c_gyeongju
+#b_gyeongju
+10903 = {
+    culture = saro
+	religion = gyodan
+	holding = castle_holding
+}
+#b_yangsan
+10904 = {
+	holding = none
+}
+#b_SeokguramGrotto
+10907 = {
+	holding = church_holding
+}
+
+##c_daegu
+#b_daegu
+10905 = {
+    culture = saro
+	religion = palgeuinuri 
+	holding = castle_holding
+}
+#b_HaeinsaTemple
+10906 = {
+	holding = church_holding
+}
+
+##c_sangju #沙伐州/尚州
+#b_sanju
+10908 = {
+    culture = saro
+	religion = palgeuinuri
+	holding = castle_holding
+}
+#b_andong
+10909 = {
+	holding = none
+}
+
+###d_gaya #迦倻
+##c_gaya #迦倻
+#b_gimhae
+10901 = {
+    culture = saro
+	religion = gyodan 
+	holding = castle_holding
+}
+#b_changwon
+10902 = {
+	holding = city_holding
+}
+
+##c_jinju #居烈州/菁州/康州
+#b_jinju
+10899 = {
+    culture = saro
+	religion = gyodan
+	holding = castle_holding
+}
+#b_sacheon
+10900 = {
+	holding = none
+}
+#b_haman
+10910 = {
+	holding = none
+}
+#b_goryeong
+10911 = {
+	holding = castle_holding
+}
 #d_goguryeo 高句丽 - Central Korea
 #c_arisu 汉山州/汉州/京畿道 - Gyeonggido
 #b_arisu 郁里河 - Seoul
-#d_goguryeo  #高句丽
-#c_gyeonggi #汉山州/汉州/京畿道
+
+###d_goguryeo  #高句丽
+##c_gyeonggi #汉山州/汉州/京畿道
 #b_seoul
 10885 = {
     culture = baekje
@@ -80,7 +206,7 @@
 	holding = none
 }
 
-#c_hwanghae #黄海道
+##c_hwanghae #黄海道
 #b_gaeseong
 10883 = {
     culture = goguryeo
@@ -104,134 +230,102 @@
 	holding = none
 }
 
-#d_baekje #百济
-#c_chuncheon #熊川州/所夫里/忠清道
-#b_gongju
-10892 = {
-    culture = baekje
+###d_rangnang #安东/乐浪/平安道
+##c_pyeongyang #平壤
+#b_Pyeongyang
+10912 = {
+    culture = goguryeo
 	religion = gyodan
 	holding = castle_holding
 }
-#b_chongju
-10891 = {
-	holding = castle_holding
-}
-#b_seosan
-10893 = {
+#b_yeonggang
+10913 = {
+
 	holding = none
 }
+#b_pyeongseong #平城
+10918 = {
 
-#c_jeonju  #完山州
-#b_jeonju
-10894 = {
-    culture = baekje
-	religion = gyodan
-	holding = castle_holding
-}
-#b_iksan
-10895 = {
-	holding = none
-}
-#b_namwon
-10896 = {
-	holding = none
-}
-		
-#c_gwangju #武珍州/发罗
-#b_naju
-10897 = {
-    culture = baekje
-	religion = gyodan
-	holding = castle_holding
-}
-#b_yeosu
-10898 = {
-	holding = none
-}
-
-#c_tamna
-#b_tamna
-10890 = {
-    culture = tamna
-	religion = mahayana 
-	holding = castle_holding
-}
-
-#d_saro #新罗/庆尚道
-#c_gyeongju
-#b_gyeongju
-10903 = {
-    culture = saro
-	religion = gyodan
-	holding = castle_holding
-}
-#b_yangsan
-10904 = {
-	holding = none
-}
-#b_SeokguramGrotto
-10907 = {
-	holding = church_holding
-}
-
-#c_daegu
-#b_daegu
-10905 = {
-    culture = saro
-	religion = palgeuinuri 
-	holding = castle_holding
-}
-#b_HaeinsaTemple
-10906 = {
-	holding = church_holding
-}
-
-#c_sangju #沙伐州/尚州
-#b_sanju
-10908 = {
-    culture = saro
-	religion = palgeuinuri
-	holding = castle_holding
-}
-#b_andong
-10909 = {
-	holding = none
-}
-
-#d_gaya #迦倻
-#c_gaya #迦倻
-#b_gimhae
-10901 = {
-    culture = saro
-	religion = gyodan 
-	holding = castle_holding
-}
-#b_changwon
-10902 = {
 	holding = city_holding
 }
 
-#c_jinju #居烈州/菁州/康州
-#b_jinju
-10899 = {
-    culture = saro
-	religion = gyodan
+##c_anju #安州
+#b_anju
+10914 = {
+    culture = goguryeo
+	religion = mahayana
 	holding = castle_holding
 }
-#b_sacheon
-10900 = {
+#b_chongju
+10915 = {
+
+	holding = city_holding
+}
+#b_uiju
+10916 = {
+
 	holding = none
 }
-#b_haman
-10910 = {
+#b_sakachu
+10920 = {
+
 	holding = none
-}
-#b_goryeong
-10911 = {
-	holding = castle_holding
 }
 
-#c_nanhai_okjeo #南海/南沃沮 moved from k_jurchen
+##c_nyeongbyeon #宁边		
+#b_nyeongbyeon
+10917 = {
+    culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+}
+#b_kanggye
+10919 = {
+
+	holding = none
+}
+
+###d_gewu #高句丽/哥勿州
+##c_yalu
+#b_Shenlu_Yalufu
+10696 = {
+    culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+}
+#b_Anfeng_Changbaishan
+10697 = {
+
+
+	holding = church_holding
+}
+#b_Zhengzhou_Yalu
+10695 = {
+
+
+	holding = city_holding
+}
+
+
+##c_hwando  #桓都/仓岩州
+#b_Wandushancheng
+10694 = {
+    culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+}
+#b_Heshenggucheng 
+10693 = {
+
+	holding = none
+}
+#b_Qishui
+10698 = {
+
+	holding = none
+}
+
+##c_nanhai_okjeo #南海/南沃沮 moved from k_jurchen
 #b_Okjeo_Wojo_Nanhaifu
 10702 = {
     culture = yemaek
@@ -257,7 +351,7 @@
 	holding = tribal_holding
 }
 
-#c_helan #曷懒/合兰 moved from k_jurchen
+##c_helan #曷懒/合兰 moved from k_jurchen
 #b_Helan_Yiligu
 10759 = {
     culture = yemaek
