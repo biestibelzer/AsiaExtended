@@ -1,0 +1,74 @@
+﻿name_list_nivkh = {
+
+	dynasty_names = {
+		"dynn_Odori"
+		"dynn_Amgun"
+		"dynn_Suksuhu"
+		"dynn_Mengtemu"
+		"dynn_Khingan"
+		"dynn_Ahanba"
+		"dynn_AiS_I_n"
+		"dynn_Aotun"
+		"dynn_Atai"
+		"dynn_BujowA_"
+		"dynn_Juhung"
+		"dynn_A_luA_"
+		"dynn_Fojomon"
+		"dynn_FuC_ian"
+		"dynn_Giagu"
+		"dynn_Giaoru"
+		"dynn_Guaiuruan"
+		"dynn_HA_rsurgia"
+		"dynn_HA_S_I_riA_"
+		"dynn_MA_nin"
+		"dynn_Nahu"
+		"dynn_Sahala"
+		"dynn_S_aron"
+		"dynn_S_I_jan"
+		"dynn_Jang"
+		"dynn_Tukdan"
+		"dynn_CA_ncun"
+		"dynn_Ugueisun"
+		"dynn_Ulyan"
+		"dynn_UndihA_n"
+		"dynn_Usaye"
+		"dynn_WangsurA_wei"
+		"dynn_Wongian"
+		"dynn_Wangiyyan"
+		"dynn_Nalan"
+		"dynn_Tushan"
+		"dynn_Pusan"
+		"dynn_S_uhu"
+		"dynn_Wugulun"
+		"dynn_Tangkuo"
+		"dynn_Wendihen"
+		"dynn_Wusazha"
+		"dynn_Pucha"
+		"dynn_Peiman"
+		"dynn_Wulinda"
+		"dynn_Tudan"
+		"dynn_HeS_ilie"
+		"dynn_Dilie"
+		"dynn_Ikderi"
+		"dynn_Aolimi"
+		"dynn_Puali"
+		"dynn_Yuelidu"
+		"dynn_Tieli"
+		"dynn_Punuli"
+		"dynn_Odoli"
+		"dynn_Huligai"
+		"dynn_Tuowen"
+		"dynn_Nianhe"
+		"dynn_S_uyaojia"
+	}
+	
+	male_names = {
+		Hyzgun Pyyzgun Vingun Vetkan Vadun Firun Chnorkin Umlin Otayn Mradamn Ityzan Yeran Pulkun K'yelik Mufchik Nayggan Makhrun Pbatn Ud Pyrn Nezjun Fizgun Tyht Yyks Azrun Atvuk Vadun Zarun Lanc Rsholin 
+	}
+	female_names = {
+		Leguk Porguk Changun Ezrok Rymeuk Tadik P'albik P'amzik Vyug'yl P'amzik Myyguk Changuk Chand Todik Ytkuk Zatuk Viniht Tek Vykzt Azuk Anguk Anyuk Welk Zuyuk Esavura Panko Iglik Lushkura Pineyk
+	}
+	
+	dynasty_name_first = yes
+	
+}

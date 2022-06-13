@@ -1,0 +1,46 @@
+﻿name_list_tungusic = {
+
+	cadet_dynasty_names = {
+		"dynn_Odoli" "dynn_Huligai" "dynn_Maolian" "dynn_Orangkae" "dynn_Orangai" "dynn_Wuliangha" "dynn_Orankha" "dynn_Oranke" "dynn_Udige" "dynn_Suksuhu" "dynn_Suksuhu_Bira" "dynn_Aisin_Gioro" "dynn_Hunehe_Bira" "dynn_Wanggiya" "dynn_Donggo" "dynn_Jecen_Aiman" "dynn_Neyen" "dynn_Jušeri" # Jianzhou Jurchen
+		"dynn_Hulun" "dynn_Yehe" "dynn_Yehe_Nara" "dynn_Hata" "dynn_Hada" "dynn_Ula" "dynn_Hoifa" # Haixi Jurchen
+		"Aanggang" "Acigecair" "Aha" "Aihui" "Aisin" "Aiyi" "Aiyos" "Akjan" "Ala" "Alai" "Alar" "Albaki" "Altanemok" "Alte" "Amuharnu" "Amunibutas" "Amuru" "Andara" "Angiya" "Aogiya" "Aora" "Aoratosin" "Arabiancian" "Arakcou" "Arakta" "Arbentcang" "Arbu" "Ardan" "Argi" "Ariha" "Arla" "Artas" "Aru" "Arurote" "Arute" "Asuke" "Asuke" "Atamu" "Aturamo" "Ayan_Gioro" "Ayantatar"
+		"Ba" "Bagiri" "Bai" "Baica" "Baican" "Baidu" "Baige" "Baigiya" "Baijin" "Baksang" "Barda" "Bari" "Barin" "Barra" "Barut" "Basun" "Bayak" "Bayan" "Bayantu" "Bayara" "Bayarki" "Bayingeri" "Bayot" "Bayotu" "Beisu" "Beisut" "Bektu" "Bian" "Biangiya" "Bira" "Biru" "Birure" "Birya" "Bodisi" "Boduot" "Boduri" "Bogulot" "Bohelok" "Bohite" "Boholo" "Bohori" "Boljok" "Bolo" "Bolot" "Boogi" "Boogiya" "Boorigit" "Borgi" "Borgigin" "Borgik" "Borgisi" "Borgun" "Borhigis" "Borholo" "Borjigin" "Borjigit" "Bork" "Borkit" "Borsut" "Bosoo" "Budara" "Bugirgen" "Bugulut" "Bukur" "Bulamu" "dynBulca" "dynBuldurben" "Bulhaci" "Bulni" "Bultu" "Buni" "Burhacit" "Burut" "Busa" "Busai" "Busi" "Busuk" "Buyamuci"
+		"C’ygiya" "Ca" "Cagiya" "Cahala" "Cai" "Cai" "Caigiya" "Calagiolo" "Canggiya" "Cao" "Caodan" "Caogiya" "Caomut" "Ce" "Cemgun" "Cen" "Ceng" "Cenggiya" "Cengiya" "Cengni" "Ceyere" "Ci" "Ci" "Cian" "Ciangiya" "Ciao" "Ciaogamuk" "Ciaogiya" "Cibogio" "Cibucut" "Cibukit" "Cidare" "Cideri" "Cidumu" "Cigiya" "Cikteng" "Cilei" "Cileng" "Cilik" "Cimketu" "Cimo" "Cimos" "Cimot" "Cimuk" "Cin" "Cinera" "Cinggeri" "Ciog" "Ciog" "Ciogiya" "Ciošuri" "Cirbosu" "Cirgote" "Citela" "Ciu" "Ciu" "Ciugiya" "Ciwangiya" "Ciya" "Ciyahiri" "Ciyakala" "Ciyala" "Ciyarya" "Ciyat" "Cogira" "Cogoru" "Cokcin" "Colo" "Colos" "Congnile" "Cu" "Cui" "Cuigiya" "Cuihokin" "Cuijuk" "Cuimulu" "Cukule" "Cibukinut" "Ciyogamut" 		
+	}
+
+	dynasty_names = {
+		"Wanyan" "Sushen" "Sukshin" "Baekdu" "Baishan" "Sanggiyan" "Saxalian" "Heishui" "Heuksu" "Odoli" "Udege" "Nanai" "Cheolli" # Clans and Tribes
+	}
+	
+	male_names = {
+		Hanpu Wulu Bahai Suike Shilu Wugunai Helibu Shizu Pochisu Muzong Kangzong Aguda Taizu Yongson Mengtemu Cungsan Fanca Tolo Sibeoci Fiyanggu Fuman Ahacu Sigiyanu Limanchu Gao Atai Wailan Giocangga Taksi Nurhaci Kesina Singgen Sirke Cirgani Cukungge Taicu Yangginu Cinggiyanu Narimbuu Jintaiji Wailan Tai Darhan Minggatu Hurhan Menggebulu Ulhuda Buyan Bugan Mantai Bujantai
+		Songolik Tymancha Tykulcha Gudeikon Adiul Hadiul Dyaluncha Aksik Capela Gugdaul Burgumi 
+		Nekuke Omolgi Hunat Dewelchin Bochok Oldonykan # Evenki
+	}
+	female_names = {
+		Abahai
+		Abahai Libgerik Libge Yultek Sekak Sekakchan Sekakindya Sekandor Mengunken Manguneri Nyungurdok Nadarmak Sodani # Evenki
+	}
+	
+	dynasty_name_first = yes
+	
+}
+
+name_list_tungusic = {
+	cadet_dynasty_names = {
+		"dynn_Hulun" "dynn_Yehe" "dynn_Yehe_Nara" "dynn_Hata" "dynn_Hada" "dynn_Ula" "dynn_Hoifa"
+	}
+
+	dynasty_names = {
+		"Wanyan" "Sushen" "Sukshin" "Baekdu" "Baishan" "Sanggiyan" "Saxalian" "Heishui" "Heuksu" "Odoli" "Udege" "Nanai" "Cheolli" # Clans and Tribes
+	}
+	male_names = {
+		Nekuke Omolgi Hunat Dewelchin Bochok Oldonykan
+	}
+	female_names = {
+		Abahai Libgerik Libge Yultek Sekak Sekakchan Sekakindya Sekandor Mengunken Manguneri Nyungurdok Nadarmak Sodani 
+	}
+	
+	dynasty_name_first = yes
+	
+}
