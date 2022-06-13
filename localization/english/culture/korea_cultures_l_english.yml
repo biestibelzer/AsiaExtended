@@ -1,19 +1,4 @@
-e_english:
-
- #Tunguse
- tunguse_group:0 "Tungus"
- tunguse_group_collective_noun:0 "Tungus"
- jurchen:0 "Jurchen"
- jurchen_collective_noun:0 "Jurchen"
- heishui:0 "Saxalian Hala"
- heishui_collective_noun:0 "Saxalian"
- yilou:0 "Yilou"
- yilou_collective_noun:0 "Yilou"
- udege:0 "Udege"
- udege_collective_noun:0 "Udege"
- mohese:0 "Motgit"
- mohese_collective_noun:0 "Motgit"
-
+﻿e_english:
 
  #Goryeo
  goryeo_group:0 "Koryŏ"

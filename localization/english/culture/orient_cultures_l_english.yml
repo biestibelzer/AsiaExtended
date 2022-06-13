@@ -196,22 +196,30 @@
  austronesian_group_collective_noun:0 "Austronesian"
  austronesian:0 "Austronesian"
  austronesian_collective_noun:0 "Austronesian"
- 
- 
+
  #Tunguse
  tunguse_group:0 "Tungus"
  tunguse_group_collective_noun:0 "Tungus"
- jurchen:0 "Jusen"
- jurchen_collective_noun:0 "Jusen"
- heishui:0 "Saxalian Hala"
- heishui_collective_noun:0 "Saxalian"
+ jurchen:0 "Jurčen"
+ jurchen_collective_noun:0 "Jurčen"
+ heishui:0 "Saxalian"
+ heishui_collective_noun:0 "Saxalian Hala"
  yilou:0 "Yilou"
  yilou_collective_noun:0 "Yilou"
  udege:0 "Udege"
  udege_collective_noun:0 "Udege"
- mohese:0 "Motgit"
- mohese_collective_noun:0 "Motgit"
+ mohese:0 "Mohe"
+ mohese_collective_noun:0 "Mohe"
+ motgit:0 "Motgit"
+ motgit_collective_noun:0 "Motgit"
 
+ # Nivkh
+ nivkh_group:0 "Nivkh"
+ nivkh_group_collective_noun:0 "Nivkhs"
+ mishihase:0 "Mishihase"
+ mishihase_collective_noun:0 "Mishihases"
+ nivkh:0 "Nivkh"
+ nivkh_collective_noun:0 "Nivkh"
 
  #Goryeo
  goryeo_group:0 "Koryŏ"
@@ -265,10 +273,4 @@
  kaizuka_prefix:0 "Ezo"
  kaizuka_collective_noun:0 "Kaizukas"
  
- nivkh_group:0 "Nivkh"
- nivkh_group_collective_noun:0 "Nivkhs"
- mishihase:0 "Mishihase"
- mishihase_collective_noun:0 "Mishihases"
- gilyak:0 "Gilyak"
- gilyak_collective_noun:0 "Gilyaks"
 
