@@ -573,6 +573,13 @@ colored_emblem_texture_lists = {
 			5000 = "ce_tamgha_baruun.dds"
 			5000 = "ce_tamgha_aarlud.dds"
 		}
+
+		special_selection = {
+			trigger = {
+				coa_iberian_trigger = yes
+			}
+			100 = "ce_eagle_iberia.dds"
+		}
 	}
 	
 	# thirds that are designed to line up propely with Mena tricolours
@@ -997,6 +1004,10 @@ colored_emblem_texture_lists = {
 		special_selection = { trigger = { scope:faith = { has_icon = "zunist" } } 10000000 = "ce_religion_pagan_zunist.dds" }
 		special_selection = { trigger = { scope:faith = { has_icon = "zunist_custom" } } 10000000 = "ce_religion_pagan_zunist.dds" }
 		special_selection = { trigger = { scope:faith = { has_icon = "zunist_reformed" } } 10000000 = "ce_religion_pagan_zunist.dds" }
+
+		special_selection = { trigger = { scope:faith = { has_doctrine = muhammad_succession_sunni_doctrine } } 50000 = "ce_religion_islam_generic.dds" }
+		special_selection = { trigger = { scope:faith = { has_doctrine = muhammad_succession_shia_doctrine } } 50000 = "ce_religion_islam_asharism.dds" }
+		special_selection = { trigger = { scope:faith = { has_doctrine = muhammad_succession_muhakkima_doctrine } } 50000 = "ce_religion_islam_iibadi.dds" }
 	}
 	
 ###
@@ -1916,8 +1927,33 @@ colored_emblem_texture_lists = {
 			100 = "ce_eagle_claw.dds"	
 			100 = "ce_antlers_attire.dds"
 			100 = "ce_vol.dds"
-		}		
+		}
+
+		special_selection = {
+			trigger = {
+				coa_iberian_trigger = yes
+			}
+
+			100 = "ce_dragon_bundle.dds"
+			100 = "ce_eagle_iberia.dds"
+			100 = "ce_goat_02.dds"
+			100 = "ce_lion_rampant_wide_stance.dds"
+			100 = "ce_lion_rampant_wide_stance_crown.dds"
+			100 = "ce_wolf_passant.dds"
+			100 = "ce_wolf_passant_lamb.dds"
+			100 = "ce_crown_coronet.dds"
+			100 = "ce_shield_02.dds"
+			100 = "ce_basket.dds"
+			100 = "ce_chain.dds"
+			100 = "ce_column.dds"
+			100 = "ce_column_banner.dds"
+			100 = "ce_shield_02.dds"
+			100 = "ce_arabic_iberia.dds"
+			100 = "ce_thistle.dds"
+			100 = "ce_thistle_grass.dds"
+		}
 	}
+
 	hr_three_charges_list = {
 		# bestiary
 		150 = "ce_lion_rampant.dds"
@@ -1992,7 +2028,27 @@ colored_emblem_texture_lists = {
 			200	= "ce_lion_head.dds"	
 			500 = "ce_fleur.dds"	
 		
-		}			
+		}
+
+		special_selection = {
+			trigger = {
+				coa_iberian_trigger = yes
+			}
+
+			200 = "ce_dragon_bundle.dds"
+			200 = "ce_eagle_iberia.dds"
+			200 = "ce_goat_02.dds"
+			200 = "ce_lion_rampant_wide_stance.dds"
+			200 = "ce_lion_rampant_wide_stance_crown.dds"
+			200 = "ce_wolf_passant.dds"
+			200 = "ce_wolf_passant_lamb.dds"
+			200 = "ce_shield_02.dds"
+			200 = "ce_chain.dds"
+			200 = "ce_column.dds"
+			200 = "ce_column_banner.dds"
+			200 = "ce_thistle.dds"
+			200 = "ce_thistle_grass.dds"
+		}
 	}	
 	
 	hr_three_charges_pall_list = {
@@ -2102,7 +2158,22 @@ colored_emblem_texture_lists = {
 			2000 = "ce_annulet.dds"		
 			1000 = "ce_lozenge.dds"	
 			1000 = "ce_circle.dds"			
-		}			
+		}
+
+		special_selection = {
+			trigger = {
+				coa_iberian_trigger = yes
+			}
+
+			100 = "ce_dragon_bundle.dds"
+			100 = "ce_eagle_iberia.dds"
+			100 = "ce_goat_02.dds"
+			100 = "ce_lion_rampant_wide_stance.dds"
+			100 = "ce_lion_rampant_wide_stance_crown.dds"
+			100 = "ce_wolf_passant.dds"
+			100 = "ce_wolf_passant_lamb.dds"
+			100 = "ce_shield_02.dds"
+		}
 	}	
 	hr_geometrical_list = {
 	# geometrical pieces - divisions + ordinaries
@@ -2396,6 +2467,29 @@ colored_emblem_texture_lists = {
 		50 = "ce_lion_rampant_small.dds"
 		50 = "ce_pot.dds"
 		50 = "ce_clam.dds"
+		special_selection = {
+			trigger = {
+				coa_iberian_trigger = yes
+			}
+
+			100 = "ce_dragon_bundle.dds"
+			100 = "ce_eagle_iberia.dds"
+			100 = "ce_goat_02.dds"
+			100 = "ce_lion_rampant_wide_stance.dds"
+			100 = "ce_lion_rampant_wide_stance_crown.dds"
+			100 = "ce_wolf_passant.dds"
+			100 = "ce_wolf_passant_lamb.dds"
+			100 = "ce_crown_coronet.dds"
+			100 = "ce_shield_02.dds"
+			100 = "ce_basket.dds"
+			100 = "ce_chain.dds"
+			100 = "ce_column.dds"
+			100 = "ce_column_banner.dds"
+			100 = "ce_shield_02.dds"
+			100 = "ce_arabic_iberia.dds"
+			100 = "ce_thistle.dds"
+			100 = "ce_thistle_grass.dds"
+		}
 	}		
 	hr_canton_charges_list = {
 		50 = "ce_star_06.dds"
@@ -2586,6 +2680,12 @@ colored_emblem_texture_lists = {
 			50 = "ce_elephant.dds"
 		}	
 		
+		special_selection = {
+			trigger = {
+				coa_iberian_trigger = yes
+			}
+			100 = "ce_eagle_iberia.dds"
+		}
 	}	
 
 	mena_base_charges_list = {
@@ -2606,7 +2706,14 @@ colored_emblem_texture_lists = {
 		500 = "ce_mena_lion.dds"
 		500 = "ce_mena_axe.dds"
 		500 = "ce_eagle_islamic.dds"
-		500 = "ce_mena_crescent.dds"			
+		500 = "ce_mena_crescent.dds"
+
+		special_selection = {
+			trigger = {
+				coa_iberian_trigger = yes
+			}
+			100 = "ce_eagle_iberia.dds"
+		}
 	}
 	
 	mena_middle_charges_list = {
@@ -2832,7 +2939,19 @@ colored_emblem_texture_lists = {
 			100 = "ce_vol.dds"
 			100 = "ce_fleur.dds"
 			100 = "ce_shrub.dds"
-		}		
+		}
+
+		special_selection = {
+			trigger = {
+				coa_iberian_trigger = yes
+			}
+
+			100 = "ce_basket.dds"
+			100 = "ce_chain.dds"
+			100 = "ce_column.dds"
+			100 = "ce_thistle.dds"
+			100 = "ce_shield_02.dds"
+		}
 	}
 	hr_geometrical_symetrical_list = {
 	# for dimidiated designs
@@ -2860,6 +2979,7 @@ colored_emblem_texture_lists = {
 		30 = "ce_paly_08.dds"
 
 
+		
 		special_selection = {
 			trigger = {
 				coa_scandinavian_trigger = yes
@@ -2870,6 +2990,16 @@ colored_emblem_texture_lists = {
 			30 = "ce_ordinary_bars_2.dds"
 			10 = "ce_pile_inverted_dimidiated.dds"	
 		}	
+
+		special_selection = {
+			trigger = {
+				coa_iberian_trigger = yes
+			}
+
+			100 = "ce_column.dds"
+			100 = "ce_column_banner.dds"
+		}
+
 		
 		special_selection = {
 			trigger = {

@@ -1,4 +1,6 @@
-﻿xingyang_zheng_dyn = { #????
+﻿80000001 = e_tang
+
+xingyang_zheng_dyn = { #????
     pattern =  "pattern_solid.dds"
     color1 = "yellow"
     color2 = "red"

@@ -12,7 +12,7 @@
 #b_nanliuqiu
 10924 = { 
 	culture = sirayic
-	religion = pagan
+	religion = kadai
 	holding = tribal_holding
 }
 #b_siraya
@@ -29,7 +29,7 @@
 #b_zhongliuqiu
 10923 = {
 	culture = pituish
-	religion = pagan
+	religion = kadai
 	holding = tribal_holding
 }
 #b_hoanya
@@ -51,7 +51,7 @@
 #b_beiliuqiu
 10922 = {
 	culture = sirayic
-	religion = pagan
+	religion = kadai
 	holding = tribal_holding
 }
 #b_basaia
@@ -68,7 +68,7 @@
 #b_atalyada
 11996 = {
 	culture = limaish
-	religion = pagan
+	religion = kadai
 	holding = tribal_holding
 }
 #b_seediqa
@@ -85,7 +85,7 @@
 #b_siwada
 11992 = {
 	culture = siwaish
-	religion = pagan
+	religion = kadai
 	holding = tribal_holding
 }
 #b_tsoua
@@ -102,7 +102,7 @@
 #b_paiwan
 11984 = {
 	culture = paiwanese
-	religion = pagan
+	religion = kadai
 	holding = tribal_holding
 }
 #b_rukaia
@@ -114,7 +114,7 @@
 #b_north_amisa
 11986 = {
 	culture = sirayic
-	religion = pagan
+	religion = kadai
 	holding = tribal_holding
 }
 #b_south_amisa
@@ -134,18 +134,18 @@
 #b_ryukyu
 11286 = {
 	culture = kaizuka
-	religion = pagan
+	religion = ryukyu_animism
 	holding = tribal_holding
 }
 #b_amami
 11227 = {
 	culture = kaizuka
-	religion = pagan
+	religion = ryukyu_animism
 	holding = tribal_holding
 }
 #b_miyakojima  #b_saki
 11285 = {
 	culture = batanic
-	religion = kabunian
+	religion = anito
 	holding = tribal_holding
 }

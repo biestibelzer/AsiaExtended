@@ -1983,7 +1983,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 
 			doctrine = tenet_warmonger
 			doctrine = tenet_ancestor_worship
-			doctrine = tenet_carnal_exaltation
+			doctrine = tenet_sanctity_of_nature
 		}
 
 		kadai = { # Aeta people

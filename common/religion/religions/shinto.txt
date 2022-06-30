@@ -1,6 +1,6 @@
 ﻿shinto_religion = {
 	family = rf_eastern
-	graphical_faith = dharmic_gfx
+	graphical_faith = shinto_gfx
 	doctrine = eastern_hostility_doctrine
 	
 	#Main Group

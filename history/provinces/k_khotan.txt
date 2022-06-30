@@ -1,4 +1,4 @@
-﻿# 1438 - Yarkand
+# 1438 - Yarkand
 1438 = {	# 1438 - Yarkand
 	
 	# Misc
@@ -22,6 +22,13 @@
 		culture = uyghur
 		religion = ashari
 	}
+	1066.1.1 = {
+		buildings = {
+			plantations_01
+			military_camps_01
+			camel_farms_01
+		}
+	}
 	1233.1.1 = {
 		religion = nestorian
 	}	#Strong Nestorian presence recorded by Marco Polo
@@ -30,8 +37,6 @@
 	}	#Tughlugh Timur Khan reinforces Islam in Chagatai
 
 }
-
-
 
 # 1440 - Khotan
 1440 = {	#1440 - Khotan
@@ -45,6 +50,13 @@
 	# History
 	1066.1.1 = {
 		culture = uyghur
+	}
+	1066.1.1 = {
+		buildings = {
+			pastures_01
+			plantations_01
+			orchards_01
+		}
 	}
 }
 
@@ -150,12 +162,12 @@
 	culture = khitan
 	religion = vajrayana
 	
-	holding = castle_holding
+	holding = none
 	
 	# History
-	848.1.1 = {		#Gansu Yughur Kingdom
-		culture = uyghur
-	}
+	#848.1.1 = {		#Gansu Yughur Kingdom
+	#	culture = uyghur
+	#}
 }
 
 # 7958 - Yengisar
@@ -628,9 +640,9 @@
 	holding = none
 	
 	# History
-	848.1.1 = {		#Gansu Yughur Kingdom
-		culture = uyghur
-	}
+	#848.1.1 = {		#Gansu Yughur Kingdom
+	#	culture = uyghur
+	#}
 }
 
 # 7991 - Tikenik
@@ -703,9 +715,9 @@
 	holding = none
 	
 	# History
-	848.1.1 = {		#Gansu Yughur Kingdom
-		culture = uyghur
-	}
+	#848.1.1 = {		#Gansu Yughur Kingdom
+	#	culture = uyghur
+	#}
 }
 
 # 7996 - Dafang
@@ -718,9 +730,9 @@
 	holding = none
 	
 	# History
-	848.1.1 = {		#Gansu Yughur Kingdom
-		culture = uyghur
-	}
+	#848.1.1 = {		#Gansu Yughur Kingdom
+	#	culture = uyghur
+	#}
 }
 
 # 7997 - Nanhu_TARIM
@@ -733,9 +745,9 @@
 	holding = none
 	
 	# History
-	848.1.1 = {		#Gansu Yughur Kingdom
-		culture = uyghur
-	}
+	#848.1.1 = {		#Gansu Yughur Kingdom
+	#	culture = uyghur
+	#}
 }
 
 # 7998 - Omotrunnaisse
@@ -748,9 +760,9 @@
 	holding = none
 	
 	# History
-	848.1.1 = {		#Gansu Yughur Kingdom
-		culture = uyghur
-	}
+	#848.1.1 = {		#Gansu Yughur Kingdom
+	#	culture = uyghur
+	#}
 }
 
 # 7999 - Miran
@@ -760,7 +772,7 @@
 	culture = khitan
 	religion = vajrayana
 	
-	holding = none
+	holding = castle_holding
 	
 	# History
 	848.1.1 = {		#Gansu Yughur Kingdom
@@ -880,8 +892,7 @@
 	culture = sogdian
 	religion = mahayana
 	
-	holding = castle_holding
-	special_building = rewakefosi
+	holding = none
 	
 	# History
 
@@ -993,19 +1004,3 @@
 	}
 }
 
-
-
-#b_Bohuandao
-9886 = {	
-	
-# Misc
-culture = sogdian
-religion = mahayana
-
-holding = none
-
-# History
-1066.1.1 = {
-	culture = uyghur
-}
-}

@@ -52,7 +52,7 @@
 		dynasty = 20084
 		dynasty_splendor_level = 1
 		type = male
-		birth = 820.2.7
+		birth = 845.2.7
 		title = d_western_isles
 		government = tribal_government
 		culture = norse
@@ -68,7 +68,7 @@
 			relation = "BOOKMARK_RELATION_SON"
 			dynasty = 20084
 			type = male
-			birth = 838.1.1
+			birth = 858.1.1
 			culture = norse
 			religion = norse_pagan
 			history_id = 6814
@@ -81,7 +81,7 @@
 			relation = "BOOKMARK_RELATION_SON"
 			dynasty = 20084
 			type = male
-			birth = 842.1.1
+			birth = 862.1.1
 			culture = norse
 			religion = norse_pagan
 			history_id = 40609
@@ -643,19 +643,19 @@ bm_867_asia = {
 	character = {
 		name = "bookmark_yamato_imperial_family"
 		dynasty = 40000101
-		dynasty_splendor_level = 1
+		dynasty_splendor_level = 5
 		type = male
 		birth = 850.5.12
 		title = k_yamato
 		#title_text_override = "WEST_FRANCIA"
-		government = feudal_government
+		government = clan_government
 		culture = yamato
 		religion = shinto
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = 1600004
-		position = { 960 640 }
+		position = { 980 650 }
 		
-		animation = love
+		animation = idle
 		# Yoshifusa, regent of emperor Seiwa
 		character = {
 			name = "bookmark_yamato_imperial_family_alt_fujiwara"
@@ -667,24 +667,8 @@ bm_867_asia = {
 			culture = yamato
 			religion = shinto
 			history_id = 1600001
-			animation = personality_irrational
+			animation = personality_rational
 		}
-	}
-	# Eungryeom of Silla
-	character = {
-		name = "bookmark_silla_isageum"
-		dynasty = 60000003
-		dynasty_splendor_level = 1
-		type = male
-		birth = 843.1.1
-		title = k_silla
-		government = feudal_government
-		culture = saro
-		religion = mahayana
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		history_id = 110000001
-		position = { 550 600 }
-		animation = worry
 	}
 }
 

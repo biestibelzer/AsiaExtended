@@ -11,7 +11,7 @@ c_danzhou = {
 		holder = 5100027
 }
 }
-c_ fangzhou = {
+c_fangzhou = {
 	866.1.1 = {
 		holder = 5100027
 }

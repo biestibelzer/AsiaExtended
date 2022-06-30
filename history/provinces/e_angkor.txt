@@ -11,13 +11,21 @@
 11767 = {
 
 }
+#b_palha
+12043 = {
+	culture = khmer
+	religion = vaishnavism
+	holding = castle_holding
+}
 #b_andet
 11739 = {
 
 }
 #b_bakheng
 11738 = {
-
+	culture = khmer
+	religion = vaishnavism
+	holding = castle_holding
 }
 #b_samraong
 11737 = {
@@ -57,11 +65,15 @@
 }
 #b_pursat
 11746 = {
-
+	culture = khmer
+	religion = vaishnavism
+	holding = castle_holding
 }
 #b_sambor_prei_kuk
 11747 = {
-
+	culture = khmer
+	religion = shaivism
+	holding = castle_holding
 }
 #c_vyadhapura
 #b_angkor_borei
@@ -77,7 +89,9 @@
 }
 #b_popel
 11750 = {
-
+	culture = khmer
+	religion = vaishnavism
+	holding = castle_holding
 }
 #b_bati
 11751 = {
@@ -85,7 +99,9 @@
 }
 #b_tbong_khmum
 11752 = {
-
+	culture = khmer
+	religion = vaishnavism
+	holding = castle_holding
 }
 #c_can_tho
 #b_can_tho
@@ -100,18 +116,23 @@
 }
 #b_prey_rusey
 11755 = {
-
+	culture = khmer
+	religion = vaishnavism
+	holding = castle_holding
 }
 #c_ban_lung
 #b_mondul_kiri
 11756 = {
-	culture = bahnaric
+	#culture = bahnaric
+	culture = khmer
 	religion = vaishnavism
 	holding = castle_holding
 }
 #d_kiri
 11757 = {
-
+	culture = champ
+	religion = shaivism
+	holding = castle_holding
 }
 #b_kaoh_nheaek
 11758 = {
@@ -130,7 +151,9 @@
 }
 #b_kampot
 11761 = {
-
+	culture = khmer
+	religion = vaishnavism
+	holding = castle_holding
 }
 #b_kampong_seila
 11762 = {
@@ -145,11 +168,15 @@
 }
 #b_thala_borivat
 11764 = {
-
+	culture = khmer
+	religion = vaishnavism
+	holding = castle_holding
 }
 #b_siem_pang
 11765 = {
-
+	culture = champ
+	religion = shaivism
+	holding = castle_holding
 }
 #d_prasab
 11766 = {
@@ -168,7 +195,9 @@
 }
 #b_udon_thani
 11677 = {
-
+	culture = mon
+	religion = shaivism
+	holding = castle_holding
 }
 #b_nong_bua_lam_phu
 11678 = {
@@ -176,7 +205,9 @@
 }
 #b_nong_khai
 11679 = {
-
+	culture = mon
+	religion = shaivism
+	holding = castle_holding
 }
 
 #c_east_isan
@@ -192,11 +223,15 @@
 }
 #b_amnat_charoen
 11683 = {
-
+	culture = mon
+	religion = shaivism
+	holding = castle_holding
 }
 #b_kalasin
 11684 = {
-
+	culture = mon
+	religion = shaivism
+	holding = castle_holding
 }
 #c_south_isan
 #b_buriram
@@ -207,7 +242,9 @@
 }
 #b_det_udom
 11685 = {
-
+	culture = kuy
+	religion = shaivism
+	holding = castle_holding
 }
 #b_phuttaisong
 11687 = {
@@ -233,26 +270,35 @@
 }
 #b_sekong
 11675 = {
-
+	culture = champ
+	religion = shaivism
+	holding = castle_holding
 }
 #b_attapeu
 11676 = {
-
+	culture = champ
+	religion = shaivism
+	holding = castle_holding
 }
 #c_savannakhet
 #b_savannakhet
 11670 = {
-	culture = katuic
+	#culture = katuic
+	culture = champ
 	religion = shaivism
 	holding = castle_holding
 }
 #b_seponh
 11671 = {
-
+	culture = champ
+	religion = shaivism
+	holding = castle_holding
 }
 #b_khammouane
 11672 = {
-
+	culture = champ
+	religion = shaivism
+	holding = castle_holding
 }
 
 
@@ -283,7 +329,9 @@
 					
 #b_bahnar
 11648 = {
-
+	culture = champ
+	religion = vaishnavism
+	holding = castle_holding
 }
 			
 					
@@ -333,7 +381,7 @@
 #c_dagar		
 #b_dagar
 11659 = {
-	culture = bahnaric
+	culture = champ
 	religion = vaishnavism
 	holding = castle_holding
 }
@@ -341,12 +389,10 @@
 					
 #d_lak
 11660 = {
-	culture = bahnaric
+	culture = champ
 	religion = vaishnavism
 	holding = castle_holding
 }
-			
-					
 #b_jarai
 11661 = {
 
@@ -370,13 +416,18 @@
 	religion = vaishnavism
 	holding = castle_holding
 }
-			
-					
 #b_baigaur
 11664 = {
 
 }
-					
+#b_amarendrapura
+12108 = {
+	culture = khmer
+	religion = vaishnavism
+	holding = castle_holding
+}
+
+
 #b_prey_rodum
 11665 = {
 
@@ -421,12 +472,10 @@
 #c_ma_vn		
 #b_cho_ro
 11667 = {
-	culture = bahnaric
+	culture = champ
 	religion = vaishnavism
 	holding = castle_holding
 }
-			
-					
 #b_mnong
 11668 = {
 
@@ -435,7 +484,9 @@
 					
 #b_blao
 11669 = {
-
+	culture = champ
+	religion = vaishnavism
+	holding = castle_holding
 }
 
 
@@ -500,7 +551,9 @@
 }
 #b_chan_kabui
 11711 = {
-
+	culture = khmer
+	religion = vaishnavism
+	holding = castle_holding
 }
 
 #d_kra
@@ -672,7 +725,9 @@
 }
 #b_loei
 11731 = {
-
+	culture = mon
+	religion = shaivism
+	holding = castle_holding
 }
 #b_phitsanulok
 11732 = {
@@ -690,5 +745,46 @@
 11735 = {
 
 }
-
-
+12093 = {
+	culture = kuy
+	religion = shaivism
+	holding = castle_holding
+}
+12051 = {
+	culture = tai
+	religion = theravada
+	holding = castle_holding
+}
+10547 = {
+	culture = tai
+	religion = theravada
+	holding = castle_holding
+}
+12072 = {
+	culture = khmu
+	religion = pagan
+	holding = castle_holding
+}
+10548 = {
+	culture = khmu
+	religion = pagan
+	holding = castle_holding
+}
+12097 = {
+	culture = champ
+	religion = vaishnavism
+	holding = castle_holding
+}
+12089 = {
+	culture = mon
+	religion = shaivism
+	holding = castle_holding
+}
+12041 = {
+	culture = champ
+	religion = shaivism
+	holding = castle_holding
+}
+12046 = {
+	holding = none
+}

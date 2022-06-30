@@ -1,4 +1,4 @@
-﻿nivkh = {
+﻿gilyak = {
 	color = { 131 127 144 }
 
 	ethos = ethos_courtly
@@ -33,7 +33,7 @@ mishihase = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_forest_folk
-		tradition_staunch_traditionalists
+		tradition_fishermen
 		tradition_hit_and_run
 		tradition_medicinal_plants
 	}

@@ -9,7 +9,7 @@
 		ai_primary_priority = {
 			if = {
 				limit = {
-					culture_group = culture_group:burman_group
+					heritages = { heritage_burman }
 				}
 				add = @correct_culture_primary_score
 			}

@@ -65,7 +65,7 @@
 10438 = {
 	culture = jiaozhi
 	religion = mahayana
-	holding = tribal_holding
+	holding = castle_holding
 }  
 #b_hau_lu
 10429 = {

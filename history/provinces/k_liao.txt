@@ -41,7 +41,7 @@
 #c_yingzhou_liaoxi
 #b_LiuchengYingzhou
 10642 = {
-    culture = khitan
+    culture = han
 	religion = zenzong
 	holding = castle_holding
 }
@@ -55,12 +55,19 @@
 
 	holding = castle_holding
 }
+
 #d_liaodong
 #c_liaodong
+#b_Xiangping
+10664 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding
+}
 #b_Baiyacheng
 10665 = {
-    culture = khitan
-	religion = zenzong
+
+
 	holding = castle_holding
 }
 #b_SheenzhouLejiao
@@ -105,18 +112,12 @@
 
 	holding = none
 }
-#b_Xiangping
-10664 = {
-
-	
-	holding = castle_holding
-}
 
 #c_jilizhou
 #b_Jilizhou
 10668 = {
     culture = goguryeo
-	religion = zenzong
+	religion = mahayana
 	holding = castle_holding
 }
 #b_Beishacheng 
@@ -152,6 +153,103 @@
 #b_Muzhouhuinong
 10672 = {
 
+
+	holding = none
+}
+
+
+#d_gewu #高句丽/哥勿州
+#c_yalu
+#b_Shenlu_Yalufu
+10696 = {
+    culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+}
+#b_Anfeng_Changbaishan
+10697 = {
+
+
+	holding = church_holding
+}
+#b_Zhengzhou_Yalu
+10695 = {
+
+
+	holding = city_holding
+}
+
+
+#c_hwando  #桓都/仓岩州
+#b_Wandushancheng
+10694 = {
+    culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+}
+#b_Heshenggucheng 
+10693 = {
+
+	holding = none
+}
+#b_Qishui
+10698 = {
+
+	holding = none
+}
+
+
+#d_rangnang #安东/乐浪/平安道
+#c_pyongyang #平壤
+#b_Pyongyang
+10912 = {
+    culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+}
+#b_yonggang
+10913 = {
+
+	holding = none
+}
+#b_pyongsong #平城
+10918 = {
+
+	holding = city_holding
+}
+
+#c_anju #安州
+#b_anju
+10914 = {
+    culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+}
+#b_chongju
+10915 = {
+
+	holding = city_holding
+}
+#b_uiju
+10916 = {
+
+	holding = none
+}
+#b_sakachu
+10920 = {
+
+	holding = none
+}
+
+#c_nyongbyon #宁边		
+#b_Nyongbyon
+10917 = {
+    culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+}
+#b_kanggye
+10919 = {
 
 	holding = none
 }

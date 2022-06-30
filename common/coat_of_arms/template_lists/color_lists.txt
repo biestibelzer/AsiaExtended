@@ -79,7 +79,7 @@ color_lists = {
 			trigger = {  # PM : This can be split into South & North as there are stats for both
 				scope:culture = {
 					has_coa_gfx = german_group_coa_gfx
-					NOT = { has_coa_gfx = frisian_coa_gfx_coa_gfx }
+					NOT = { has_coa_gfx = frisian_coa_gfx }
 				}
 			}
 			27 = "red"
@@ -250,7 +250,7 @@ color_lists = {
 			trigger = {
 				scope:culture = {
 					has_coa_gfx = german_group_coa_gfx
-					NOT = { has_coa_gfx = frisian_coa_gfx_coa_gfx }
+					NOT = { has_coa_gfx = frisian_coa_gfx }
 				}
 			}
 			14 = "yellow"

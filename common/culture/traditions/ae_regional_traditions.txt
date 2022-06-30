@@ -9,7 +9,7 @@ tradition_chinese_characters = {
 	layers = {
 		0 = default5.dds
 		1 = default_todo.dds
-		2 = rec3 copy 2.dds
+		2 = rec3_copy_2.dds
 		3 = 2.dds
 		4 = han.dds
 	}
@@ -75,9 +75,9 @@ tradition_japanese_samurai = {
 	layers = {
 		0 = default5.dds
 		1 = default_todo.dds
-		2 = rec3 copy 2.dds
+		2 = rec3_copy_2.dds
 		3 = 2.dds
-		4 = samurai_bow.dds
+		4 = soldiers.dds
 	}
 
 	is_shown = {
@@ -134,7 +134,7 @@ tradition_emishi_horse_archers = {
 	layers = {
 		0 = default5.dds
 		1 = default_todo.dds
-		2 = rec3 copy 2.dds
+		2 = rec3_copy_2.dds
 		3 = 2.dds
 	}
 
@@ -192,9 +192,9 @@ tradition_han_maa = {
 	layers = {
 		0 = default5.dds
 		1 = default_todo.dds
-		2 = rec3 copy 2.dds
+		2 = rec3_copy_2.dds
 		3 = 2.dds
-		4 = han_pikemen.dds
+		4 = soldiers.dds
 	}
 
 	is_shown = {
@@ -251,9 +251,9 @@ tradition_khitan_maa = {
 	layers = {
 		0 = default5.dds
 		1 = default_todo.dds
-		2 = rec3 copy 2.dds
+		2 = rec3_copy_2.dds
 		3 = 2.dds
-		4 = heavy_cav_kithan.dds
+		4 = soldiers.dds
 	}
 
 	is_shown = {
@@ -301,5 +301,125 @@ tradition_khitan_maa = {
 	
 	ai_will_do = {
 		value = 100
+	}
+}
+
+# SEA
+tradition_austronesian_seafarers = {
+	category = regional
+
+	layers = {
+		0 = diplo
+		1 = indian
+		4 = ship.dds
+	}
+
+	is_shown = {
+		OR = {
+			has_cultural_pillar = heritage_malay
+			has_cultural_pillar = heritage_java
+			has_cultural_pillar = heritage_dayak
+			has_cultural_pillar = heritage_north_borneo
+			has_cultural_pillar = heritage_filipino
+			has_cultural_pillar = heritage_sulawesi
+			has_cultural_pillar = heritage_timor
+			has_cultural_pillar = heritage_papuan
+		}
+	}
+	
+	can_pick = {
+		OR = {
+			has_cultural_pillar = heritage_malay
+			has_cultural_pillar = heritage_java
+			has_cultural_pillar = heritage_dayak
+			has_cultural_pillar = heritage_north_borneo
+			has_cultural_pillar = heritage_filipino
+			has_cultural_pillar = heritage_sulawesi
+			has_cultural_pillar = heritage_timor
+			has_cultural_pillar = heritage_papuan
+		}
+	}
+	
+	parameters = {
+		trade_ports_give_control_growth = yes
+		trade_ports_give_levies = yes
+		can_travel_along_rivers = yes
+	}
+
+	culture_modifier = {
+		cultural_acceptance_gain_mult = 0.20
+	}
+	character_modifier = {
+		learn_language_scheme_power_mult = 0.1
+		embarkation_cost_mult = -0.10
+	}
+	effect = {
+		same_tradition_opinion = yes
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						any_in_list = { list = traits this = flag:ethos_bellicose }
+						any_in_list = { list = traits this = flag:ethos_communal }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_or_communal_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+		if = { # Make stacking a bit less common
+			limit = {
+				OR = {
+					any_in_list = { list = traits this = flag:tradition_maritime_mercantilism }
+					any_in_list = { list = traits this = flag:tradition_fishermen }
+				}
+			}
+			multiply = 0.75
+		}
+		if = {
+			limit = {
+				NOT = {
+					scope:character = {
+						any_sub_realm_county = {
+							percent >= 0.3
+							any_county_province = {
+								is_coastal = yes
+							}
+						}
+					}
+				}
+			}
+			multiply = 0
+		}
+		if = {
+			limit = {
+				scope:character = {
+					any_sub_realm_county = {
+						percent >= 0.7
+						any_county_province = {
+							is_coastal = yes
+						}
+					}
+				}
+			}
+			multiply = 2
+		}
 	}
 }

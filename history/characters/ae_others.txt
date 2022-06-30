@@ -24,48 +24,7 @@ butuan001 = { # should be married to Javanese princess
 		death = yes
 	}
 }
-# http://www7.plala.or.jp/seareview/newpage2Chapter4Angkor.html
 
-26360000 = {
-    name = "Jayavarman III"
-    dynasty = 2636000
-    religion = "shaivism"
-    culture = "khmer"
-
-    830.1.1 = {
-        birth = yes
-    }
-    # began reign in 850
-    877.1.1 = {
-        death = yes
-    }
-}
-
-26360001 = {
-    name = "Lava"
-    dynasty = 2636001
-    religion = "shaivism"
-    culture = "mon"
-
-    832.1.1 = {
-        birth = yes
-    }
-    879.1.1 = {
-        death = yes
-    }
-}
-4550002 = {
-	name = Dahari
-	dynasty = 46600002
-	religion = shaivism
-	culture = champ
-	845.1.1 = {
-		birth = yes
-	}
-	1066.1.1 = {
-		death = yes
-	}
-}
 4550009 = {
 	name = Hongji
 	dynasty = 46600009
@@ -106,7 +65,7 @@ kapampangan001 = { # Tondo
 }
 kapampangan002 = { # Pangasinan
 	name = "Bulan"
-	religion = kabunian
+	religion = anito
 	culture = pampangan
 	1043.1.1 = {
 		birth = yes
@@ -118,7 +77,7 @@ kapampangan002 = { # Pangasinan
 
 pangasinan001 = { # Pangasinan
 	name = "Bulan"
-	religion = kabunian
+	religion = anito
 	culture = pangasinan
 	843.1.1 = {
 		birth = yes
@@ -277,7 +236,7 @@ tondo011 = {
 
 sambal001 = {
 	name = "Laki"
-	religion = malyari
+	religion = anito
 	culture = sinauna
 	842.12.12 = { 
 		birth = yes
@@ -288,7 +247,7 @@ sambal001 = {
 }
 palawan001 = {
 	name = "Danum"
-	religion = malyari
+	religion = anito
 	culture = sinauna
 	840.1.1 = { 
 		birth = yes
@@ -400,6 +359,34 @@ tagalog006 = { # Tulay
 		birth = yes
 	}
 	1066.1.1 = {
+		death = yes
+	}
+}
+
+# Hokkaido
+teshio_placeholder_001 = {
+	name = "Toshiyakui"
+	dna = toshiyakui_the_mishihase_dna
+	dynasty = tribe_Mashike
+	religion = yzng
+	culture = mishihase
+	diplomacy = 3
+	martial = 5
+	stewardship = 7
+	intrigue = 4
+	learning = 10
+	prowess = 7
+	trait = education_diplomacy_3
+	trait = gregarious
+	trait = honest
+	trait = diligent
+	842.7.31 = {
+		birth = yes
+		add_character_flag = {
+			flag = has_scripted_appearance
+		}
+	}
+	900.1.1 = {
 		death = yes
 	}
 }

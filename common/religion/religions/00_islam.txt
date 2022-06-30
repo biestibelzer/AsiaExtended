@@ -1,6 +1,4 @@
-﻿##MODIFIED VANILLA FILE##
-
-islam_religion = {
+﻿islam_religion = {
 	family = rf_abrahamic
 	
 	graphical_faith = "islamic_gfx"
@@ -59,7 +57,7 @@ islam_religion = {
 	}
 
 	custom_faith_icons = {
-		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil
 	}
 
 	holy_order_names = {
@@ -76,6 +74,7 @@ islam_religion = {
 	localization = {
 		#HighGod
 		HighGodName = islam_high_god_name
+		HighGodName2 = islam_high_god_name_2
 		HighGodNamePossessive = islam_high_god_name_possessive
 		HighGodNameSheHe = CHARACTER_SHEHE_HE
 		HighGodHerselfHimself = CHARACTER_HIMSELF
@@ -163,10 +162,11 @@ islam_religion = {
 
 
 		PantheonTerm = islam_high_god_name
+		PantheonTerm2 = islam_high_god_name_2
+		PantheonTerm3 = islam_high_god_name_3
 		PantheonTermHasHave = pantheon_term_has
 		GoodGodNames = {
 			islam_high_god_name
-			
 			islam_good_god_rahim
 			islam_good_god_the_most_gracious
 			islam_good_god_the_giver_of_peace
@@ -183,9 +183,15 @@ islam_religion = {
 			islam_evil_god_iblis
 		}
 		HouseOfWorship = islam_house_of_worship
+		HouseOfWorship2 = islam_house_of_worship_2
+		HouseOfWorship3 = islam_house_of_worship_3
 		HouseOfWorshipPlural = islam_house_of_worship_plural
 		ReligiousSymbol = islam_religious_symbol
+		ReligiousSymbol2 = islam_religious_symbol_2
+		ReligiousSymbol3 = islam_religious_symbol_3
 		ReligiousText = islam_religious_text
+		ReligiousText2 = islam_religious_text_2
+		ReligiousText3 = islam_religious_text_3
 		ReligiousHeadName = islam_religious_head_title
 		ReligiousHeadTitleName = islam_religious_head_title_name
 		DevoteeMale = islam_devotee
@@ -208,13 +214,20 @@ islam_religion = {
 		BishopNeuter = islam_bishop
 		BishopNeuterPlural = islam_bishop_plural
 		DivineRealm = islam_positive_afterlife
+		DivineRealm2 = islam_positive_afterlife_2
+		DivineRealm3 = islam_positive_afterlife_3
 		PositiveAfterLife = islam_positive_afterlife
+		PositiveAfterLife2 = islam_positive_afterlife_2
+		PositiveAfterLife3 = islam_positive_afterlife_3
 		NegativeAfterLife = islam_negative_afterlife
+		NegativeAfterLife2 = islam_negative_afterlife_2
+		NegativeAfterLife3 = islam_negative_afterlife_3
 		DeathDeityName = islam_death_deity_name
 		DeathDeityNamePossessive = islam_death_deity_name_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_HE
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS
 		WitchGodName = christianity_witchgodname_iblis
+		WitchGodNamePossessive = christianity_witchgodname_iblis_possessive
 		WitchGodHerHis = CHARACTER_HERHIS_HIS
 		WitchGodSheHe = CHARACTER_SHEHE_HE
 		WitchGodHerHim = CHARACTER_HERHIM_HIM
@@ -247,7 +260,6 @@ islam_religion = {
 
 			#DOCTRINES:
 			#Sunni
-			
 			doctrine = muhammad_succession_sunni_doctrine
 
 			#Leadership
@@ -257,6 +269,7 @@ islam_religion = {
 		muwalladi = { # Iberian Sunni Islam
 			color = { 0 0.4 0 }
 			icon = muwalladi
+			religious_head = d_sunni
 
 			holy_site = mecca
 			holy_site = medina
@@ -281,12 +294,13 @@ islam_religion = {
 		maturidi = { # Persian Sunni Islam
 			color = { 0.1 0.5 0.3 }
 			icon = maturidi
+			religious_head = d_sunni
 
 			holy_site = mecca
 			holy_site = medina
 			holy_site = jerusalem
 			holy_site = baghdad
-			holy_site = constantinople
+			holy_site = samarkand
 
 			#Tenet
 			doctrine = tenet_struggle_submission
@@ -294,8 +308,6 @@ islam_religion = {
 			doctrine = tenet_literalism
 
 			#DOCTRINES
-			#Very closely aligned to the Ashari caliphate.
-			doctrine = doctrine_no_head
 			#Sunni
 			doctrine = muhammad_succession_sunni_doctrine
 			#Pluralistic
@@ -333,6 +345,7 @@ islam_religion = {
 		mutazila = { # Rationalist school of Sunni Islam. Dominant between 8th and 10th centuries in the Abbassid Caliphate (Persia).
 			color = { 0 0.7 0.5 }
 			icon = mutazila
+			religious_head = d_sunni
 
 			holy_site = mecca
 			holy_site = medina
@@ -348,8 +361,6 @@ islam_religion = {
 			#DOCTRINES:
 			#Sunni
 			doctrine = muhammad_succession_sunni_doctrine
-
-			doctrine = doctrine_no_head
 			doctrine = doctrine_divorce_allowed
 			doctrine = doctrine_witchcraft_shunned
 		}
@@ -407,7 +418,6 @@ islam_religion = {
 
 			#Shia
 			#Witchcraft is frowned upon
-			doctrine = muhammad_succession_sunniislam_doctrine
 			doctrine = muhammad_succession_shia_doctrine
 			doctrine = doctrine_witchcraft_shunned
 
@@ -446,6 +456,8 @@ islam_religion = {
 			doctrine = doctrine_pluralism_fundamentalist
 			doctrine = doctrine_homosexuality_accepted
 			doctrine = doctrine_witchcraft_shunned
+			doctrine = doctrine_monogamy
+			doctrine = doctrine_gender_equal # While the differences between men and women were a bit more complex, Equal is a suitable abstraction for lack of male-pref
 
 			localization = {		
 				PriestMale = islam_shia_priest
@@ -503,8 +515,6 @@ islam_religion = {
 			holy_site = jerusalem
 			holy_site = nadjaf
 			holy_site = damascus
-			
-			religious_head = d_zaydi
 
 			doctrine = tenet_struggle_submission
 			doctrine = tenet_false_conversion_sanction
@@ -530,6 +540,7 @@ islam_religion = {
 		imami = { #Twelver
 			color = { 0.1 0.5 0.1 }
 			icon = imami
+			religious_head = d_imami
 
 			holy_site = mecca
 			holy_site = medina
@@ -546,7 +557,6 @@ islam_religion = {
 			#Homosexuality is a sin
 			#Witchcraft is a sin
 			doctrine = muhammad_succession_shia_doctrine
-			doctrine = doctrine_no_head
 			doctrine = doctrine_witchcraft_shunned
 
 			localization = {		
@@ -570,6 +580,7 @@ islam_religion = {
 		ghulat = {
 			color = { 0.4 0.8 0.3 }
 			icon = ghulat
+			religious_head = d_shiite
 
 			holy_site = mecca
 			holy_site = medina
@@ -585,7 +596,6 @@ islam_religion = {
 			#No religious head
 			#Witchcraft is a sin
 			doctrine = muhammad_succession_zandaqa_doctrine	#Technically Shia
-			doctrine = doctrine_no_head
 			doctrine = doctrine_witchcraft_shunned
 
 			localization = {		
@@ -621,10 +631,10 @@ islam_religion = {
 			#Adultery is a crime
 			#Clergy - equal
 			doctrine = muhammad_succession_zandaqa_doctrine	#Technically Shia
-			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_monogamy
 			doctrine = doctrine_divorce_allowed
 			doctrine = doctrine_adultery_men_crime
+			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_adultery_women_crime
 			doctrine = doctrine_clerical_gender_either
 
@@ -676,8 +686,12 @@ islam_religion = {
 				PriestNeuter = islam_shia_priest
 				PriestNeuterPlural = islam_shia_priest_plural
 				HouseOfWorship = alevi_house_of_worship
+				HouseOfWorship2 = alevi_house_of_worship_2
+				HouseOfWorship3 = alevi_house_of_worship_3
 				HouseOfWorshipPlural = alevi_house_of_worship_plural
 				ReligiousText = alevi_religious_text
+				ReligiousText2 = alevi_religious_text_2
+				ReligiousText3 = alevi_religious_text_3
 				ReligiousHeadName = islam_shia_religious_head_title
 				ReligiousHeadTitleName = islam_shia_religious_head_title_name
 			}
@@ -702,16 +716,12 @@ islam_religion = {
 			doctrine = tenet_false_conversion_sanction
 
 			#Shia
-					 
-			
 			#Divorce forbidden
 			#Homosexuality is a sin
-					   
 			#Witchcraft is a sin
 
 			doctrine = doctrine_monogamy
 			doctrine = muhammad_succession_zandaqa_doctrine	#Technically Shia
-			doctrine = doctrine_no_head
 			doctrine = doctrine_divorce_allowed
 			doctrine = doctrine_adultery_women_crime
 			doctrine = doctrine_adultery_men_crime
@@ -726,6 +736,8 @@ islam_religion = {
 				PriestNeuter = islam_shia_priest
 				PriestNeuterPlural = islam_shia_priest_plural
 				ReligiousText = druze_religious_text
+				ReligiousText2 = druze_religious_text_2
+				ReligiousText3 = druze_religious_text_3
 				ReligiousHeadName = islam_shia_religious_head_title
 				ReligiousHeadTitleName = islam_shia_religious_head_title_name
 			}
@@ -860,6 +872,45 @@ islam_religion = {
 			doctrine = doctrine_witchcraft_shunned
 			doctrine = doctrine_gender_equal
 			doctrine = doctrine_clerical_gender_either
+
+			localization = {		
+				PriestMale = islam_shia_priest
+				PriestMalePlural = islam_shia_priest_plural
+				PriestFemale = islam_shia_priest
+				PriestFemalePlural = islam_shia_priest_plural
+				PriestNeuter = islam_shia_priest
+				PriestNeuterPlural = islam_shia_priest_plural
+				ReligiousHeadName = islam_shia_religious_head_title
+				ReligiousHeadTitleName = islam_shia_religious_head_title_name
+			}
+		}
+
+		hafizi = { #Sub-set of Ismaili Shiites that fervently supported the primacy of their caliph.
+			color = { 0.5 0.8 0.4 }
+			icon = ibadi_custom
+			religious_head = d_shiite
+
+			holy_site = mecca
+			holy_site = medina
+			holy_site = jerusalem
+			holy_site = nadjaf
+			holy_site = damascus
+
+			doctrine = tenet_struggle_submission
+			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_tax_nonbelievers
+			
+			# Leadership
+			doctrine = doctrine_temporal_head
+
+			# Shia
+			doctrine = muhammad_succession_shia_doctrine
+			# Main Doctrines
+			doctrine = doctrine_pluralism_fundamentalist
+			# Criminal Doctrines
+			doctrine = doctrine_witchcraft_shunned
+			# Clergy Doctrines
+			doctrine = doctrine_clerical_function_recruitment
 
 			localization = {		
 				PriestMale = islam_shia_priest

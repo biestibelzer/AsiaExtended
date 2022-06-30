@@ -2511,7 +2511,445 @@ clothes = {
 		}
 	}
 	
+## FP2 Fate of Iberia ##
+
+	fp2_iberian_christian_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = fp2_christian_commoner_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 41 # Slightly higher
+				scope:highest_held_title_tier < tier_county
+				trigger_if = {
+					limit = { exists = this }
+					NOR = {
+						AND = {
+							exists = primary_spouse
+							primary_spouse = {
+								highest_held_title_tier > tier_county
+							}
+						}
+						has_government = republic_government
+						AND = {
+							is_ruler = yes
+							has_government = theocracy_government
+						}
+					}
+				}
+				portrait_fp2_iberian_christian_clothing_trigger = yes
+			}
+		}
+
+	}
+
+	fp2_iberian_muslim_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = fp2_muslim_commoner_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 41 # Slightly higher
+				scope:highest_held_title_tier < tier_county
+				trigger_if = {
+					limit = { exists = this }
+					NOR = {
+						AND = {
+							exists = primary_spouse
+							primary_spouse = {
+								highest_held_title_tier > tier_county
+							}
+						}
+						has_government = republic_government
+						AND = {
+							is_ruler = yes
+							has_government = theocracy_government
+						}
+					}
+				}
+				portrait_fp2_iberian_muslim_clothing_trigger = yes
+			}
+		}
+
+	}
+
+
+	fp2_iberian_christian_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = fp2_christian_low_nobility_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value >= 4 }
+				}
+				portrait_fp2_iberian_christian_clothing_trigger = yes
+			}
+			modifier = {
+				add = 51 # Slightly higher
+				trigger_if = {
+					limit = { exists = this }
+					OR = {
+						AND = {
+							OR = {
+								highest_held_title_tier = tier_county
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							portrait_fp2_iberian_christian_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier = tier_county
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_fp2_iberian_christian_clothing_spouse_trigger = yes
+							}
+						}
+					}
+				}
+				trigger_else = {
+					portrait_fp2_iberian_christian_clothing_trigger = yes
+					scope:highest_held_title_tier = tier_county
+				}
+			}
+		}
+	}
+
+
+	fp2_iberian_christian_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = fp2_christian_high_nobility_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value = 5 }
+				}
+				portrait_fp2_iberian_christian_clothing_trigger = yes
+			}
+			modifier = {
+				add = 51 # Slightly higher
+				trigger_if = {
+					limit = { exists = this }
+					OR = {
+						AND = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							portrait_fp2_iberian_christian_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier > tier_county
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_fp2_iberian_christian_clothing_spouse_trigger = yes
+							}
+						}
+					}
+				}
+				trigger_else = {
+					portrait_fp2_iberian_christian_clothing_trigger = yes
+					scope:highest_held_title_tier > tier_county
+				}
+			}
+		}
+	}
+
+	fp2_iberian_muslim_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = fp2_muslim_low_nobility_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value >= 4 }
+				}
+				portrait_fp2_iberian_muslim_clothing_trigger = yes
+			}
+			modifier = {
+				add = 51 # Slightly higher
+				trigger_if = {
+					limit = { exists = this }
+					OR = {
+						AND = {
+							OR = {
+								highest_held_title_tier = tier_county
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							portrait_fp2_iberian_muslim_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier = tier_county
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_fp2_iberian_muslim_clothing_spouse_trigger = yes
+							}
+						}
+					}
+				}
+				trigger_else = {
+					portrait_fp2_iberian_muslim_clothing_trigger = yes
+					scope:highest_held_title_tier = tier_county
+				}
+			}
+		}
+	}
+
+	fp2_iberian_muslim_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = fp2_muslim_high_nobility_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value = 5 }
+				}
+				portrait_fp2_iberian_muslim_clothing_trigger = yes
+			}
+			modifier = {
+				add = 51 # Slightly higher
+				trigger_if = {
+					limit = { exists = this }
+					OR = {
+						AND = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							portrait_fp2_iberian_muslim_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier > tier_county
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_fp2_iberian_muslim_clothing_spouse_trigger = yes
+							}
+						}
+					}
+				}
+				trigger_else = {
+					portrait_fp2_iberian_muslim_clothing_trigger = yes
+					scope:highest_held_title_tier > tier_county
+				}
+			}
+		}
+	}
+
+
+	fp2_iberian_muslim_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = fp2_muslim_war_nobility_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 110 # slightly stronger than northern war
+				portrait_wear_armor_trigger = yes
+				portrait_fp2_iberian_muslim_clothing_trigger = yes
+			}
+			modifier = {
+				add = 21		# So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				portrait_wear_armor_currently_in_army_trigger = yes
+			}
+		}
+	}
+
+	fp2_iberian_christian_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = fp2_christian_war_nobility_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 110 # slightly stronger than northern war
+				portrait_wear_armor_trigger = yes
+				portrait_fp2_iberian_christian_clothing_trigger = yes
+			}
+			modifier = {
+				add = 21		# So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				portrait_wear_armor_currently_in_army_trigger = yes
+			}
+		}
+	}
+
 ## FP1 NORSE ##
+
 
 	fp1_norse_commoners = {
 		dna_modifiers = {
@@ -3029,10 +3467,11 @@ clothes = {
 					faith = faith:bogomilist
 					faith = faith:paulician
 					faith = faith:nestorian
+					faith = faith:iconoclast
 				}
 				exists = primary_title
 				primary_title = {
-					exists = controlled_faith
+					is_head_of_faith = yes
 				}
 				NOT = {
 					faith = {
@@ -3165,7 +3604,7 @@ clothes = {
 				faith = faith:catholic
 				exists = primary_title
 				primary_title = {
-					exists = controlled_faith
+					is_head_of_faith = yes
 				}
 				NOT = {
 					faith = {
@@ -3918,7 +4357,7 @@ clothes = {
 			accessory = {
 				mode = add
 				gene = clothes
-				template = steppe_commoner_clothes
+				template = japanese_commoner_clothes
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			morph = {
@@ -3960,7 +4399,7 @@ clothes = {
 			accessory = {
 				mode = add
 				gene = clothes
-				template = steppe_low_nobility_clothes
+				template = japanese_low_nobility_clothes
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			morph = {
@@ -4033,7 +4472,7 @@ clothes = {
 			accessory = {
 				mode = add
 				gene = clothes
-				template = steppe_high_nobility_clothes
+				template = japanese_high_nobility_clothes
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			morph = {
@@ -4105,7 +4544,7 @@ clothes = {
 			accessory = {
 				mode = add
 				gene = clothes
-				template = steppe_war_nobility_clothes
+				template = japanese_war_nobility_clothes
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			morph = {
@@ -4352,5 +4791,224 @@ clothes = {
 		}
 	}
 	
+	## Austronesian ##
 
+	austronesian_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = religious_african_high_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				scope:highest_held_title_tier < tier_county
+				trigger_if = {
+					limit = { exists = this }
+					NOR = {
+						AND = {
+							exists = primary_spouse
+							primary_spouse = {
+								highest_held_title_tier > tier_county
+							}
+						}
+						AND = {
+							has_government = republic_government
+							primary_title.tier > 1
+						}
+						AND = { is_ruler = yes has_government = theocracy_government }
+					}
+				}
+				portrait_austronesian_clothing_trigger = yes
+			}
+		}
+	}
+
+	austronesian_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = religious_african_high_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value >= 4 }
+				}
+				 portrait_austronesian_clothing_trigger = yes
+			}
+			modifier = {
+				add = 50
+				trigger_if = {
+					limit = { exists = this }
+					OR = {
+						AND = {
+							highest_held_title_tier = tier_county
+							NOR = {
+								# has_dynasty = no
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							portrait_austronesian_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								highest_held_title_tier = tier_county
+								NOR = {
+									# has_dynasty = no
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_austronesian_clothing_spouse_trigger = yes
+							}
+						}
+					}
+				}
+				trigger_else = {
+					scope:highest_held_title_tier = tier_county
+					portrait_austronesian_clothing_trigger = yes
+				}
+			}
+		}
+	}
+
+	austronesian_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = religious_african_high_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				exists = court_owner
+				court_owner = {
+					has_royal_court = yes
+					amenity_level = { type = court_fashion value = 5 }
+				}
+				portrait_austronesian_clothing_trigger = yes
+			}
+			modifier = {
+				add = 50
+				trigger_if = {
+					limit = { exists = this }
+					OR = {
+						AND = {
+							OR = {
+								highest_held_title_tier > tier_county
+								AND = {
+									has_government = republic_government
+									primary_title.tier > 1
+								}
+								AND = { is_ruler = yes has_government = theocracy_government }
+							}
+							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+							portrait_austronesian_clothing_trigger = yes
+						}
+						AND = {
+							exists = primary_spouse
+							OR = {
+								is_ruler = no
+								highest_held_title_tier = tier_barony
+							}
+							primary_spouse = {
+								OR = {
+									highest_held_title_tier > tier_county
+									AND = {
+										has_government = republic_government
+										primary_title.tier > 1
+									}
+									AND = { is_ruler = yes has_government = theocracy_government }
+								}
+								portrait_austronesian_clothing_spouse_trigger = yes
+							}
+						}
+					}
+				}
+				trigger_else = {
+					scope:highest_held_title_tier > tier_county
+					portrait_austronesian_clothing_trigger = yes
+				}
+			}
+		}
+	}
+
+	austronesian_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = religious_african_high_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				portrait_wear_armor_trigger = yes
+				portrait_austronesian_clothing_trigger = yes
+			}
+			modifier = {
+				add = 21		# So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				portrait_wear_armor_currently_in_army_trigger = yes
+			}
+		}
+	}
+	
 }

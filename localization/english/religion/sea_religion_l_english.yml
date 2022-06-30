@@ -10,7 +10,7 @@
   holy_site_belogili_effect_name:0 "From [holy_site|E] #weak ($holy_site_belogili_name$)#!"
   holy_site_kayangan_name:0 "Kayangan Lake"
   holy_site_kayangan_effect_name:0 "From [holy_site|E] #weak ($holy_site_kayangan_name$)#!"
-  holy_site_gunung_jerai_name:0 "Gunung_Jerai"
+  holy_site_gunung_jerai_name:0 "Gunung Jerai"
   holy_site_gunung_jerai_effect_name:0 "From [holy_site|E] #weak ($holy_site_gunung_jerai_name$)#!"
   holy_site_samboangan_name:0 "Samboangan"
   holy_site_samboangan_effect_name:0 "From [holy_site|E] #weak ($holy_site_samboangan_name$)#!"
@@ -107,8 +107,8 @@
   holy_site_xiangkhouang_effect_name:0 "[holy_site|E] #weak ($holy_site_xiangkhouang_name$)#!"
   holy_site_haripunjaya_name:0 "Haripunjaya"
   holy_site_haripunjaya_effect_name:0 "[holy_site|E] #weak ($holy_site_haripunjaya_name$)#!"
-  holy_site_seponh_name:0 "Seponh"
-  holy_site_seponh_effect_name:0 "[holy_site|E] #weak ($holy_site_seponh_name$)#!"
+  holy_site_padang_name:0 "Gunung Padang"
+  holy_site_padang_effect_name:0 "[holy_site|E] #weak ($holy_site_padang_name$)#!"
 
 
 

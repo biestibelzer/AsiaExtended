@@ -39,6 +39,7 @@
 # > world_india_deccan
 # > world_india_bengal
 # > world_india_rajastan
+# > custom_lanka
 
 # world_africa
 # > world_africa_north
@@ -55,6 +56,7 @@
 # world_tibet
 
 # world_burma
+# > custom_arakan_mountains
 
  
 world_europe_west_britannia = {
@@ -268,6 +270,12 @@ world_india_rajastan = {
 		d_kasmira
 	}
 }
+custom_lanka = {
+	duchies = {
+		#Lanka
+		d_dakhina_desa d_ruhunu d_sinhala
+	}
+}
 world_africa_north_west = {
 	duchies = {
 		d_marrakesh d_fes d_tlemcen d_alger d_tunis d_gabes d_tahert d_rif d_sous d_tafilalt d_bejaia d_mzab d_kroumerie d_kairouan d_jerid d_zab d_canarias
@@ -357,40 +365,7 @@ world_africa = {
 		world_africa_north world_africa_west world_africa_east world_africa_sahara
 	}
 }
-world_steppe_tarim = {
-	duchies = {
-		d_kashgar d_khotan d_karashar d_charkliq
-	}
-}
-world_steppe_west = {
-	duchies = {
-		#Siberia
-		d_ostyaki d_konda d_pelym d_kazym d_sibir d_ishim d_tara d_lanikaz
-		d_salair d_ala_tau d_vasyugan_mire d_baraba_steppe d_kulyndy_steppe
-		#Pontic Steppe
-		d_yedisan d_levedia d_don_valley d_khazaria d_ciscaucasia d_itil d_crimea d_alania d_azov d_pecheneg
-		#Volga Bulgaria
-		d_volga_bulgaria d_kazan d_bashkiria d_voronezh d_mordvinia d_chuvashia d_khopyor d_ural d_udmurtia d_martyuba d_uraltau d_aqtobe d_jalmat d_vogulia d_perm
-		#Turkestan
-		d_transcaspiana d_barsuki d_zhetysu d_tarbagatai d_jemba d_aral_il d_chah d_syr_darya d_muyunkum d_alakol d_ili-alatau
-		#Cumania
-		d_kurgan d_mugodzhar_hills d_atyrau d_turgay d_kush-murun d_saryarka d_kazakh d_kentarlau d_karkaraly d_karabas d_betpa d_semey
-	}
-}
-world_steppe_east = {
-	duchies = {
-		#Dzungaria
-		d_altay d_kara_khoja d_gurbantunggut d_naiman_gobi
-		#Mongolia
-		d_otuken d_ogrash d_selenga_valley d_ovorkhangai d_arkhangai d_khovsgol d_gobi_altai d_ubsunur_hollow d_khovd
-		d_togina d_tannu_ola d_western_sayan
-		d_khakass_hollow d_shoria d_kargassia d_eastern_sayan
-		d_uda_valley d_bargujin_tukum d_dauria d_baigaluuls d_tsagaanbaigal
-		d_yenisei_kan d_chuna_valley d_lena d_angara
-		#Xia
-		d_xia d_wuluhai d_zhenfan d_liangzhou d_shanzhou d_qilin d_ganzhou d_yijinai d_guiyi d_aksay
-	}
-}
+
 world_tibet = {
 	duchies = {
 		#Ü
@@ -444,10 +419,15 @@ world_burma = {
 		d_pagan d_tagaung d_sriksetra d_arakan d_ramannadesa
 	}
 }
-world_steppe = {
-	generate_modifiers = yes
-	regions = {
-		world_steppe_west world_steppe_east world_steppe_tarim
+custom_arakan_mountains = {
+	# Arakan/Rakhine, a traditional mountainous and forested homeland for the ethnic Rakhine group
+	counties = {
+		#Thabeik Taung
+		c_thabeik_taung 
+		#Kale
+		c_kale
+		#Hanlan
+		c_hanlan
 	}
 }
 world_europe = {
@@ -469,7 +449,7 @@ world_india = {
 
 world_asia = {
 	regions = { 
-	    world_asia_china world_asia_korea world_asia_southeast world_asia_japan
+	    world_asia_china world_asia_korea world_asia_southeast world_asia_japan world_himalaya world_burma world_india
     }
 }
 
@@ -554,14 +534,14 @@ world_asia_china_wuyue = {
 		#Wu
 		d_huainan d_huaixi d_zhenhai d_xuanshe d_jiangxi d_luling
 		#Yue
-		d_zhexi d_zhedong d_fujian d_liuqiu d_ryukyu
+		d_zhexi d_zhedong d_fujian
 	}
 }
 
 world_asia_china_lingnan = {
 	duchies = {
 		#Lingnan
-		d_lingnan d_chaoshan d_qiongya d_hepu
+		d_lingnan d_chaoshan d_qiongya
 		#Guangxi
 		d_rongguan d_guiguan d_yongguan 
 	}
@@ -591,36 +571,90 @@ world_asia_korea = {
 world_asia_japan = {
 	duchies = {
 		#Yamato
-		d_kansai d_hokuriku	d_nankai d_sanin d_sanyo d_saikai d_kanto
+		d_kansai d_hokuriku	d_nankai d_sanin d_sanyo d_saikai d_tokai d_kanto d_dewa
+	}
+}
+
+world_asia_ryukyu = {
+	duchies = {
+		d_ryukyu
 	}
 }
 
 world_asia_southeast = {
 	regions = { 
+		world_asia_southeast_taiwan
 		world_asia_southeast_nanzhong
-		world_asia_southeast_madjapahit
 		world_asia_southeast_angkor
+		world_asia_southeast_sumatera_peninsula
+		world_asia_southeast_java
+		world_asia_southeast_borneo
+		world_asia_southeast_philippines
+		world_asia_southeast_celebes
 	}
 }
 
+world_asia_southeast_taiwan = {
+	duchies = {
+		d_liuqiu d_shanqu
+	}
+}
 world_asia_southeast_nanzhong = {
 	duchies = {
 		d_dali d_tonghai d_tuodong d_huichuan d_jianchuan d_yinsheng d_yongchang d_llishui
-		d_jiaozhi d_jiuzhen d_muangthaeng d_heichi d_phon_hong
+		d_jiaozhi d_jiuzhen d_muangthaeng d_heichi d_phon_hong d_samabuli
 	}
 }
 
-world_asia_southeast_madjapahit = {
+world_asia_southeast_sumatera_peninsula = {
 	duchies = {
-		d_bali_sea d_jawa d_sunda d_aceh d_malacca d_sumatera_utara d_palembang
-		d_banjar d_sarawak d_east_kalimantan d_tanjungpura d_sulawesi d_bungku d_south_sulawesi
-		d_luzon d_amianan d_bisaya d_butuan d_maguinadao d_sulu
+		# Sumatera
+		d_aceh d_perlak d_langkat d_siak d_jambi d_palembang d_lampung d_batak d_kampar d_minangkabau d_merangin d_musi d_bengkulu d_riau_islands d_bintan d_bangka_belitung
+		# Peninsula
+		d_johor d_pahang d_terengganu d_langkasuka
+	}
+}
+world_asia_southeast_java = {
+	duchies = {
+		# Java
+		d_bali_sea d_mataram d_sunda d_galuh d_kalingga d_janggala d_panjalu d_lumajang d_madura
+	}
+}
+world_asia_southeast_borneo = {
+	duchies = {
+		# West part
+		d_kota_kinabalu d_kudat d_beaufort d_keningau d_sandakan d_tawau
+		d_brunei d_temburong 
+		d_limbang d_miri d_bintulu d_belaga d_mabong d_mukah d_sibu d_sarikei d_betong d_kuching
+		# East part
+		d_tanjungpura d_ketungau d_ketapang d_kapuas_hulu
+		d_sampit d_murung_raya d_banjar d_nan_sarunai
+		d_east_kalimantan d_berau d_kayan d_sebatik
+	}
+}
+world_asia_southeast_celebes = {
+	duchies = {
+		# Sulawesi
+		d_sulawesi d_bungku d_south_sulawesi
+	}
+}
+world_asia_southeast_philippines = {
+	duchies = {
+		# Luzon
+		d_dumagat d_amianan d_pangasinan d_tondo d_maynila d_mait d_bikol d_sinirangan d_katundan d_sugbu 
+		# Mindanao
+		d_butuan d_samboangan d_lanao d_maguindanao d_kagayan d_dawaw d_sulu d_pulaoan
 	}
 }
 
 world_asia_southeast_angkor = {
 	duchies = {
-		d_chenla d_isana d_champa d_phnom d_canke d_lavo d_kra d_haripunjaya d_srichanasa d_prungnagara }
+		d_chenla d_ban_lung d_cochinchina d_phnom d_isanapura d_popel
+		d_panduranga d_champa d_jarai
+		d_lavo d_kra d_koma d_prachinburi
+		d_sangkapura d_prungnagara d_canasapura d_kalasin d_khamkeut d_nong_khai
+		d_haripunjaya d_srichanasa
+	}
 }
 
 world_steppe = {
@@ -661,7 +695,7 @@ world_steppe_tunguse = {
 		d_balhae d_malgal d_sumo d_heishui d_udege d_yulou d_okjeo 
 		d_buyeo d_changchun
 		#ainu
-		d_ou d_tokai d_hokkai  
+		d_ou d_hokkai  
     }
 }
 
@@ -670,7 +704,7 @@ world_steppe_tarim = {
 		#Dzungaria
 		d_altay d_kara_khoja d_gurbantunggut d_naiman_gobi
 		#Tarim
-		d_kashgar d_khotan d_karashar d_charkliq d_kucha
+		d_kashgar d_khotan d_karashar d_charkliq
 		#Hexi
 		d_zhenfan d_liangzhou d_shanzhou d_qilin d_ganzhou d_yijinai d_guiyi d_aksay
 	}
@@ -710,34 +744,6 @@ world_steppe_west = {
 		d_transcaspiana d_barsuki d_zhetysu d_tarbagatai d_jemba d_aral_il d_chah d_syr_darya d_muyunkum d_alakol d_ili-alatau
 		#Cumania
 		d_kurgan d_mugodzhar_hills d_atyrau d_turgay d_kush-murun d_saryarka d_kazakh d_kentarlau d_karkaraly d_karabas d_betpa d_semey
-	}
-}
-world_tibet = {
-	duchies = {
-		#Ü
-		d_yarlung d_lhasa d_nagchu d_conyi
-		#Tsang
-		d_xigaze d_sagya d_ngamring d_nyima
-		#Kham
-		d_qamdo d_boyul d_nyingchi d_nangqen d_lhatok d_lingtsang d_dege d_batang d_litang
-		#Amdo
-		d_xining d_tuyuhun d_nagormo d_amdo d_zadoi d_qumarleb
-		#Gyalrong
-		d_gyalrong d_chakla d_golog d_malho d_gainlho
-		#Guge
-		d_ngari d_kinnaur d_purang
-		#Maryul
-		d_ladakh d_zanskar d_baltiyul d_aksai_chin d_rutog
-		#Lhomon
-		d_bumthang d_paro d_monyul d_lhoyul d_dzayul
-		#Kashmir
-		d_pamir
-	}
-}
-world_burma = {
-	duchies = {
-		#Pagan
-		d_pagan d_tagaung d_sriksetra d_arakan d_ramannadesa d_thaton d_shan
 	}
 }
 
@@ -1600,7 +1606,7 @@ custom_west_slavia = {
 		#Bohemia
 		d_bohemia d_moravia
 		#Polabians
-		d_lausitz d_meissen
+		d_lausitz d_meissen d_anhalt d_thuringia
 	}
 }
 
@@ -1817,6 +1823,12 @@ custom_iceland = {
 	duchies = { d_iceland }
 }
 
+custom_polabia = {
+	duchies = {
+		# Polabia
+		d_anhalt d_meissen d_lausitz d_thuringia
+	}
+}
 
 ###########################################################################
 # Graphical Regions
@@ -1844,6 +1856,13 @@ graphical_india = {
 	color = { 0 255 0 }
 	regions = {
 		world_india world_tibet world_burma
+		world_asia_southeast_nanzhong
+		world_asia_southeast_angkor
+		world_asia_southeast_sumatera_peninsula
+		world_asia_southeast_java
+		world_asia_southeast_borneo
+		world_asia_southeast_philippines
+		world_asia_southeast_celebes
 	}
 }
 
@@ -1863,6 +1882,29 @@ graphical_steppe = {
 	}
 }
 
+graphical_asia_china = {
+	graphical = yes
+	color = { 255 255 0 }
+	regions = {
+		world_asia_china world_asia_ryukyu world_asia_southeast_taiwan
+	}
+}
+graphical_asia_korea = {
+	graphical = yes
+	color = { 255 0 255 }
+	regions = {
+		world_asia_korea
+	}
+}
+
+graphical_yamato = {
+	graphical = yes
+	color = { 0 255 255 }
+	regions = {
+		world_asia_japan
+	}
+}
+
 ##############################
 # Misc
 ###############################
@@ -1870,7 +1912,7 @@ graphical_steppe = {
 world_innovation_elephants = {
 	generate_modifiers = yes
 	regions = {
-		world_india world_burma
+		world_india world_burma world_asia_southeast
 	}
 }
 
@@ -2986,7 +3028,7 @@ ghw_region_north_eastern_india = {
 ### END GHW Regions
 
 #####################
-# The Northern Lords Regions
+# The Northern Lords Regions, FP1
 #####################
 
 dlc_fp1_region_core_north_sea = {
@@ -3263,8 +3305,70 @@ dlc_fp1_achievement_vladimirs_second_choice = {
 	}
 }
 
-### END TNL Regions
+### END FP1 Regions
 
+#####################
+# FP2 Regions
+#####################
+
+dlc_fp2_old_vasconia = {
+	duchies = {
+		d_viscaya d_navarra d_armagnac
+	}
+	counties = {
+		c_labourd c_albret c_marsan c_alto_aragon c_foix c_urgell c_lleida c_fraga c_puigcerda
+	}
+}
+
+dlc_fp2_old_vasconia_pushed = {
+	duchies = {
+		d_viscaya d_navarra d_gascogne d_armagnac d_aragon d_barcelona
+	}
+}
+
+
+dlc_fp2_mediterranean_shoreline = { # Then check is_coastal_county = yes
+	duchies = { 
+		d_mallorca
+		d_sevilla d_granada d_murcia d_valencia d_barcelona
+		d_languedoc
+		d_istria d_croatia d_dalmatia d_usora d_ragusa d_duklja d_dyrrachion d_cephalonia
+		d_epirus d_achaia d_krete d_aegean_islands d_athens
+		d_thessaly d_thessalonika d_strymon
+		d_thrace d_ephese d_cibyrrhaeot d_cilicia
+		d_antioch d_lebanon d_cyprus d_urdunn d_palestine d_sinai d_delta d_alexandria
+		d_cyrenaica d_syrte d_tripolitania d_gabes d_tunis d_kroumerie d_bejaia d_alger d_tlemcen d_rif
+	}
+
+	regions = { world_europe_south_italy }
+}
+
+dlc_fp2_caucasian_iberia = { # Next to Georgia (Due to how counties are partitioned, and some warping, it does not match actual maps)
+	counties = { c_tao c_klarjeti c_vanand c_hayk c_kartli c_tbilisi c_kakheti c_lori c_hereti }
+}
+
+dlc_fp2_form_aragon_region = {
+	duchies = {
+		# k_navarra
+		d_viscaya d_navarra
+		# k_valencia
+		d_aragon d_valencia d_mallorca
+		# k_aquitaine
+		d_gascogne d_toulouse d_armagnac d_languedoc d_barcelona
+	}
+}
+
+dlc_fp2_lyonese_monk_region = {
+	duchies = {
+		# k_aquitaine
+		d_gascogne d_aquitaine d_toulouse d_languedoc d_armagnac d_poitou d_auvergne d_bourbon
+	}
+	regions = {
+		world_europe_west_iberia
+	}
+}
+
+### END FP2 Regions
 
 #####################
 # Achievements - 1.4
@@ -3404,13 +3508,19 @@ dlc_ep1_west_africa_trade_region = {
 
 dlc_ep1_indian_trade_region = { # Silk Road
 	regions = {
-		world_india_deccan world_india_bengal world_india_rajastan
+		world_india_deccan world_india_bengal world_india_rajastan world_asia_southeast
 	}
 }
 
 dlc_ep1_southwest_silk_road_trade_region = { # Silk Road
 	regions = {
-		world_burma world_tibet
+		world_burma world_tibet world_asia_china world_asia_korea world_asia_japan
+	}
+}
+
+dlc_ep1_arthurian_heartlands_region = {
+	duchies = {
+		d_somerset d_cornwall d_deheubarth d_powys d_gwynedd
 	}
 }
 
@@ -3435,17 +3545,10 @@ divergence_island_regions = {
 }
 
 ### AE Custom Regions
-
-korea_custom_region = {
+custom_japan = {
 	duchies = {
-		d_goguryeo
-		d_baekje
-		d_tamna
-		d_sila
-		d_gaya
-		d_dongya
-		d_rangnang
-		d_okjeo
+		#Yamato
+		d_kansai d_hokuriku	d_nankai d_sanin d_sanyo d_saikai d_tokai d_kanto d_dewa d_hokkai d_ryukyu
 	}
 }
 

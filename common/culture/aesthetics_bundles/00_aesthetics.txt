@@ -99,9 +99,9 @@ aesthetics_asturleonese = {
   	name_list = name_list_asturleonese
 	
 	coa_gfx = { leonese_coa_gfx iberian_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
 }
 
 aesthetics_portuguese = {
@@ -128,9 +128,9 @@ aesthetics_portuguese = {
 	name_list = name_list_portuguese
 	
 	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
 }
 
 aesthetics_castilian = {
@@ -153,9 +153,9 @@ aesthetics_castilian = {
 	name_list = name_list_castilian
 	
 	coa_gfx = { castilian_coa_gfx iberian_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
 }
 
 ############################

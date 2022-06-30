@@ -1,91 +1,194 @@
-﻿110000001 = {
-	name = Ŭngryŏm # Ruler of Silla
-	dynasty = 60000003
-	religion = gyodan
-	culture = saro
-	843.1.1 = { # 
-		birth = yes
+﻿﻿# goguryeo - central and northern Korea
+goguryeo = {
+	color = { 0 206 167 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_korean
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_castle_keepers
+		tradition_mystical_ancestors
+		tradition_chinese_characters
+		tradition_stalwart_defenders
 	}
-	875.7.9 = { # 
-		death = yes
+	
+	name_list = name_list_korean
+	
+	coa_gfx = { steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = asian
 	}
-	dna = Gim_Eungryeom_dna_entry
 }
-110000002 = {
-	name = Taehyung #Ruler of Baekje province, Kim Clan
-	dynasty = 60000002
-	religion = gyodan
-	culture = baekje
-	819.1.1 = {
-		birth = yes
+# Koreanic elite from Goguryeo that ruled the northern state of Balhae
+balhae = {
+	color = { 160 160 134 }
+	
+	created = 700.1.1
+	parents = { goguryeo mohese }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_korean
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mystical_ancestors
+		tradition_castle_keepers
+		tradition_chinese_characters
 	}
-	1066.1.1 = {
-		death = yes
+	
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
 	}
-	dna = Kim_Taehyung_dna_entry
+	
+	name_list = name_list_korean
+
+	coa_gfx = { steppe_coa_gfx } 
+	building_gfx = { steppe_building_gfx } 
+	clothing_gfx = { mongol_clothing_gfx } 
+	unit_gfx = { mongol_unit_gfx } 		
+
+	ethnicities = {
+		10 = asian
+	}
 }
-110000003 = {
-	name = Juhee #Ruler of province, Pak clan
-	dynasty = 60000001
-	religion = gyodan
-	culture = saro
-	819.1.1 = {
-		birth = yes
+# Korean during Goryeo - from previous Koreanic cultures (for ingame purposes from Goguryeo and Silla)
+goryeon = {
+	color = { 50 200 50 }
+	
+	created = 918.1.1
+	parents = { goguryeo saro }
+	
+	ethos = ethos_courtly
+	heritage = heritage_korean
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_family_entrepreneurship
+		tradition_mystical_ancestors
+		tradition_chinese_characters
+		tradition_astute_diplomats
+		tradition_philosopher_culture
 	}
-	1066.1.1 = {
-		death = yes
+	
+	name_list = name_list_korean
+	
+	coa_gfx = { steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = asian
 	}
-	dna = Pak_Juhee_dna_entry
 }
-110000004 = {
-	name = Yong #Ruler of province, Shiwon clan
-	dynasty = 60000004
-	religion = gyodan
-	culture = saro
-	836.1.1 = {
-		birth = yes
+# silla
+saro = { # Saro
+	color = { 86 215 155 }
+
+	ethos = ethos_courtly
+	heritage = heritage_korean
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_family_entrepreneurship
+		tradition_mystical_ancestors
+		tradition_chinese_characters
+		tradition_ruling_caste
+		tradition_isolationist
 	}
-	1066.1.1 = {
-		death = yes
+	
+	name_list = name_list_korean
+	
+	coa_gfx = { steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = asian
 	}
-	dna = Shiwon_Yong_dna_entry
 }
-110000005 = {
-	name = Kwon #Ruler of province, Seoyoung clan
-	dynasty = 60000005
-	religion = gyodan
-	culture = saro
-	849.1.1 = {
-		birth = yes
+# baekje
+baekje = {
+	color = { 9 175 126 }
+			
+	ethos = ethos_courtly
+	heritage = heritage_korean
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_family_entrepreneurship
+		tradition_mystical_ancestors
+		tradition_chinese_characters
+		tradition_agrarian
+		tradition_maritime_mercantilism
 	}
-	1066.1.1 = {
-		death = yes
+	
+	name_list = name_list_korean
+	
+	coa_gfx = { steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = asian
 	}
-	dna = Seoyoung_Kwon_dna_entry
 }
-110000006 = {
-	name = Kŏn # baekje
-	dynasty = 60000003
-	religion = gyodan
-	culture = saro
-	843.1.1 = { # 
-		birth = yes
+# jeju
+tamna = {
+	color = { 0 206 41 }
+	
+	ethos = ethos_communal
+	heritage = heritage_japan
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_family_entrepreneurship
+		tradition_mystical_ancestors
+		tradition_fishermen
 	}
-	875.7.9 = { # 
-		death = yes
+	
+	name_list = name_list_korean
+	
+	coa_gfx = { steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { japanese_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = asian
 	}
-	dna = Gim_Eungryeom_dna_entry
 }
-### Balhae ###
-1100000100 = {
-	name = Chiri
-	dynasty = "dynn_choi"
-	religion = mahayana
-	culture = goguryeo
-	853.1.1 = {
-		birth = yes
+# yemaek
+yemaek = {
+	color = { 85 187 191 }
+	
+	ethos = ethos_communal
+	heritage = heritage_korean
+	heritage = language_korean
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_sacred_mountains
+		tradition_sacred_groves
+		tradition_forest_folk
+		tradition_pastoralists
 	}
-	884.1.1 = {
-		death = yes
+	
+	name_list = name_list_korean
+	
+	coa_gfx = { steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = asian
 	}
 }

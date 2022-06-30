@@ -161,3 +161,738 @@ Oujo = {
 	name_lists = { name_list_japan }
 	heritages = { heritage_japan }
 }
+
+# Localisations is under culture/_culture_titles_l_english.yml
+### Austronesian ###
+# Feudal / Clan / Tribal
+baron_feudal_male_austronesian_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+}
+baron_feudal_female_austronesian_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+}
+barony_feudal_austronesian_group = {
+	type = title
+	tier = barony
+	priority = 501
+	governments = { feudal_government clan_government tribal_government }
+	heritages = {
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+}
+count_feudal_male_austronesian_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+}
+count_feudal_female_austronesian_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+}
+count_feudal_male_muslim_austronesian_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 19
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+	religions = { islam_religion }
+}
+count_feudal_female_muslim_austronesian_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 19
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+	religions = { islam_religion }
+}
+county_feudal_austronesian_group = {
+	type = title
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+}
+county_feudal_muslim_austronesian_group = {
+	type = title
+	tier = county
+	priority = 19
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+	religions = { islam_religion }
+}
+duke_feudal_male_austronesian_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+}
+duke_feudal_female_austronesian_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+}
+duchy_feudal_austronesian_group = {
+	type = title
+	tier = duchy
+	priority = 28
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+}
+duke_feudal_muslim_male_austronesian_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 29
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+	religions = { islam_religion }
+}
+duke_feudal_muslim_female_austronesian_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 29
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+	religions = { islam_religion }
+}
+duchy_feudal_muslim_austronesian_group = {
+	type = title
+	tier = duchy
+	priority = 29
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+	religions = { islam_religion }
+}
+king_feudal_male_austronesian_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+}
+king_feudal_female_austronesian_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+}
+kingdom_feudal_austronesian_group = {
+	type = title
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+}
+kingdom_feudal_muslim_austronesian_group = {
+	type = title
+	tier = kingdom
+	priority = 48
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+	religions = { islam_religion }
+}
+king_feudal_muslim_male_austronesian_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 48
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+	religions = { islam_religion }
+}
+king_feudal_muslim_female_austronesian_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 48
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+	religions = { islam_religion }
+}
+emperor_feudal_male_austronesian_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+}
+emperor_feudal_female_austronesian_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+}
+empire_feudal_austronesian_group = {
+	type = title
+	tier = empire
+	priority = 102
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+}
+emperor_feudal_muslim_male_austronesian_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+	religions = { islam_religion }
+}
+emperor_feudal_muslim_female_austronesian_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+	religions = { islam_religion }
+}
+empire_feudal_muslim_austronesian_group = {
+	type = title
+	tier = empire
+	priority = 102
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+	religions = { islam_religion }
+}
+
+# Princes (children of Kings/Emperors, sorted by culture)
+
+prince_male_austronesian_group = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+	top_liege = no
+}
+prince_female_austronesian_group = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+	top_liege = no
+}
+prince_male_austronesian_group_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 40
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+	top_liege = no
+}
+prince_female_austronesian_group_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 40
+	heritages = { 
+		has_cultural_pillar = heritage_malay
+		has_cultural_pillar = heritage_java
+		has_cultural_pillar = heritage_dayak
+		has_cultural_pillar = heritage_north_borneo
+		#has_cultural_pillar = heritage_filipino
+		has_cultural_pillar = heritage_sulawesi
+		#has_cultural_pillar = heritage_timor
+		#has_cultural_pillar = heritage_papuan
+	}
+	top_liege = no
+}
+
+## ROA Khmer ##
+
+# Rulers #
+
+baron_feudal_male_khmer = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	name_lists = { name_list_khmer name_list_mon }
+}
+baron_feudal_female_khmer = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	name_lists = { name_list_khmer name_list_mon }
+}
+count_feudal_male_khmer = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	name_lists = { name_list_khmer name_list_mon }
+}
+count_feudal_female_khmer = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	name_lists = { name_list_khmer name_list_mon }
+}
+duke_feudal_male_khmer = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	name_lists = { name_list_khmer name_list_mon }
+}
+duke_feudal_female_khmer = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	name_lists = { name_list_khmer name_list_mon }
+}
+king_feudal_male_khmer = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	name_lists = { name_list_khmer name_list_mon }
+}
+king_feudal_female_khmer = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	name_lists = { name_list_khmer name_list_mon }
+}
+emperor_feudal_male_khmer = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { feudal_government clan_government tribal_government }
+	name_lists = { name_list_khmer name_list_mon }
+}
+emperor_feudal_female_khmer = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { feudal_government clan_government tribal_government }
+	name_lists = { name_list_khmer name_list_mon }
+}
+
+emperor_male_khmer_empire = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 154
+	titles = { e_kambujadesa }
+}
+emperor_female_khmer_empire = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 154
+	titles = { e_kambujadesa }
+}
+
+# Titles
+
+barony_feudal_khmer = {
+	type = title
+	tier = barony
+	priority = 103
+	name_lists = { name_list_khmer name_list_mon }
+}
+county_feudal_khmer = {
+	type = title
+	tier = county
+	priority = 113
+	name_lists = { name_list_khmer name_list_mon }
+}
+duchy_feudal_khmer = {
+	type = title
+	tier = duchy
+	priority = 123
+	name_lists = { name_list_khmer name_list_mon }
+}
+kingdom_feudal_khmer = {
+	type = title
+	tier = kingdom
+	priority = 143
+	name_lists = { name_list_khmer name_list_mon }
+}
+empire_feudal_khmer = {
+	type = title
+	tier = empire
+	priority = 153
+	name_lists = { name_list_khmer name_list_mon }
+}
+
+# Princes
+
+title_prince_male_khmer = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	name_lists = { name_list_khmer name_list_mon }
+	top_liege = no
+}
+title_prince_female_khmer = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	name_lists = { name_list_khmer name_list_mon }
+	top_liege = no
+}
+title_prince_male_khmer_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 140
+	name_lists = { name_list_khmer name_list_mon }
+	top_liege = no
+}
+title_prince_female_khmer_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 140
+	name_lists = { name_list_khmer name_list_mon }
+	top_liege = no
+}

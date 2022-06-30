@@ -1,4 +1,4 @@
-﻿confucianism_religion = {
+﻿﻿confucianism_religion = {
 	family = rf_eastern
 	doctrine = eastern_hostility_doctrine
 	graphical_faith = dharmic_gfx
@@ -267,7 +267,7 @@
 
 		jingxue = {
 			color = { 48 40 131 }
-			icon = waaqism_reformed
+			icon = jingxue
 
             holy_site = luoyang
             holy_site = shuzhou_huai					
@@ -290,7 +290,7 @@
 
 		rangyi = {
 			color = { 58 50 131 }
-			icon = custom_faith_fp1_fenrir
+			icon = rangyi
 
 			holy_site = uliastai
 			holy_site = selenga

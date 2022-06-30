@@ -44,7 +44,6 @@ sea_zones = LIST { 11136 11137 11095 11979 }
 
 
 #UNUSED#
-impassable_mountains = RANGE { 8793 8979 }
 impassable_mountains = RANGE { 11387 11404 }
 
 #####################
@@ -88,7 +87,7 @@ sea_zones = RANGE { 973 975 }
 sea_zones = LIST { 977 }
 sea_zones = RANGE { 980 982 }
 sea_zones = RANGE { 985 997 }
-sea_zones = RANGE { 999 1012 }
+sea_zones = RANGE { 999 1011 }
 sea_zones = RANGE { 1014 1017 }
 sea_zones = RANGE { 1019 1025 }
 sea_zones = RANGE { 1027 1038 }
@@ -183,7 +182,7 @@ river_provinces = LIST { 8560 8568 8571 8572 8573 8577 8602 }
 ########
 # LAKES
 ########
-lakes = LIST { 943 955 956 957 979 983 1018 1026 1069 1076 1080 1088 1107 1108 1305 1348 1486 1488 3265 8736 8737 8738 }
+lakes = LIST { 943 955 956 957 979 983 1012 1018 1026 1069 1076 1080 1088 1107 1108 1305 1348 1486 1488 3265 8736 8737 8738 }
 lakes = RANGE { 961 963 } #Värnen, Vättern & Hjälmaren
 lakes = RANGE { 1472 1484 }
 lakes = RANGE { 1490 1494 }
@@ -194,8 +193,6 @@ lakes = LIST { 7208 }	#Oghuz lakes
 lakes = LIST { 7513 }	#Dzungar lakes
 lakes = RANGE { 8519 8525 }	#African lakes
 lakes = LIST { 9000 9001 }	#Lop Nur Lake & Bosten Lake
-
-
 
 #####################
 # IMPASSABLE TERRAIN
@@ -287,7 +284,7 @@ impassable_mountains = RANGE { 7452 7454 }
 
 #Tarim Basin
 impassable_mountains = LIST { 1347 } #Taklamakan
-impassable_mountains = LIST { 1408 9621 }  #Gobi Desert
+impassable_mountains = LIST { 1408 9621 } #Gobi Desert
 
 #Tartaria Mountains
 impassable_mountains = RANGE { 8704 8708 }	#Altaishan
@@ -306,9 +303,6 @@ impassable_mountains = LIST { 1489 7209 7213 7214 7215 }
 impassable_mountains = RANGE { 3256 3257 }
 impassable_mountains = RANGE { 3308 3314 }
 impassable_mountains = LIST { 2484 3259 }
-
-
-
 
 ############
 # WASTELAND
@@ -336,3 +330,6 @@ impassable_seas = LIST { 660 976 978 984 998 1293 1465 1467 8690 8701 11063 1109
 # UNUSED PROVINCES
 # These provinces cause issues because they are passable land, but not part of any title.
 # They are probably not visible anywhere on the map, so feel free to reuse them (after double checking that they are actually missing).
+
+impassable_mountains = RANGE { 8802 8992 }
+impassable_mountains = LIST { 3222 }

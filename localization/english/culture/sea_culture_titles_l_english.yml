@@ -64,26 +64,32 @@
   # Feudal / Clan
   baron_feudal_male_khmer:0 "Mchah"
   baron_feudal_female_khmer:0 "Mchah"
-  count_feudal_male_khmer:0 "Ksat"
-  count_feudal_female_khmer:0 "Ksat"
+  count_feudal_male_khmer:0 "Chaovaysrok"
+  count_feudal_female_khmer:0 "Chaovaysrok"
   duke_feudal_male_khmer:0 "Kurung"
   duke_feudal_female_khmer:0 "Kurung"
-  king_feudal_male_khmer:0 "Kumdaeng"
-  king_feudal_female_khmer:0 "Kumdaeng"
-  emperor_feudal_male_khmer:0 "Emperor"
-  emperor_feudal_female_khmer:0 "Emperor"
+  king_feudal_male_khmer:0 "Preah Reachea"
+  king_feudal_female_khmer:0 "Preah Reachea"
+  emperor_feudal_male_khmer:0 "Akthireach"
+  emperor_feudal_female_khmer:0 "Akthireach"
 
   # Feudal / Clan Titles
-  barony_feudal_khmer:0 "Banteay"
+  barony_feudal_khmer:0 "Tukdei"
   county_feudal_khmer:0 "Srok"
   duchy_feudal_khmer:0 "Khaet"
-  kingdom_feudal_khmer:0 "Rechenachak"
-  empire_feudal_khmer:0 "Empire"
+  kingdom_feudal_khmer:0 "Preah Nokor"
+  empire_feudal_khmer:0 "Chakraphop"
 
   # Princes (children of Kings/Emperors)
   prince_male_khmer:0 "Preang"
   prince_female_khmer:0 "Preneang"
+  title_prince_male_khmer_empire:0 "Preang"
+  title_prince_female_khmer_empire:0 "Preneang"
   # champion = Yuttochun
+
+  # Khmer Empire
+  emperor_male_khmer_empire:0 "Chakravartin"
+  emperor_female_khmer_empire:0 "Chakravartini"
 
 ## Mon ##
   # Feudal / Clan
@@ -228,30 +234,43 @@
 
 # Malay will be the default
 
-# Feudal / Clan
- baron_feudal_male_austronesian_group:0 "Penghulu"
- baron_feudal_female_austronesian_group:0 "Penghulu"
- count_feudal_male_austronesian_group:0 "Dato"
- count_feudal_female_austronesian_group:0 "Datin"
- duke_feudal_male_austronesian_group:0 "Raja"
- duke_feudal_female_austronesian_group:0 "Rani"
- king_feudal_male_austronesian_group:0 "Maharaja"
- king_feudal_female_austronesian_group:0 "Maharani"
- emperor_feudal_male_austronesian_group:0 "Sri Maharaja"
- emperor_feudal_female_austronesian_group:0 "Sri Maharani"
+# Feudal / Clan / Tribal 
+ baron_feudal_male_austronesian_group:0 "Katuakampung"
+ baron_feudal_female_austronesian_group:0 "Katuakampung"
+ barony_feudal_austronesian_group:0 "Kampungan"
+ count_feudal_male_austronesian_group:0 "Panghulukota"
+ count_feudal_female_austronesian_group:0 "Panghulukota"
+ county_feudal_austronesian_group:0 "Kotaraya"
+ duke_feudal_male_austronesian_group:0 "Datu"
+ duke_feudal_female_austronesian_group:0 "Datin"
+ duchy_feudal_austronesian_group:0 "Kadatuan"
+ king_feudal_male_austronesian_group:0 "Raja"
+ king_feudal_female_austronesian_group:0 "Rani"
+ kingdom_feudal_austronesian_group:0 "Karajaan"
+ emperor_feudal_male_austronesian_group:0 "Maharaja"
+ emperor_feudal_female_austronesian_group:0 "Maharani"
+ empire_feudal_austronesian_group:0 "Kamaharajaan"
 
- # Knight = Kasatria
+ # Princes (children of Kings/Emperors)
+ prince_male_austronesian_group:0 "Putra"
+ prince_female_austronesian_group:0 "Putri"
+ prince_male_austronesian_group_empire:0 "Mahaputra"
+ prince_female_austronesian_group_empire:0 "Mahaputri"
 
-# Feudal / Clan Titles
-barony_feudal_austronesian_group:0 "Kampungan"
-county_feudal_austronesian_group:0 "Kadatuan"
-duchy_feudal_austronesian_group:0 "Karajaan"
-kingdom_feudal_austronesian_group:0 "Kamaharajaan"
-empire_feudal_austronesian_group:0 "Empire"
-
-# Princes (children of Kings/Emperors)
-prince_male_austronesian_group:0 "Rajaputra"
-prince_female_austronesian_group:0 "Rajaputri"
+ ### Muslim Austronesian/Nusantara ###
+ # Feudal / Clan / Tribal 
+ count_feudal_male_muslim_austronesian_group:0 "Syahbandar"
+ count_feudal_female_muslim_austronesian_group:0 "Syahbandar"
+ count_feudal_muslim_austronesian_group:0 "Bandaran"
+ duke_feudal_muslim_male_austronesian_group:0 "$duke_feudal_muslim_male_austronesian_group$"
+ duke_feudal_muslim_female_austronesian_group:0 "$duke_feudal_muslim_female_austronesian_group$"
+ duchy_feudal_muslim_austronesian_group:0 "$duchy_feudal_muslim_austronesian_group$"
+ kingdom_feudal_muslim_austronesian_group:0 "Kesultanan"
+ king_feudal_muslim_male_austronesian_group:0 "Sultan"
+ king_feudal_muslim_female_austronesian_group:0 "Raja Permaisuri"
+ emperor_feudal_muslim_male_austronesian_group:0 "Sultan Agong"
+ emperor_feudal_muslim_female_austronesian_group:1 "Raja Sri Permaisuri Agong"
+ empire_feudal_muslim_austronesian_group:0 "Kesultanan Agong"
 
 ## Cham ##
 

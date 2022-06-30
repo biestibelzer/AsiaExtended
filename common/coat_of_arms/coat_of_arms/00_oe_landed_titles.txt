@@ -90,7 +90,7 @@ e_tang = {
 		texture = "d_hedong.dds"
 		color1 = "blue"
 		color2 = "yellow"
-		instance = { position = { 0.5 0.45 } scale = { 1.0 1.0 }  }
+		instance = { position = { 0.5 0.45 } scale = { 1.2 1.2 }  }
 	}
 }
 
@@ -1317,66 +1317,4 @@ d_yamato_imperial = { #Yamato
 		color1 = "yellow"
 		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
 	}
-}
-
-################
-
-## 대만 Taiwan ##
-
-################
-
-k_tungning = { # 테스트
-
-	pattern = "pattern_solid.dds"
-
-	color1 = "blue" # 
-
-	textured_emblem = {
-
-		texture = "cat_formosa_tiger_texture15.dds"
-
-		instance = { position = { 0.5 0.47 } scale = { 0.95 0.95 }  }
-
-	}		
-
-}
-
-
-
-c_liuqiu = { # 테스트
-
-	pattern = "pattern_solid.dds"
-
-	color1 = "blue_light" # 
-
-	textured_emblem = {
-
-		texture = "cat_formosa_tiger_texture15.dds"	
-
-		instance = { position = { 0.5 0.47 } scale = { 0.95 0.95 }  }
-
-	}		
-
-}
-
-
-
-c_penghu = { # 테스트
-
-	pattern = "pattern_solid.dds"
-
-	color1 = "white" # 
-
-	colored_emblem = {
-
-		texture = "cat_formosa_stamp.dds"
-
-		color1 = "red"
-
-		color2 = "white"
-
-		instance = { position = { 0.5 0.47 } scale = { 0.95 0.95 }  }
-
-	}		
-
 }
