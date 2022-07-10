@@ -670,6 +670,34 @@ bm_867_asia = {
 			animation = personality_rational
 		}
 	}
+	character = {
+		name = "bookmark_gim_eungryeom"
+		dynasty = 60000003
+		dynasty_splendor_level = 2
+		type = male
+		birth = 843.1.1
+		title = k_goryeo
+		government = feudal_government
+		culture = saro
+		religion = gyodan
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 110000001
+		position = { 400 500 }
+	}
+	character = {
+		name = "bookmark_yizong_huangdi"
+		dynasty = 80000001
+		dynasty_splendor_level = 3
+		type = male
+		birth = 833.12.28
+		title = e_celestia
+		government = feudal_government
+		culture = han
+		religion = mahayana
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 5100001
+		position = { 160 690 }
+	}
 }
 
 bm_1066_hastings = {

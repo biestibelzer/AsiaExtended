@@ -1,9 +1,12 @@
 ﻿l_english:
- bm_867_asia:1 "The Far East"
- bm_867_asia_desc:1 "China, Korea, and Japan. I think they are places in asia.\n\n#bold Japan is the most developed currently. China has lots of titles to hand out, play at your own risk!!!#!"
- bookmark_yamato_imperial_family:1 "Tenno Seiwa"
+ bm_867_asia:1 "The Three Soaring Dragons"
+ bm_867_asia_desc:1 "Far in the East, there exists great civilizations that influenced the world as much as the West does.\nIn the lands known as Cathay to the Western world, the Tang dynasty is in a tumultous condition with the poor administration of the devout Buddhist emperor, Yizong Huangdi.\nIn the islands of Japan, the Yamato monarch, Seiwa Tenno is under the reins of his Fujiwara regent and maternal grandfather, a clan that has long planting their seeds of power within the Chrysanthemum court. \n\n#bold With the political struggle of Asia of this period, how shall you lead each of the Asian dynasties to their fate?#b"
+ bookmark_yamato_imperial_family:1 "Seiwa Tenno, Yamato Korehito"
  bookmark_yamato_imperial_family_desc:1 "Look on wikipedia for stuff, this is placeholder."
  bookmark_yamato_imperial_family_alt_fujiwara:1 "Regent Fujiwara"
+ bookmark_gim_eungryeom:0 "Gyeongmun Wang, Gim Eungryeom"
+ bookmark_gim_eungryeom_desc:0 "King Gyeongmun of Silla's reign saw intensifying internal strife and rebellion. He sought to strengthen and stabilize the kingdom, but his efforts are on the verge of being unsuccessful."
+ bookmark_yizong_huangdi:0 "Yizong Huangdi, Li Cui of Tang"
  
  bm_1066_hastings:1 "1066 start BROKEN"
  bm_1066_hastings_desc:1 "1066 Start is not supported with Asia Extended\n\n#bold ASIA WILL BE INDEPENDENT IN 1066!!!#!"

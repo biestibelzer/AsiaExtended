@@ -1,0 +1,52 @@
+﻿60000003 = { # Maripkan Kim
+	pattern="pattern_solid.dds"
+	color1=yellow
+	colored_emblem={
+		color1=green_light
+		color2=green
+		color3=red
+		texture="cat_kr_goryeo_phoenix_main.dds"
+		instance={
+			position={ 0.500000 0.440000 }
+			scale={ 0.900000 0.900000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=green_light
+		color2=orange
+		color3=yellow
+		texture="cat_kr_goryeo_phoenix2.dds"
+		instance={
+			position={ 0.500000 0.440000 }
+			scale={ 0.900000 0.900000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=green_light
+		color2=orange
+		color3=orange
+		texture="cat_kr_goryeo_phoenix_head.dds"
+		instance={
+			position={ 0.500000 0.440000 }
+			scale={ 0.900000 0.900000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=orange
+		color2=green_light
+		color3=blue_light
+		texture="cat_kr_goryeo_phoenix_cloud.dds"
+		instance={
+			position={ 0.500000 0.440000 }
+			scale={ 0.900000 0.900000 }
+		}
+
+	}
+
+}
