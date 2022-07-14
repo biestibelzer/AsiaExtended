@@ -13,6 +13,13 @@
 	#set_tags = "aventail" -- female hairstyle
 
 ## china ##
+
+
+female_headgear_common_ricehat = {	
+	set_tags = "cap"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_common_ricehat_entity 	 }		
+}
+
 female_headgear_secular_chinese_nobility_01 = {
 	entity = { required_tags = "headdress_02"			shared_pose_entity = head		entity = female_headgear_secular_chinese_nobility_01_entity 	 }
     entity = { required_tags = "headdress_03"			shared_pose_entity = head		entity = female_headgear_secular_chinese_nobility_01_entity 	 }
@@ -26,6 +33,12 @@ female_headgear_secular_chinese_nobility_02 = {
 
 female_headgear_secular_chinese_nobility_03 = {
 	entity = { required_tags = "headdress_03"			shared_pose_entity = head		entity = female_headgear_secular_chinese_nobility_03_entity 	 }	
+}
+
+
+male_headgear_common_ricehat = {	
+	set_tags = "cap"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_common_ricehat_entity 	 }		
 }
 
 male_headgear_secular_chinese_nobility_01 = {	

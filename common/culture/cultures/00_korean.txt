@@ -16,8 +16,8 @@ goguryeo = {
 	name_list = name_list_korean
 	
 	coa_gfx = { steppe_coa_gfx }
-	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { han_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
@@ -49,8 +49,8 @@ balhae = {
 	name_list = name_list_korean
 
 	coa_gfx = { steppe_coa_gfx } 
-	building_gfx = { steppe_building_gfx } 
-	clothing_gfx = { mongol_clothing_gfx } 
+	building_gfx = { chinese_building_gfx } 
+	clothing_gfx = { han_clothing_gfx } 
 	unit_gfx = { mongol_unit_gfx } 		
 
 	ethnicities = {
@@ -79,8 +79,8 @@ goryeon = {
 	name_list = name_list_korean
 	
 	coa_gfx = { steppe_coa_gfx }
-	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { han_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
@@ -106,8 +106,8 @@ saro = { # Saro
 	name_list = name_list_korean
 	
 	coa_gfx = { steppe_coa_gfx }
-	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { han_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
@@ -133,8 +133,8 @@ baekje = {
 	name_list = name_list_korean
 	
 	coa_gfx = { steppe_coa_gfx }
-	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { han_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
@@ -158,7 +158,7 @@ tamna = {
 	name_list = name_list_korean
 	
 	coa_gfx = { steppe_coa_gfx }
-	building_gfx = { steppe_building_gfx }
+	building_gfx = { chinese_building_gfx }
 	clothing_gfx = { japanese_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
@@ -184,8 +184,8 @@ yemaek = {
 	name_list = name_list_korean
 	
 	coa_gfx = { steppe_coa_gfx }
-	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { han_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {

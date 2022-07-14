@@ -225,17 +225,16 @@ walls_03 = {
 	asset = {
 		type = pdxmesh
 		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_asia_china graphical_india graphical_mediterranean graphical_mena }
 		names = {
-			"chinese_walls_03_mesh"
+			"korean_walls_04_mesh"
 		}
 	}
 	asset = {
 		type = pdxmesh
 		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_asia_korea graphical_western }
+		graphical_regions = { graphical_india graphical_mediterranean graphical_mena graphical_steppe }
 		names = {
-			"korean_walls_03_mesh"
+			"chinese_walls_04_mesh"
 		}
 	}
 	asset = {
@@ -305,17 +304,16 @@ walls_04 = {
 	asset = {
 		type = pdxmesh
 		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_asia_china graphical_india graphical_mediterranean graphical_mena }
 		names = {
-			"chinese_walls_04_mesh"
+			"korean_walls_04_mesh"
 		}
 	}
 	asset = {
 		type = pdxmesh
 		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_asia_korea graphical_western }
+		graphical_regions = { graphical_india graphical_mediterranean graphical_mena graphical_steppe }
 		names = {
-			"korean_walls_04_mesh"
+			"chinese_walls_04_mesh"
 		}
 	}
 	asset = {

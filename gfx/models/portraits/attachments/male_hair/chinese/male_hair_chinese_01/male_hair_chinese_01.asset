@@ -16,6 +16,13 @@ pdxmesh = {
 entity = {
 	name = "male_hair_chinese_01_entity"
 	pdxmesh = "male_hair_chinese_01_mesh"
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = {0.0 1.0}
+			}
+		}
+	}
 }
 
 pdxmesh = {
@@ -36,6 +43,13 @@ pdxmesh = {
 entity = {
 	name = "male_hair_chinese_01_cap_entity"
 	pdxmesh = "male_hair_chinese_01_cap_mesh"
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = {0.0 1.0}
+			}
+		}
+	}
 }
 
 pdxmesh = {
@@ -56,4 +70,11 @@ pdxmesh = {
 entity = {
 	name = "male_hair_chinese_01_crown_entity"
 	pdxmesh = "male_hair_chinese_01_crown_mesh"
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = {0.0 1.0}
+			}
+		}
+	}
 }

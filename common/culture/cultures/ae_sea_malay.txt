@@ -15,7 +15,7 @@
 	name_list = name_list_chamic
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { sea_buliding_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -42,7 +42,7 @@ malay = {
 	name_list = name_list_malayic
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { sea_buliding_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -68,7 +68,7 @@ aceh = {
 	name_list = name_list_chamic
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { sea_buliding_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -96,7 +96,7 @@ brunei = {
 	name_list = name_list_malayic
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { sea_buliding_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -116,7 +116,7 @@ bataknese = {
 	name_list = name_list_batak
 
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { sea_buliding_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 
@@ -145,7 +145,7 @@ minangkabau = {
 	name_list = name_list_malayic
 
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { sea_buliding_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 
@@ -173,7 +173,7 @@ gayo = {
 	name_list = name_list_malayic
 
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { sea_buliding_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 
@@ -202,7 +202,7 @@ rejang = {
 	name_list = name_list_malayic
 
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { sea_buliding_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 
@@ -232,7 +232,7 @@ mentawai = {
 	name_list = name_list_malayic
 
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { sea_buliding_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 
@@ -265,7 +265,7 @@ lampung = {
 	name_list = name_list_malayic
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { sea_buliding_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -284,7 +284,7 @@ basemah = {
 	name_list = name_list_malayic
 
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { sea_buliding_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 
@@ -310,7 +310,7 @@ banjar = {
 	name_list = name_list_malayic
 
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { sea_buliding_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 
@@ -337,7 +337,7 @@ sama = {
 	name_list = name_list_malayic
 
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { sea_buliding_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 
@@ -362,7 +362,7 @@ aslian = {
 	name_list = name_list_malayic
 
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { sea_buliding_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { austronesian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 

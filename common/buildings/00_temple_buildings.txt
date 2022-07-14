@@ -213,6 +213,7 @@ temple_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "dharmic_gfx" }
 		graphical_cultures = { sea_building_gfx }
+		graphical_regions = { graphical_india }
 	}
 	# SHINTO SHRINES
 	asset = {
@@ -221,7 +222,6 @@ temple_01 = {
 		illustration = @illustration_japan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "shinto_gfx" }
-		graphical_cultures = { chinese_building_gfx japanese_building_gfx }
 	}
 	###PAGODA ARCHITECTURE
 	asset = {
@@ -231,6 +231,15 @@ temple_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "dharmic_gfx" }
 		graphical_cultures = { chinese_building_gfx japanese_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		name = "pagoda_01_mesh"
+		illustration = @illustration_pagoda
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "dharmic_gfx" }
+		graphical_cultures = { chinese_building_gfx japanese_building_gfx }
+		graphical_regions = { graphical_mediterranean graphical_india }
 	}
 	
 	can_construct_potential = {
@@ -604,6 +613,7 @@ temple_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "dharmic_gfx" }
 		graphical_cultures = { sea_building_gfx }
+		graphical_regions = { graphical_india }
 	}
 	# SHINTO SHRINES
 	asset = {
@@ -612,16 +622,24 @@ temple_02 = {
 		illustration = @illustration_japan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "shinto_gfx" }
-		graphical_cultures = { chinese_building_gfx japanese_building_gfx }
 	}
 	###PAGODA ARCHITECTURE
 	asset = {
 		type = pdxmesh
-		name = "pagoda_02_mesh"
+		name = "pagoda_01_mesh"
 		illustration = @illustration_pagoda
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "dharmic_gfx" }
 		graphical_cultures = { chinese_building_gfx japanese_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		name = "pagoda_01_mesh"
+		illustration = @illustration_pagoda
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "dharmic_gfx" }
+		graphical_cultures = { chinese_building_gfx japanese_building_gfx }
+		graphical_regions = { graphical_mediterranean graphical_india }
 	}
 
 	can_construct_potential = {
@@ -899,6 +917,7 @@ temple_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "dharmic_gfx" }
 		graphical_cultures = { sea_building_gfx }
+		graphical_regions = { graphical_india }
 	}
 	# SHINTO SHRINES
 	asset = {
@@ -907,7 +926,6 @@ temple_03 = {
 		illustration = @illustration_japan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "shinto_gfx" }
-		graphical_cultures = { chinese_building_gfx japanese_building_gfx }
 	}
 	###PAGODA ARCHITECTURE
 	asset = {
@@ -917,6 +935,15 @@ temple_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "dharmic_gfx" }
 		graphical_cultures = { chinese_building_gfx japanese_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		name = "pagoda_02_mesh"
+		illustration = @illustration_pagoda
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "dharmic_gfx" }
+		graphical_cultures = { chinese_building_gfx japanese_building_gfx }
+		graphical_regions = { graphical_mediterranean graphical_india }
 	}
 	
 	can_construct_potential = {
@@ -1191,7 +1218,7 @@ temple_04 = {
 		illustration = @illustration_india
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "dharmic_gfx" }
-		graphical_cultures = { sea_building_gfx }
+		graphical_regions = { graphical_india }
 	}
 	# SHINTO SHRINES
 	asset = {
@@ -1205,11 +1232,20 @@ temple_04 = {
 	###PAGODA ARCHITECTURE
 	asset = {
 		type = pdxmesh
-		name = "pagoda_03_mesh"
+		name = "pagoda_02_mesh"
 		illustration = @illustration_pagoda
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "dharmic_gfx" }
 		graphical_cultures = { chinese_building_gfx japanese_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		name = "pagoda_02_mesh"
+		illustration = @illustration_pagoda
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "dharmic_gfx" }
+		graphical_cultures = { chinese_building_gfx japanese_building_gfx }
+		graphical_regions = { graphical_mediterranean graphical_india }
 	}
 	
 	

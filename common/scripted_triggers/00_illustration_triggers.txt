@@ -40,6 +40,22 @@ has_graphical_iberian_culture_group_trigger = {
 	has_building_gfx = iberian_building_gfx
 }
 
+has_graphical_japanese_culture_group_trigger = {
+	has_building_gfx = japanese_building_gfx
+}
+
+has_graphical_chinese_culture_group_trigger = {
+	has_building_gfx = chinese_building_gfx
+}
+
+has_graphical_tibetan_culture_group_trigger = {
+	has_building_gfx = tibetan_building_gfx
+}
+
+has_graphical_sea_culture_group_trigger = {
+	has_building_gfx = sea_building_gfx
+}
+
 
 graphical_wilderness_desert_trigger = {
 	OR = {
@@ -143,6 +159,107 @@ title_illustration_save_province_temporary = {
 	}
 	always = yes
 }
+
+###############################################################
+
+#Has graphical region China trigger
+has_graphical_china_region_trigger = {
+	trigger_if = {
+		limit = {
+			exists = primary_title
+		}
+		culture = {
+			has_graphical_chinese_culture_group_trigger = yes
+		}
+	}
+	trigger_else_if = {
+		limit = {
+			NOT = { exists = primary_title }
+		}
+		trigger_if = { 
+			limit = { 
+				exists = host
+			}
+			host = {
+				culture = {
+					has_graphical_chinese_culture_group_trigger = yes
+				}
+			}
+		}
+		trigger_else_if = {
+			limit = {
+				exists = liege
+			}
+			liege = {
+				culture = {
+					has_graphical_chinese_culture_group_trigger = yes
+				}
+			}
+		}
+		trigger_else_if = {
+			limit = {
+				exists = location.province_owner
+			}
+			location.province_owner = {
+				culture = {
+					has_graphical_chinese_culture_group_trigger = yes
+				}
+			}
+		}
+		trigger_else = { always = yes }
+	}
+	trigger_else = { always = yes }
+}
+
+#Has graphical region Japan trigger
+has_graphical_japan_region_trigger = {
+	trigger_if = {
+		limit = {
+			exists = primary_title
+		}
+		culture = {
+			has_graphical_japanese_culture_group_trigger = yes
+		}
+	}
+	trigger_else_if = {
+		limit = {
+			NOT = { exists = primary_title }
+		}
+		trigger_if = { 
+			limit = { 
+				exists = host
+			}
+			host = {
+				culture = {
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		trigger_else_if = {
+			limit = {
+				exists = liege
+			}
+			liege = {
+				culture = {
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		trigger_else_if = {
+			limit = {
+				exists = location.province_owner
+			}
+			location.province_owner = {
+				culture = {
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		trigger_else = { always = yes }
+	}
+	trigger_else = { always = yes }
+}
+
 
 #has_indian_culture_trigger = {
 has_graphical_india_region_trigger = {
@@ -307,6 +424,7 @@ has_graphical_scandinavia_region_trigger = {
 	trigger_else = { always = yes }
 }
 
+
 #has_western_culture_trigger = {
 has_graphical_western_region_trigger = {
 	trigger_if = {
@@ -318,6 +436,7 @@ has_graphical_western_region_trigger = {
 				geographical_region = graphical_india
 				geographical_region = graphical_mediterranean
 				geographical_region = graphical_mena
+				geographical_region = world_asia
 			}
 		}
 	}
@@ -333,6 +452,7 @@ has_graphical_western_region_trigger = {
 					geographical_region = graphical_india
 					geographical_region = graphical_mediterranean
 					geographical_region = graphical_mena
+					geographical_region = world_asia
 				}
 			}
 		}
@@ -345,6 +465,7 @@ has_graphical_western_region_trigger = {
 					geographical_region = graphical_india
 					geographical_region = graphical_mediterranean
 					geographical_region = graphical_mena
+					geographical_region = world_asia
 				}
 			}
 		}
@@ -357,6 +478,7 @@ has_graphical_western_region_trigger = {
 					geographical_region = graphical_india
 					geographical_region = graphical_mediterranean
 					geographical_region = graphical_mena
+					geographical_region = world_asia
 				}
 			}
 		}
@@ -399,129 +521,6 @@ has_graphical_iberia_region_trigger = {
 			}
 			location.province_owner.capital_province = {
 				geographical_region = world_europe_west_iberia
-			}
-		}
-		trigger_else = { always = yes }
-	}
-	trigger_else = { always = yes }
-}
-
-#Has graphical region China trigger
-has_graphical_china_region_trigger = {
-	trigger_if = {
-		limit = {
-			exists = capital_province
-		}
-		capital_province = {
-			geographical_region = world_asia_china
-		}
-	}
-	trigger_else_if = {
-		limit = {
-			NOT = { exists = capital_province }
-		}
-		trigger_if = { 
-			limit = { exists = host.capital_province }
-			host.capital_province = {
-				geographical_region = world_asia_china
-			}
-		}
-		trigger_else_if = {
-			limit = {
-				exists = liege.capital_province
-			}
-			liege.capital_province = {
-				geographical_region = world_asia_china
-			}
-		}
-		trigger_else_if = {
-			limit = {
-				exists = location.province_owner.capital_province
-			}
-			location.province_owner.capital_province = {
-				geographical_region = world_asia_china
-			}
-		}
-		trigger_else = { always = yes }
-	}
-	trigger_else = { always = yes }
-}
-
-#Has graphical region Korea trigger
-has_graphical_korea_region_trigger = {
-	trigger_if = {
-		limit = {
-			exists = capital_province
-		}
-		capital_province = {
-			geographical_region = world_asia_korea
-		}
-	}
-	trigger_else_if = {
-		limit = {
-			NOT = { exists = capital_province }
-		}
-		trigger_if = { 
-			limit = { exists = host.capital_province }
-			host.capital_province = {
-				geographical_region = world_asia_korea
-			}
-		}
-		trigger_else_if = {
-			limit = {
-				exists = liege.capital_province
-			}
-			liege.capital_province = {
-				geographical_region = world_asia_korea
-			}
-		}
-		trigger_else_if = {
-			limit = {
-				exists = location.province_owner.capital_province
-			}
-			location.province_owner.capital_province = {
-				geographical_region = world_asia_korea
-			}
-		}
-		trigger_else = { always = yes }
-	}
-	trigger_else = { always = yes }
-}
-
-#Has graphical region Japan trigger
-has_graphical_japan_region_trigger = {
-	trigger_if = {
-		limit = {
-			exists = capital_province
-		}
-		capital_province = {
-			geographical_region = custom_japan
-		}
-	}
-	trigger_else_if = {
-		limit = {
-			NOT = { exists = capital_province }
-		}
-		trigger_if = { 
-			limit = { exists = host.capital_province }
-			host.capital_province = {
-				geographical_region = custom_japan
-			}
-		}
-		trigger_else_if = {
-			limit = {
-				exists = liege.capital_province
-			}
-			liege.capital_province = {
-				geographical_region = custom_japan
-			}
-		}
-		trigger_else_if = {
-			limit = {
-				exists = location.province_owner.capital_province
-			}
-			location.province_owner.capital_province = {
-				geographical_region = custom_japan
 			}
 		}
 		trigger_else = { always = yes }

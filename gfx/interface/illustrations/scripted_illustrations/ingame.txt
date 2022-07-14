@@ -248,9 +248,7 @@ character_view_bg = {
 		reference = "character_view/yamato.dds"
 
 		trigger = {
-			OR = {
-				has_graphical_yamato_region_trigger = yes
-			}
+			has_graphical_japanese_culture_group_trigger = yes
 		}
 	}
 
@@ -259,7 +257,7 @@ character_view_bg = {
 
 		trigger = {
 			OR = {
-				has_graphical_yamato_region_trigger = yes
+				has_graphical_japanese_culture_group_trigger = yes
 			}
 			is_character_window_main_character = yes
 		}
@@ -273,7 +271,7 @@ character_view_bg = {
 					exists = primary_spouse
 					primary_spouse = {
 						OR = {
-							has_graphical_yamato_region_trigger = yes
+							has_graphical_japanese_culture_group_trigger = yes
 						}
 					}
 				}
@@ -281,7 +279,7 @@ character_view_bg = {
 					exists = betrothed
 					betrothed = {
 						OR = {
-							has_graphical_yamato_region_trigger = yes
+							has_graphical_japanese_culture_group_trigger = yes
 						}
 					}
 				}
@@ -467,6 +465,57 @@ character_view_bg = {
 				}
 			}
 			is_character_window_main_character = no
+		}
+	}
+	
+	##########################################
+	# chinese, high rank
+	
+	texture = {
+		reference = "character_view/throneroom_china.dds"
+
+		trigger = {
+			exists = primary_title
+			primary_title.tier >= tier_empire
+			
+			has_graphical_china_region_trigger = yes
+		}
+	}
+
+	# chinese, regular
+	
+	texture = {
+		reference = "character_view/china.dds"
+
+		trigger = {
+			exists = primary_title
+			primary_title.tier >= tier_county
+			has_graphical_china_region_trigger = yes
+		}
+	}
+	texture = {
+		reference = "event_scenes/china_corridor.dds"
+
+		trigger = {
+			has_graphical_china_region_trigger = yes
+		}
+	}
+	
+	###########################################
+	# japanese
+	
+	texture = {
+		reference = "character_view/yamato.dds"
+		trigger = {
+			exists = primary_title
+			primary_title.tier >= tier_county
+			has_graphical_japan_region_trigger = yes
+		}
+	}
+	texture = {
+		reference = "character_view/yamato.dds"
+		trigger = {
+			has_graphical_japan_region_trigger = yes
 		}
 	}
 
@@ -742,45 +791,6 @@ character_view_bg = {
 				}
 			}
 			is_character_window_main_character = no
-		}
-	}
-	##########################################
-	# chinese, high rank
-	texture = {
-		reference = "character_view/throneroom_china.dds"
-
-		trigger = {
-			exists = primary_title
-			primary_title.tier >= tier_empire
-			OR = {
-				has_graphical_china_region_trigger = yes
-				has_graphical_korea_region_trigger = yes
-			}
-		}
-	}
-
-	##########################################
-	# chinese, regular
-	texture = {
-		reference = "character_view/china.dds"
-
-		trigger = {
-			exists = primary_title
-			primary_title.tier >= tier_county
-			OR = {
-				has_graphical_china_region_trigger = yes
-				has_graphical_korea_region_trigger = yes
-			}
-		}
-	}
-
-	# japanese
-	texture = {
-		reference = "character_view/yamato.dds"
-		trigger = {
-			exists = primary_title
-			primary_title.tier >= tier_county
-			has_graphical_japan_region_trigger = yes
 		}
 	}
 	##########################################
@@ -1298,6 +1308,7 @@ religion_holding = {
 		}
 		reference = "event_scenes/shinto.dds"
 	}
+	
 	texture = {
 		reference = "holding_types/temple_generic_grass.dds"
 	}
@@ -1376,6 +1387,32 @@ title_holding = {
 			}
 		}
 		reference = "holding_types/castle_western.dds"
+	}
+	texture = {
+		trigger = {
+			title_illustration_save_province_temporary = yes
+			scope:province = {
+				has_holding_type = castle_holding
+				exists = culture
+				culture = {
+					has_graphical_chinese_culture_group_trigger = yes
+				}
+			}
+		}
+		reference = "holding_types/castle_china.dds"
+	}
+	texture = {
+		trigger = {
+			title_illustration_save_province_temporary = yes
+			scope:province = {
+				has_holding_type = castle_holding
+				exists = culture
+				culture = {
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		reference = "holding_types/castle_japan.dds"
 	}
 	texture = { # Fallback
 		trigger = {
@@ -1470,6 +1507,32 @@ title_holding = {
 			}
 		}
 		reference = "holding_types/city_western.dds"
+	}
+	texture = {
+		trigger = {
+			title_illustration_save_province_temporary = yes
+			scope:province = {
+				has_holding_type = city_holding
+				exists = culture
+				culture = {
+					has_graphical_chinese_culture_group_trigger = yes
+				}
+			}
+		}
+		reference = "holding_types/city_china.dds"
+	}
+	texture = {
+		trigger = {
+			title_illustration_save_province_temporary = yes
+			scope:province = {
+				has_holding_type = city_holding
+				exists = culture
+				culture = {
+					has_graphical_japanese_culture_group_trigger = yes
+				}
+			}
+		}
+		reference = "holding_types/city_japan.dds"
 	}
 	texture = { # Fallback
 		trigger = {

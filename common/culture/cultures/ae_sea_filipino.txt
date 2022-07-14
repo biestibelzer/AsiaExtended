@@ -14,7 +14,7 @@
 	name_list = name_list_filipino
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { austronesian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -39,7 +39,7 @@ aeta = {
 	name_list = name_list_filipino
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { austronesian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -64,7 +64,7 @@ tawo = {
 	name_list = name_list_filipino
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { austronesian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -89,7 +89,7 @@ buranun = {
 	name_list = name_list_filipino
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -114,7 +114,7 @@ manobo = {
 	name_list = name_list_filipino
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -136,7 +136,7 @@ subanen = {
 	name_list = name_list_filipino
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -161,7 +161,7 @@ sinauna = {
 	name_list = name_list_filipino
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { austronesian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -186,7 +186,7 @@ danao = {
 	name_list = name_list_filipino
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -211,7 +211,7 @@ palawan = {
 	name_list = name_list_filipino
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -235,7 +235,7 @@ pangasinan = {
 	name_list = name_list_filipino
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { austronesian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -263,7 +263,7 @@ gorontalo = {
 	name_list = name_list_sulawesi
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { austronesian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -289,7 +289,7 @@ minahasa = {
 	name_list = name_list_sulawesi
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { austronesian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -316,7 +316,7 @@ tagalog = {
 	name_list = name_list_filipino
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -341,7 +341,7 @@ bisaya = {
 	name_list = name_list_filipino
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -366,7 +366,7 @@ pampangan = {
 	name_list = name_list_filipino
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -391,7 +391,7 @@ ilokano = {
 	name_list = name_list_filipino
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { austronesian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -416,7 +416,7 @@ ibanag = {
 	name_list = name_list_filipino
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -441,7 +441,7 @@ sambal = {
 	name_list = name_list_filipino
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -466,7 +466,7 @@ ifugao = {
 	name_list = name_list_filipino
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { austronesian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -493,7 +493,7 @@ sama_bajau = {
 	name_list = name_list_chamic
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	

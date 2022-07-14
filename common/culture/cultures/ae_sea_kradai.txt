@@ -16,7 +16,7 @@ pu = {  #Zhuang
 	name_list = name_list_han
 	
 	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
@@ -42,7 +42,7 @@ biao = {  #Biao of Canton
 	name_list = name_list_han
 	
 	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
@@ -68,7 +68,7 @@ beish = {  #Be of Leizhou prior to their migration to Hainan
 	name_list = name_list_han
 	
 	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
@@ -94,7 +94,7 @@ tai = {
 	name_list = name_list_han
 	
 	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
@@ -120,7 +120,7 @@ tay = {
 	name_list = name_list_han
 	
 	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
@@ -146,7 +146,7 @@ kam_sui = {
 	name_list = name_list_han
 	
 	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
@@ -172,7 +172,7 @@ liliao = {  #俚
 	name_list = name_list_han
 	
 	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	

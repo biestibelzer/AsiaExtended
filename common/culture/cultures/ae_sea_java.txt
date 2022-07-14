@@ -16,7 +16,7 @@
 	name_list = name_list_java
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -36,7 +36,7 @@ sunda = {
 	name_list = name_list_sunda
 
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 
@@ -65,7 +65,7 @@ bali = {
 	name_list = name_list_bali
 
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 
@@ -94,7 +94,7 @@ madura = {
 	name_list = name_list_java
 
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 
@@ -121,7 +121,7 @@ samawa = {
 	name_list = name_list_bali
 
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 

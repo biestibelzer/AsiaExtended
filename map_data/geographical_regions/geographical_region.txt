@@ -761,7 +761,8 @@ material_wood_elm = {
 		world_europe_north
 		world_europe_south_east
 		world_europe_east
-		world_himalaya
+		world_himalaya 
+		world_asia_china
 	}
 
 	duchies = {
@@ -785,6 +786,7 @@ material_wood_walnut = {
 		world_asia_minor
 		world_himalaya
 		world_europe_west_francia
+		world_asia_china
 	} 
 
 	duchies = {
@@ -807,6 +809,7 @@ material_wood_maple = {
 		world_asia_minor
 		world_transoxiana
 		world_himalaya
+		world_asia
 	}
 
 	duchies = {
@@ -843,6 +846,12 @@ material_woods_pine_and_fir = {
 		world_steppe_west
 		world_steppe_east
 		world_europe_west_francia
+		world_asia_japan
+		world_asia_korea
+		world_asia_china_qian
+		world_asia_china_wuyue
+		world_asia_china_chu
+		world_asia_china_shu
 	}
 
 	duchies = {
@@ -868,6 +877,7 @@ material_woods_padauk = {
 		material_woods_subsaharan
 		world_india
 		world_burma
+		world_asia_southeast
 	}
 }
 
@@ -877,6 +887,7 @@ material_woods_india = {
 		world_india_deccan
 		world_india_bengal
 		world_india_rajastan
+		world_asia_southeast
 	}
 	duchies = {
 		d_arakan
@@ -887,6 +898,7 @@ material_woods_india_burma = {
 	regions = {
 		world_india
 		world_burma
+		world_asia_southeast
 	}
 }
 
@@ -904,6 +916,7 @@ material_wood_yew = {
 	
 	regions = {
 		world_europe_south_east
+		world_asia_japan
 	}
 
 	duchies = {
@@ -1077,6 +1090,9 @@ material_hsb_ivory_imported = {
 		world_africa_north
 		world_middle_east_arabia
 		world_tibet
+		world_asia_china
+		world_asia_japan
+		world_asia_korea
 	}
 }
 
@@ -1088,6 +1104,7 @@ material_hsb_ivory_native = {
 		world_africa_west
 		world_africa_east
 		world_burma
+		world_asia_southeast
 	}
 }
 
@@ -1100,6 +1117,7 @@ material_hsb_mother_of_pearl = {
 		world_middle_east_arabia
 		world_africa_east
 		world_europe_west_iberia
+		world_asia_southeast
 	}
 }
 
@@ -1108,6 +1126,10 @@ material_hsb_tortoiseshell = {
 		world_africa_north
 		world_europe_south_italy
 		world_asia_minor
+		world_asia_southeast
+		world_asia_japan
+		world_asia_korea
+		world_asia_china
 	}
 	duchies = {
 		d_thrace d_strymon d_thessalonika d_thessaly
@@ -1128,6 +1150,8 @@ material_hsb_seashell = {
 		world_middle_east_persia
 		world_india
 		world_asia_minor
+		world_asia_southeast
+		world_asia_japan
 	}
 	duchies = {
 		d_thrace d_strymon d_thessalonika d_thessaly
@@ -1840,6 +1864,7 @@ graphical_western = {
 	regions = {
 		custom_west_francia_minus_mediterranean
 		world_europe_west_germania world_europe_west_britannia world_europe_east world_europe_north
+		world_asia_korea world_asia_japan
 	}
 }
 
@@ -1871,6 +1896,7 @@ graphical_mediterranean = {
 	color = { 0 0 255 }
 	regions = {
 		world_europe_west_iberia world_europe_south custom_south_francia custom_burgundy world_asia_minor
+		world_asia_china world_asia_ryukyu world_asia_southeast_taiwan
 	}
 }
 
@@ -1879,29 +1905,6 @@ graphical_steppe = {
 	color = { 0 255 255 }
 	regions = {
 		world_steppe
-	}
-}
-
-graphical_asia_china = {
-	graphical = yes
-	color = { 255 255 0 }
-	regions = {
-		world_asia_china world_asia_ryukyu world_asia_southeast_taiwan
-	}
-}
-graphical_asia_korea = {
-	graphical = yes
-	color = { 255 0 255 }
-	regions = {
-		world_asia_korea
-	}
-}
-
-graphical_yamato = {
-	graphical = yes
-	color = { 0 255 255 }
-	regions = {
-		world_asia_japan
 	}
 }
 

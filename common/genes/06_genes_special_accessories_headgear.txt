@@ -1626,14 +1626,20 @@ accessory_genes = {
 		chinese_common = {
 			index = 201
 			male = {
-				1 = empty
+				10 = empty
 				10 = male_headgear_secular_chinese_nobility_01
+				10 = female_headgear_common_ricehat
 			}
 			female = {
-				1 = empty
+				10 = empty
+				10 = female_headgear_common_ricehat
 			}
-			boy = male
-            girl = female
+			boy = {
+				10 = empty
+			}
+            girl = {
+				10 = empty
+			}
 		}
 		
         chinese_nobility = {
