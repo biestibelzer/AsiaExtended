@@ -260,6 +260,58 @@ has_graphical_japan_region_trigger = {
 	trigger_else = { always = yes }
 }
 
+###############################################################
+
+#Has graphical region Tibet trigger
+has_graphical_tibetan_region_trigger = {
+	trigger_if = {
+		limit = {
+			exists = primary_title
+		}
+		culture = {
+			has_graphical_tibetan_culture_group_trigger = yes
+		}
+	}
+	trigger_else_if = {
+		limit = {
+			NOT = { exists = primary_title }
+		}
+		trigger_if = { 
+			limit = { 
+				exists = host
+			}
+			host = {
+				culture = {
+					has_graphical_tibetan_culture_group_trigger = yes
+				}
+			}
+		}
+		trigger_else_if = {
+			limit = {
+				exists = liege
+			}
+			liege = {
+				culture = {
+					has_graphical_tibetan_culture_group_trigger = yes
+				}
+			}
+		}
+		trigger_else_if = {
+			limit = {
+				exists = location.province_owner
+			}
+			location.province_owner = {
+				culture = {
+					has_graphical_tibetan_culture_group_trigger = yes
+				}
+			}
+		}
+		trigger_else = { always = yes }
+	}
+	trigger_else = { always = yes }
+}
+
+
 
 #has_indian_culture_trigger = {
 has_graphical_india_region_trigger = {

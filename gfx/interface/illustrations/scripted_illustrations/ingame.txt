@@ -481,6 +481,42 @@ character_view_bg = {
 			has_graphical_china_region_trigger = yes
 		}
 	}
+	environment = {
+		reference = "environment_cw_mediterranean_throneroom_main"
+
+		trigger = {
+			exists = primary_title
+			primary_title.tier >= tier_empire
+			has_graphical_china_region_trigger = yes
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_cw_mediterranean_throneroom_spouse"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						exists = primary_title
+						primary_title.tier >= tier_empire
+						has_graphical_china_region_trigger = yes
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						exists = primary_title
+						primary_title.tier >= tier_empire
+						has_graphical_china_region_trigger = yes
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
 
 	# chinese, regular
 	
@@ -500,6 +536,42 @@ character_view_bg = {
 			has_graphical_china_region_trigger = yes
 		}
 	}
+	environment = {
+		reference = "environment_cw_mediterranean_main"
+
+		trigger = {
+			exists = primary_title
+			primary_title.tier >= tier_county
+			has_graphical_china_region_trigger = yes
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_cw_mediterranean_spouse"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						exists = primary_title
+						primary_title.tier >= tier_county
+						has_graphical_china_region_trigger = yes
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						exists = primary_title
+						primary_title.tier >= tier_county
+						has_graphical_china_region_trigger = yes
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
 	
 	###########################################
 	# japanese
@@ -507,15 +579,133 @@ character_view_bg = {
 	texture = {
 		reference = "character_view/yamato.dds"
 		trigger = {
-			exists = primary_title
-			primary_title.tier >= tier_county
 			has_graphical_japan_region_trigger = yes
 		}
 	}
-	texture = {
-		reference = "character_view/yamato.dds"
+	environment = {
+		reference = "environment_cw_west"
+
 		trigger = {
-			has_graphical_japan_region_trigger = yes
+			OR = {
+				has_graphical_japan_region_trigger = yes
+			}
+			is_character_window_main_character = yes
+		}
+	}
+	environment = {
+		reference = "environment_cw_west"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						exists = primary_title
+						has_graphical_japan_region_trigger = yes
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						exists = primary_title
+						has_graphical_japan_region_trigger = yes
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+	
+	
+	##########################################
+
+	# India, high rank
+	texture = {
+		reference = "event_scenes/tibetan_temple.dds"
+
+		trigger = {
+			exists = primary_title
+			primary_title.tier >= tier_empire
+			has_graphical_tibetan_region_trigger = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_cw_india_throneroom_main"
+
+		trigger = {
+			exists = primary_title
+			primary_title.tier >= tier_empire
+			has_graphical_tibetan_region_trigger = yes
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_cw_india_throneroom_spouse"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						exists = primary_title
+						primary_title.tier >= tier_empire
+						has_graphical_tibetan_region_trigger = yes
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						exists = primary_title
+						primary_title.tier >= tier_empire
+						has_graphical_tibetan_region_trigger = yes
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	##########################################
+
+	# Tibet, regular
+	texture = {
+		reference = "event_scenes/tibetan_temple.dds"
+
+		trigger = {
+			has_graphical_tibetan_region_trigger = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_cw_india_main"
+
+		trigger = {
+			is_character_window_main_character = yes
+			has_graphical_tibetan_region_trigger = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_cw_india_spouse"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						has_graphical_tibetan_region_trigger = yes
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						has_graphical_tibetan_region_trigger = yes
+					}
+				}
+			}
+			is_character_window_main_character = no
 		}
 	}
 

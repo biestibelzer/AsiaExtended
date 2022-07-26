@@ -84,6 +84,15 @@ castle_01 = {
 		graphical_cultures = { sea_building_gfx }
 		graphical_regions = { graphical_india }
 	}
+	### TIBET ###
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_01_mesh"
+		illustration = @holding_illustration_tibet
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_india graphical_mena graphical_mediterranean }
+	}
 	
 	### INDIAN ###
 	asset = {
@@ -397,6 +406,15 @@ castle_02 = {
 		graphical_cultures = { sea_building_gfx }
 		graphical_regions = { graphical_india }
 	}
+	### TIBET ###
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_02_mesh"
+		illustration = @holding_illustration_tibet
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_india graphical_mena graphical_mediterranean }
+	}
 	
 	### MENA ###
 	asset = {
@@ -700,6 +718,15 @@ castle_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { sea_building_gfx }
 		graphical_regions = { graphical_india }
+	}
+	### TIBET ###
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_03_mesh"
+		illustration = @holding_illustration_tibet
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_india graphical_mena graphical_mediterranean }
 	}
 	
 	### MENA ###
@@ -1005,6 +1032,15 @@ castle_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { sea_building_gfx }
 		graphical_regions = { graphical_india }
+	}
+	### TIBET ###
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_04_mesh"
+		illustration = @holding_illustration_tibet
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_india graphical_mena graphical_mediterranean }
 	}
 	
 	### MENA ###

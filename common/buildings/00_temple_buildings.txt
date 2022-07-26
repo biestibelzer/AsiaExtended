@@ -223,6 +223,14 @@ temple_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "shinto_gfx" }
 	}
+	asset = {
+		type = pdxmesh
+		name = "shinto_temple_01_mesh"
+		illustration = @illustration_japan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "shinto_gfx" }
+		graphical_cultures = { chinese_building_gfx japanese_building_gfx }
+	}
 	###PAGODA ARCHITECTURE
 	asset = {
 		type = pdxmesh
@@ -623,6 +631,14 @@ temple_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "shinto_gfx" }
 	}
+	asset = {
+		type = pdxmesh
+		name = "shinto_temple_01_mesh"
+		illustration = @illustration_japan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "shinto_gfx" }
+		graphical_cultures = { chinese_building_gfx japanese_building_gfx }
+	}
 	###PAGODA ARCHITECTURE
 	asset = {
 		type = pdxmesh
@@ -927,6 +943,14 @@ temple_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "shinto_gfx" }
 	}
+	asset = {
+		type = pdxmesh
+		name = "shinto_temple_02_mesh"
+		illustration = @illustration_japan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "shinto_gfx" }
+		graphical_cultures = { chinese_building_gfx japanese_building_gfx }
+	}
 	###PAGODA ARCHITECTURE
 	asset = {
 		type = pdxmesh
@@ -1221,6 +1245,13 @@ temple_04 = {
 		graphical_regions = { graphical_india }
 	}
 	# SHINTO SHRINES
+	asset = {
+		type = pdxmesh
+		name = "shinto_temple_02_mesh"
+		illustration = @illustration_japan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "shinto_gfx" }
+	}
 	asset = {
 		type = pdxmesh
 		name = "shinto_temple_02_mesh"

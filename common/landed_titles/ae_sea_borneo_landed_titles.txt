@@ -97,11 +97,11 @@ e_borneo = {
                     color2 = { 255 255 255}
                 }
                 # CANCELED
-                b_nabalu = {
-                    province = 12150
-                    color = { 120 46 230 }
-                    color2 = { 255 255 255 }
-                }
+                #b_nabalu = {
+					#province = 12150
+                    #color = { 120 46 230 }
+                    #color2 = { 255 255 255 }
+                #}
             }
         }
         
